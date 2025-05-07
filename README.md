@@ -278,3 +278,5 @@ Hemos observado un factor crítico que afecta tanto a viajeros como a agencias l
 - **Creemos que** la integración de reseñas verificadas y fotos reales de experiencias aumentará la confianza de los viajeros en las agencias locales. <br>
   **Sabremos que hemos tenido éxito** <br>
   **Cuando veamos** un aumento del 30% en las reservas de agencias con al menos 10 reseñas positivas durante el primer trimestre de uso.
+
+#### 1.2.2.4. Lean UX Canvas
