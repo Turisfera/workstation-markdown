@@ -177,6 +177,23 @@ URL Project Report (Github):
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
 ### 2.2.2. Registro de entrevistas
+
+> Segmento 1: Turistas
+
+| Número de entrevista | Datos del entrevistado | Evidencia de entrevista |
+|----------------------|------------------------|-------------------------|
+| 1 | Nombres: Fernanda Rojas<br>Edad: 19 años<br>Distrito: La Molina<br>Link: [Entrevista 1 Turista: Karla Rojas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311258_upc_edu_pe/EacDNvV_oulFoz4vMVU_BT8BSuGGmomw0ULMWN7Nf8dMKg?e=LBQ57A) | ![Entrevista 1 Turista: Evidencia](assets/Entrevista%201%20-%20Turistas%20(Karla%20Rojas).png)  |
+| 2 | Nombres: <br>Edad: <br>Distrito: <br>Link:  |  |
+| 3 | Nombres: <br>Edad: <br>Distrito: <br>Link:  |  |
+
+>Segmento 2: Agencias de Turismo
+
+| Número de entrevista | Datos del entrevistado | Evidencia de entrevista |
+|----------------------|------------------------|-------------------------|
+| 1 | Nombres: <br>Edad: <br>Distrito: <br>Agencia de Turismo: <br>Link:  |  |
+| 2 | Nombres: <br>Edad: <br>Distrito: <br>Agencia de Turismo: <br>Link:  |  |
+| 3 | Nombres: <br>Edad: <br>Distrito: <br>Agencia de Turismo: <br>Link:  |  |
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
