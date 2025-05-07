@@ -192,3 +192,51 @@ A través de nuestra plataforma TripMatch, brindamos un espacio donde los usuari
 | Britney Delhy Qqueso Rodriguez | U20211G671 | Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me considero una persona autodidacta, dedicada, creativa y responsable. Cuento con experiencia en liderazgo y trabajo en equipo, y disfruto aprendiendo tanto de las personas como de las tecnologías con las que colaboro. Poseo conocimientos en diversos lenguajes de programación, como Python, HTML, CSS, JavaScript, entre otros. |  ![Foto Qqueso](./assets/logos/photos/foto-Qqueso.png) |
 | Rodrigo Alaya Cabrera |  U202219481  | Soy una persona responsable, comprometida con mis objetivos y con gran disposición para aprender continuamente. Me adapto con facilidad al trabajo en equipo, aportando ideas y soluciones. Valoro mucho la eficiencia, la ética profesional y la mejora constante. Me esfuerzo por entregar siempre resultados de calidad, gestionando mis tareas con orden y enfoque. |  ![Foto Alaya](./assets/logos/photos/fotoAlaya.JPG)  |
 | Ariadna Geraldine Poma Muñoz  |  U20221D382  | Soy estudiante de la carrera de Ingeniería de Software, tengo 19 años. Me considero una persona comprometida, curiosa y optimista, con pasión por el aprendizaje continuo en diversos temas. Mi capacidad de adaptación al cambio se complementa con habilidades blandas como trabajo en equipo y resolución creativa de problemas. |  ![Foto Poma](./assets/logos/photos/Foto-Ariadna-Poma.png)  |
+
+## 1.2. Solution Profile
+### 1.2.1. Antecedentes y problemática
+**What**
+- ¿Cuál es el problema? <br>
+  El problema central radica en la desconexión entre viajeros y agencias de turismo locales, donde los turistas enfrentan dificultades para encontrar experiencias auténticas, personalizadas y ajustadas a su presupuesto, mientras que las agencias locales luchan por adaptarse a la digitalización y encontrar nuevos canales efectivos para conectar con potenciales clientes en un mercado cada vez más competitivo y fragmentado.
+- ¿Cuál es la relación con la persona en cuestión? <br>
+  La implementación de la plataforma TripMatch busca resolver este problema de conexión mediante una solución digital que permite a los viajeros encontrar y reservar experiencias turísticas que realmente se ajusten a sus preferencias, mientras ofrece a las agencias locales herramientas tecnológicas para digitalizar y ampliar su alcance comercial de manera eficiente.
+
+**When**
+- ¿Cuándo sucede el problema? <br>
+  El problema se manifiesta principalmente en las etapas de planificación y organización del viaje, cuando los turistas intentan investigar y contratar servicios turísticos confiables y personalizados, lo que puede ocurrir semanas o incluso meses antes del viaje, así como durante el propio desplazamiento cuando buscan actividades adicionales o alternativas a lo inicialmente planeado.
+- ¿Cuándo utiliza el cliente el producto? <br>
+  El cliente utiliza la plataforma TripMatch tanto en la fase de planificación previa al viaje, cuando explora destinos y actividades potenciales, como durante su estadía en el destino elegido cuando busca experiencias complementarias o modificaciones a su itinerario original, aprovechando la capacidad de conexión directa con agencias locales para realizar reservas de última hora o consultas específicas.
+
+**Where**
+- ¿Dónde está el cliente cuando utiliza el producto? <br>
+  El usuario puede acceder a la plataforma desde múltiples ubicaciones. Desde su hogar durante la fase de planificación, utilizando dispositivos como computadoras o tablets; o bien desde su destino turístico a través de dispositivos móviles cuando ya se encuentra en viaje y necesita encontrar o modificar actividades en tiempo real.
+- ¿A dónde se dirige? <br>
+  El usuario se dirige a destinos turísticos nacionales o internacionales donde busca vivir experiencias auténticas y personalizadas, ya sean destinos populares donde desea evitar las experiencias masificadas, o lugares menos conocidos donde necesita orientación especializada para descubrir actividades de valor.
+- ¿Dónde surge el problema? <br>
+  El problema surge principalmente en el espacio digital fragmentado del sector turístico, donde la información se encuentra dispersa en múltiples sitios web, aplicaciones y plataformas sociales, dificultando la comparación de opciones y la verificación de la calidad y autenticidad de las experiencias ofrecidas por agencias locales que a menudo carecen de presencia digital efectiva.
+
+**Who**
+- ¿Quiénes están involucrados? <br>
+  Los principales involucrados son los viajeros o turistas que buscan experiencias personalizadas, las agencias de turismo locales que ofrecen servicios especializados, los operadores de paquetes turísticos, y las plataformas tecnológicas que actualmente fragmentan el mercado sin ofrecer soluciones integrales para la conexión directa entre oferta y demanda.
+- ¿A quiénes les sucede el problema? <br>
+  El problema afecta directamente a dos grupos principales. Por un lado, afecta a los turistas que desean experiencias personalizadas y auténticas pero encuentran barreras para identificar y comunicarse con proveedores locales confiables. Por otro lado, a las pequeñas y medianas agencias de turismo local que tienen dificultades para digitalizar sus servicios y competir con grandes operadores turísticos o plataformas globales.
+- ¿Quién lo utiliza? <br>
+  La plataforma TripMatch será utilizada por viajeros independientes que buscan experiencias turísticas auténticas y personalizadas más allá del turismo masivo, así como por agencias locales de turismo que buscan ampliar su presencia digital y conectar directamente con clientes potenciales sin intermediarios que reduzcan sus márgenes o limiten su capacidad de personalización.
+
+**Why**
+- ¿Cuál es la causa del problema? <br>
+  Se deben a la falta de personalización en los paquetes y a la limitada digitalización de las agencias de turismo y/o viaje. Los turistas buscan experiencias únicas, pero las agencias ofrecen opciones genéricas. Además, la digitalización insuficiente limita la capacidad de personalizar ofertas y mejorar la interacción con los clientes (KPMG Tendencias, 2024).
+
+**How**
+- ¿En qué condiciones nuestros clientes usan el producto? <br>
+  Los clientes acceden a nuestra plataforma TripMatch cuando buscan experiencias turísticas auténticas y personalizadas que se ajusten a sus intereses específicos, presupuesto y disponibilidad de tiempo, ya sea durante la planificación anticipada de su viaje o cuando se encuentran ya en el destino y desean modificar o complementar su itinerario con actividades locales recomendadas.
+- ¿Cómo nos conocieron nuestros compradores? <br>
+  Los usuarios conocen nuestra plataforma principalmente a través de marketing digital especializado en viajes, asociaciones estratégicas con blogs y comunidades de viajeros, recomendaciones de otros usuarios satisfechos en redes sociales, y posicionamiento en buscadores especializados en turismo cuando buscan alternativas a las grandes plataformas tradicionales.
+- ¿Cómo prefieren nuestros consumidores acceder a nuestro producto? <br>
+  Los usuarios accederan a nuestra plataforma mediante un sitio web responsive para la planificación detallada previa, y notificaciones personalizadas sobre oportunidades relevantes basadas en sus preferencias e historial de búsqueda.
+- ¿Qué llevó a la persona a esa situación? <br>
+  El creciente deseo de los viajeros por experiencias auténticas y personalizadas, junto con la frustración provocada por las plataformas masivas que ofrecen opciones estandarizadas, lleva a los usuarios a buscar alternativas que faciliten la conexión directa con proveedores locales; mientras que las agencias de turismo local llegan a nuestra plataforma motivadas por la necesidad de digitalizar sus servicios y expandir su alcance sin depender exclusivamente de intermediarios tradicionales.
+
+**How Much** <br>
+Aproximadamente el 82% de las reservas de viajes en 2018 se realizaron a través de Internet, según un análisis de Mize (2021). Este cambio refleja cómo la tecnología ha transformado la industria turística, eliminando intermediarios y facilitando la personalización de experiencias para los viajeros. Además, más del 50% de viajeros suelen dedicar su tiempo en investigar sitios locales de reseñas de viajes con el objetivo de tomar una decisión informada sobre su próximo viaje, considerando aspectos como videos y fotos de destinos, la capacidad de los hoteles para destacar sus servicios y la experiencia previa de otros viajeros, entre otros factores (Travelperk, 2022). Asimismo, según el Ministerio de Comercio Exterior y Turismo (MINCETUR, 2024) solo en el Perú, aproximadamente 48 millones de viajes se realizan anualmente por motivos de turismo interno, incluyendo tanto turistas extranjeros que visitan el país como locales que viajan a otras ciudades dentro del territorio nacional.
+![Flujo de Viajes por Turismo Interno](./assets/Flujo-deViajes-por-Turismo-Interno.png)
