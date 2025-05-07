@@ -247,3 +247,19 @@ Nuestro servicio ofrece una plataforma digital que conecta a viajeros con agenci
 Hemos observado un factor crítico que afecta tanto a viajeros como a agencias locales. Los turistas enfrentan dificultades para encontrar experiencias confiables y adaptadas a sus intereses, mientras que las agencias locales carecen de presencia digital efectiva para competir en un mercado globalizado. Esta desconexión genera frustración en los viajeros, que recurren a opciones genéricas o masificadas, y limita el crecimiento de las agencias locales, que no logran aprovechar la demanda creciente de turismo personalizado y auténtico. <br>
 ¿Cómo mejorar la conexión entre viajeros y agencias locales para garantizar experiencias turísticas auténticas y personalizadas, al mismo tiempo que se fortalece la capacidad digital de los proveedores locales y se simplifica el proceso de planificación y reserva para los usuarios, promoviendo un impacto positivo en el turismo responsable?
 
+#### 1.2.2.2. Lean UX Assumptions
+**User Assumptions**
+- ¿Quién es mi usuario? <br>
+  Nuestros usuarios son viajeros que buscan experiencias auténticas y personalizadas, y agencias de turismo locales que necesitan digitalizar sus servicios para llegar a más clientes.
+- ¿Dónde encaja nuestro producto en su trabajo o vida? <br>
+  Para viajeros, simplifica la búsqueda y reserva de actividades únicas; para agencias, es una herramienta de gestión y conexión directa con turistas.
+- ¿Qué problemas tiene nuestro producto? ¿Resolver? <br>
+  Resuelve la dificultad de los viajeros para encontrar opciones confiables y personalizadas, y la falta de visibilidad digital de las agencias locales.
+- ¿Cuándo y cómo es nuestro producto? ¿Usado? <br>
+  Los viajeros lo usan al planificar su viaje o durante este para reservar actividades; las agencias lo usan diariamente para gestionar servicios y atender consultas.
+- ¿Qué características son importantes? <br>
+  Filtros avanzados, reseñas verificadas, chat en tiempo real, herramientas de gestión para agencias y opción de reservas móviles.
+- ¿Cómo debe verse nuestro producto y cómo debe comportarse? <br>
+  Debe ser visualmente atractivo, fácil de usar, seguro para transacciones e intuitivo para agencias con poca experiencia digital. <br>
+
+**Business Assumptions**
