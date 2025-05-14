@@ -1007,7 +1007,7 @@ Gráfico de actividad de commits durante el Sprint 1 (GitHub Insights).
 - El equipo cumplió el 100 % de las tareas “Done” planificadas para Sprint 1.  
 - La comunicación asíncrona en Discord permitió resolver bloqueos técnicos en menos de 1 hora.
 ### 5.2.2. Sprint 2
-En el segundo sprint se desarrollaron funcionalidades clave como login, reservas, vistas diferenciadas por rol, y se adaptó la landing page al diseño responsive mobile.
+En el segundo sprint se desarrollaron funcionalidades clave como reservas, vistas diferenciadas por rol, y se adaptó la landing page al diseño responsive mobile.
 
 #### 5.2.2.1 Sprint Planning 2
 
@@ -1015,7 +1015,7 @@ El Sprint Planning 2 es la reunión inicial de la iteración donde el equipo def
 
 | **Sprint #**                        | **Sprint 2**                                                                                                                                          |
 | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Sprint Planning Background**      | En esta iteración se priorizaron funcionalidades centrales para los primeros accesos al sistema, incluyendo el login, rutas por rol y vistas base.   |
+| **Sprint Planning Background**      | En esta iteración se priorizaron funcionalidades centrales como rutas por rol, vistas base y diseño responsive para mejorar la navegación inicial.    |
 | **Date**                            | 2025-05-04                                                                                                                                            |
 | **Time**                            | 07:00 PM – 10:00 PM                                                                                                                                    |
 | **Location / Platform**             | Discord                                                                                                                                               |
@@ -1023,45 +1023,43 @@ El Sprint Planning 2 es la reunión inicial de la iteración donde el equipo def
 | **Attendees (to planning meeting)** | Britney Delhy Q. Rodríguez – U20211G671<br>Rodrigo Alaya Cabrera – U202219481<br>Ariadna G. Poma Muñoz – U20221D328<br>Jorge Enrique Guevara Tejada – U202316057<br>Raúl A. Medina Cruzado – U202210938<br>Marcia Victoria Melgarejo Gomez – U20231C505 |
 | **Sprint 1 Review Summary**         | Se completó la landing page, validación visual y formularios. Se detectaron necesidades de navegación por usuario y diseño responsivo.               |
 | **Sprint 1 Retrospective Summary**  | Se acordó documentar mejor el uso de GitHub, revisar nombres de ramas y establecer responsables por vista.                                           |
-| **Sprint 2 Goal**                   | Tener un flujo de login funcional, vistas por rol (usuario y agencia), reservas, sección de perfil y navegación básica funcional desde el layout.    |
-| **Sprint 2 Velocity**               | 22                                                                                                                                                    |
-| **Sum of Story Points**             | 22                                                                                                                                                    |
+| **Sprint 2 Goal**                   | Tener vistas por rol (usuario y agencia), reservas, sección de perfil y navegación básica funcional desde el layout.                                 |
+| **Sprint 2 Velocity**               | 19                                                                                                                                                    |
+| **Sum of Story Points**             | 19                                                                                                                                                    |
 
-Los User Stories planificados (US10 al US20) están detallados en el Sprint Backlog.
+Los User Stories planificados (US11 al US20) están detallados en el Sprint Backlog.
 
 #### 5.2.2.2 Aspect Leaders and Collaborators
 
-En el Sprint 2 se definieron los siguientes aspectos clave para la implementación del login, reservas, home por rol y responsividad:
+En el Sprint 2 se definieron los siguientes aspectos clave para la implementación de reservas, home por rol, diseño responsive y documentación técnica:
 
-1. **Login y autenticación**  
-2. **Vistas diferenciadas (usuario y agencia)**  
-3. **Diseño responsive**  
-4. **Reservas y consultas**  
-5. **Perfil de agencia**  
-6. **Documentación y corrección técnica**
+1. **Vistas diferenciadas (usuario y agencia)**  
+2. **Diseño responsive**  
+3. **Reservas y consultas**  
+4. **Perfil de agencia**  
+5. **Documentación y corrección técnica**
 
 A continuación la matriz de Liderazgo y Colaboración (LACX):
 
-| **Team Member (Last Name, First Name)** | **GitHub Username** | **Login y Auth** | **Vista Turista** | **Reservas / Consultas** | **Responsive Design** | **Documentación / Fixes** |
-|----------------------------------------|---------------------|:----------------:|:------------------:|:------------------------:|:---------------------:|:--------------------------:|
-| Hernández Uchuya, María Patricia       | Bal2220             | C                | C                  | C                        | L                     | C                          |
-| Qqueso Rodríguez, Britney Delhy        | Brit2801            | C                | C                  | C                        | C                     | C                          |
-| Alaya Cabrera, Rodrigo                 | ALAYA1803           | L                | L                  | C                        | C                     | L                          |
-| Poma Muñoz, Ariadna Geraldine          | InAsui              | C                | C                  | C                        | C                     | C                          |
-| Guevara Tejada, Jorge Enrique          | Jorgito170          | C                | C                  | L                        | C                     | C                          |
-| Medina Cruzado, Raúl Adrián            | Necxuz18            | C                | C                  | C                        | C                     | C                          |
-| Melgarejo Gomez, Marcia Victoria       | Mevi1217            | C                | C                  | C                        | C                     | C                          |
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Vista Turista** | **Reservas / Consultas** | **Responsive Design** | **Documentación / Fixes** |
+|----------------------------------------|---------------------|:------------------:|:------------------------:|:---------------------:|:--------------------------:|
+| Hernández Uchuya, María Patricia       | Bal2220             | C                  | C                        | L                     | C                          |
+| Qqueso Rodríguez, Britney Delhy        | Brit2801            | C                  | C                        | C                     | C                          |
+| Alaya Cabrera, Rodrigo                 | ALAYA1803           | L                  | C                        | C                     | L                          |
+| Poma Muñoz, Ariadna Geraldine          | InAsui              | C                  | C                        | C                     | C                          |
+| Guevara Tejada, Jorge Enrique          | Jorgito170          | C                  | L                        | C                     | C                          |
+| Medina Cruzado, Raúl Adrián            | Necxuz18            | C                  | C                        | C                     | C                          |
+| Melgarejo Gomez, Marcia Victoria       | Mevi1217            | C                  | C                        | C                     | C                          |
 
 #### 5.2.2.3 Sprint Backlog 2
 
-El objetivo principal de Sprint 2 fue implementar el flujo de inicio de sesión, vistas diferenciadas, diseño responsive y sistema básico de reservas para agencias.
+El objetivo principal de Sprint 2 fue implementar vistas diferenciadas, diseño responsive y sistema básico de reservas para agencias.
 
 ![Sprint 2 Board](./assets/img/sprint2.png)  
 URL público del Board: [turisfera-sprint2](https://trello.com/b/680a5d07ff18703eb7402872)
 
 | **User Story** | **Work-Item/Task Id** | **Título**                                             | **Estimation (Hours)** | **Assigned To**                        | **Status**     |
 |---------------:|-----------------------|--------------------------------------------------------|------------------------|----------------------------------------|----------------|
-| US10           | T16                   | Implementar login para agencias y usuarios             | 3                      | Rodrigo Alaya Cabrera                  | Done           |
 | US11           | T17                   | Vista home para turistas                               | 2                      | Rodrigo Alaya Cabrera                  | Done           |
 | US12           | T18                   | Layout estructural base (DefaultLayout)                | 2                      | Jorge Enrique Guevara Tejada           | Done           |
 | US13           | T19                   | Reservas para vista de agencias                        | 2                      | Jorge Enrique Guevara Tejada           | Done           |
@@ -1079,7 +1077,6 @@ Durante el Sprint 2 se avanzó en la estructuración base del sistema post-login
 
 | **Repository**        | **Branch**               | **Commit Id** | **Commit Message**                      | **Commit Message Body**                                                                                              | **Committed on** |
 |-----------------------|--------------------------|---------------|-----------------------------------------|------------------------------------------------------------------------------------------------------------------------|------------------|
-| user/turisfera-web    | feature/login-auth       | x1a2b3c       | feat: login con control de rol          | Implementación del formulario de login con redirección según tipo de usuario                                          | 2025-05-05       |
 | user/turisfera-web    | feature/layout-setup     | x1b2c3d       | feat: default layout                     | Se agregó estructura base con sidebar condicional                                                                     | 2025-05-06       |
 | user/turisfera-web    | feature/agency-views     | x1c2d3e       | feat: vistas de reservas y consultas     | Se crearon las secciones respectivas con mock data                                                                    | 2025-05-07       |
 | user/turisfera-web    | feature/responsive       | x1d2e3f       | style: adaptación responsive             | Se adaptó landing y navegación básica a diseño mobile                                                                 | 2025-05-08       |
@@ -1089,7 +1086,6 @@ Durante el Sprint 2 se avanzó en la estructuración base del sistema post-login
 
 Durante el Sprint 2 se completaron:
 
-- Login funcional con control de acceso por rol
 - Redirección automática a vistas diferenciadas (`/user/home`, `/agency/home`)
 - Sidebar dinámico con opciones exclusivas para agencias o usuarios
 - Landing Page responsiva para pantallas móviles
@@ -1097,9 +1093,8 @@ Durante el Sprint 2 se completaron:
 
 #### 5.2.2.6 Services Documentation Evidence for Sprint Review
 
-Se definieron las rutas simuladas utilizadas en el flujo de autenticación y consultas:
+Se definieron las rutas simuladas utilizadas en el flujo de consultas:
 
-- `POST /api/auth/login`
 - `GET /api/agency/reservations`
 - `GET /api/user/itineraries`
 
@@ -1120,12 +1115,9 @@ https://turisfera-web.firebaseapp.com/
 |----------------------|------------------|---------------|----------------------------------------|------------------|
 | user/turisfera-web   | main             | y1z2x3w       | ci: deploy post Sprint 2 en Firebase   | 2025-05-10       |
 
-
 #### 5.2.2.8 Team Collaboration Insights during Sprint
 
 - Se mantuvo el uso de Discord para sincronización diaria (scrums informales)
 - Uso de GitHub Projects para distribución de tareas y visualización Kanban
 - La participación fue más equitativa y se mejoró el control de merges
 - Las correcciones en documentación (README, C4) facilitaron la comprensión del repositorio para nuevos miembros
-
-
