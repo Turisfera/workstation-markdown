@@ -291,6 +291,8 @@ Hemos observado un factor crítico que afecta tanto a viajeros como a agencias l
 
 #### 1.2.2.4. Lean UX Canvas
 
+![Modelo Canvas Empresa Negocio Beige](https://github.com/user-attachments/assets/62dbed54-009f-433f-8e2f-681889bc8d4a)
+
 
 ## 1.3. Segmentos Objetivos
 **Segmento #1: Turistas** <br>
