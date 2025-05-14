@@ -802,8 +802,73 @@ Aquí se muestran los datos públicos de la agencia (nombre, descripcion, contac
 ![Wireframe-agency-profile-agency](./assets/img/Wireframe-agency-profile-agency.png) 
 
 
-### 4.4.2. Web Applications Wireflow Diagrams 
+### 4.4.2. Web Applications Wireflow Diagrams   
+
+Esta sección presenta los Wireflows propuestos para los principales objetivos de usuario identificados en la plataforma, considerando tanto el perfil del turista como el de la agencia.  
+
+Los diagramas reflejan visualmente cómo evoluciona cada pantalla en función de las acciones del usuario, mostrando tanto los estados iniciales como los cambios posteriores. Estos flujos no solo ilustran la navegación paso a paso, sino que también evidencian cómo se aplican principios de diseño centrado en el usuario, arquitectura de información y consistencia en la interfaz.    
+
+**Turistas**  
+
+Buscar experiencias turisticas
+
+![Wireflow-BuscarExperiencia](./assets/img/Wireflow-BuscarExperiencia.png)    
+
+Cancelar reserva 
+
+![Wireflow- Cancelar reserva](./assets/img/Wireflow-%20Cancelar%20reserva.png)     
+
+Dejar una reseña
+
+![Wireflow- Dejar Reseña](./assets/img/Wireflow-%20Dejar%20Rese%C3%B1a.png)  
+
+Realizar una consulta
+
+![Wireflow- Realizar una consulta](./assets/img/Wireflow-%20Realizar%20una%20consulta.png)  
+
+Realizar una reserva
+
+![Wireflow- Realizar reserva](./assets/img/Wireflow-%20Realizar%20reserva.png) 
+
+Seleccionar como experiencias como favoritas
+
+![Wireflow- Seleccionar Favoritas](./assets/img/Wireflow-%20Seleccionar%20Favoritas.png)    
+
+**Para Agencias de Turismo**    
+
+Registrar una experiencia turística  
+
+![Wireflow-RegistrarExperiencia](./assets/img/Wireflow-RegistrarExperiencia.png)   
+
+Editar una experiencia ya creada
+
+![Wireflow-EditarExperiencia](./assets/img/Wireflow-EditarExperiencia.png)    
+
+Eliminar una experiencia ya creada 
+
+![Wireflow- Eliminar experiencia](./assets/img/Wireflow-%20Eliminar%20experiencia.png)    
+
+Editar perfil de agencia  
+
+![Wireflow-EditarPerfil](./assets/img/Wireflow-EditarPerfil.png)    
+
+Ver reservas  
+
+![Wireflow- Cancelar reserva](./assets/img/Wireflow-%20Ver%20reservas.png)  
+
+Responder consultas a los clientes
+
+![Wireflow- Responder consultas](./assets/img/Wireflow-%20Responder%20consultas.png)    
+
+
+Ver reseñas  
+
+![Wireflow- Ver reseñas](./assets/img/Wireflow-%20Ver%20rese%C3%B1as.png)  
+
 ### 4.4.3. Web Applications Mock-ups  
+
+
+
 ### 4.4.4. Web Applications User Flow Diagrams    
 
 ## 4.5. Web Applications Prototyping  
