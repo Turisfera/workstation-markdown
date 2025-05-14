@@ -675,18 +675,123 @@ El Impact Mapping es una metodología visual y ágil que permite a las organizac
 |36| US36  | **Como** visitante del segmento de agencias de turismo, **quiero** acceder desde el menú a secciones como FAQs y About us **para** informarme. | 5 |
 |37| US37  | **Como** visitante del segmento de agencias de turismo, **quiero** registrarme desde la landing **para** empezar a formar parte de la plataforma.  | 5 |
 
-# Capítulo 4: Product Design
 
-## 4.1. Style Guidelines  
+# Capítulo 4: Product Design
+## 4.1. Style Guidelines
+Una Style Guidelines es un conjunto de lineamientos y criterios que establecen la forma en que deben redactarse, diseñarse o presentar documentos, contenido web, software u otros tipos de trabajos creativos. A continuación, se describen las especificaciones de los parámetros aplicados en la estructura del proyecto.
+
 ### 4.1.1. General Style Guidelines
+__Branding:__
+Para la creación del logo de nuestro producto TripMatch, se ha optado por un diseño representativo y amigable que transmite los valores de aventura, autenticidad y conexión con la naturaleza. El logotipo está compuesto por una tipografía redondeada y moderna, acompañada de un ícono que representa una montaña nevada dentro de un círculo, evocando destinos naturales, seguridad y dirección. Los colores utilizados son armónicos y cálidos, lo que refuerza la idea de un turismo responsable y accesible.
+
+![logotipo TripMatch](https://github.com/Turisfera/TFDocAplicacionesWeb/blob/cfaee8914fcfa6c0e9e9f3775cae670e8c539e20/repo/img/logo-TripMatch.png)
+
+__Typography:__
+Para la tipografía de TripMatch, se ha seleccionado una fuente moderna, clara y legible, ideal para dispositivos móviles y plataformas digitales. La tipografía principal es Poppins, una fuente amigable y versátil que refuerza el carácter accesible y dinámico de la plataforma. Para títulos y encabezados se puede emplear una versión más gruesa de la misma fuente, garantizando jerarquía visual sin perder coherencia estética.
+A continuación, se presentan la tipografía seleccionadas para TripMatch:
+
+![tipography TripMatch](https://github.com/Turisfera/TFDocAplicacionesWeb/blob/cfaee8914fcfa6c0e9e9f3775cae670e8c539e20/repo/img/tipografia-poppins.png)
+
+__Colors:__
+La paleta de colores de TripMatch se compone de tonos que evocan calma, naturaleza y aventura. Los colores seleccionados son vibrantes pero equilibrados, lo cual permite captar la atención del usuario sin saturar visualmente la interfaz. A continuación, se presentan los colores seleccionados para TripMatch:
+
+![colors TripMatch]([img/colors-TripMatch.png](https://github.com/Turisfera/TFDocAplicacionesWeb/blob/cfaee8914fcfa6c0e9e9f3775cae670e8c539e20/repo/img/colors-TripMatch.png))
+
+__Spacing:__
+El espaciado es un elemento clave en el diseño de TripMatch, ya que permite mantener una interfaz ordenada, limpia y fácil de navegar. Se ha utilizado un espaciado generoso y coherente entre elementos, lo cual mejora la legibilidad y crea una sensación de equilibrio visual. El uso uniforme del espacio contribuye a una experiencia de usuario fluida y cómoda, tanto en dispositivos móviles como en escritorio.
+
+![spacing TripMatch](https://github.com/Turisfera/TFDocAplicacionesWeb/blob/cfaee8914fcfa6c0e9e9f3775cae670e8c539e20/repo/img/spacing-TripMatch.png)
+
 ### 4.1.2. Web Style Guidelines
+La interfaz web de TripMatch está diseñada con un estilo moderno, limpio y totalmente adaptable a distintos dispositivos, asegurando una navegación fluida tanto en móviles como en pantallas de escritorio. Se emplean paletas de colores inspiradas en la naturaleza y la aventura, tipografías claras como Poppins, y componentes visuales amigables como botones redondeados e íconos intuitivos.
+
+Además, se prioriza la experiencia del usuario mediante interacciones suaves, menús simplificados, tarjetas informativas y animaciones sutiles. Todo el diseño responde a criterios de accesibilidad, garantizando legibilidad, contraste adecuado y compatibilidad con lectores de pantalla.
+
 
 ## 4.2. Information Architecture
+La arquitectura de información de Turisnap está diseñada para optimizar la experiencia de navegación de dos tipos principales de usuarios: turistas y anfitriones. La plataforma permite a los turistas descubrir experiencias personalizadas, planificar itinerarios y conectar con guías locales o grupos de viaje. A su vez, los anfitriones pueden registrar y ofrecer actividades o tours. La estructura de la información facilita la exploración del contenido, mejora la accesibilidad a las funciones principales y permite una experiencia fluida e intuitiva.
+
 ### 4.2.1. Organization Systems 
+Turisnap aplica distintos tipos de organización según la naturaleza de la información y la interacción esperada de cada tipo de usuario:
+
+**Organización jerárquica visual:** <br/>
+Para una navegación intuitiva, tanto turistas como agencias cuentan con accesos laterales clave en la pantalla principal. Los turistas disponen de "Inicio", "Favoritos", "Itinerarios" y "Buscar", mientras que las agencias acceden a "Inicio", "Gestión de experiencias", "Reservas", "Consultas" y "Perfil de agencia".<br/>
+
+**Organización secuencial:** <br/>
+En la planificación del itinerario personalizado para turistas, la secuencia comienza con la elección del destino, seguida por la selección de fechas, intereses y tipo de experiencia, culminando con la confirmación del itinerario. De manera similar, el registro de una nueva experiencia por parte de las agencias sigue este orden: selección de la experiencia, llenado de los campos requeridos (ubicación, horarios, etc.) y, finalmente, se guarda la informacion. <br/>
+
+**Organización matricial:** <br/>
+En la sección de resultados o búsqueda de experiencias, los usuarios refinan su búsqueda mediante filtros combinables por destino, día, presupuesto y tipo de experiencia. Los resultados se actualizan dinámicamente en función de las selecciones aplicadas. <br/>
+
+**Sistemas de categorización:**
+
+- **Por tópicos:** actividades, anfitriones, turistas, destinos, experiencias recomendadas, favoritos, historial de viajes.
+
+- **Cronológica:** ordenamiento de experiencias según la fecha de publicación o según las fechas de viaje elegidas.
+
+- **Alfabética:** búsqueda por tipo de experiencia, destino, o nombre de la agencia.
+
+- **Por audiencia:** se presentan interfaces diferenciadas para turistas (busqueda y planificación de itinerarios) y agencias (gestión de experiencias ofrecidas y reservas).
+
 ### 4.2.2. Labeling Systems
+Para garantizar una experiencia intuitiva y sin confusiones, las etiquetas empleadas en TripMatch han sido diseñadas con base en principios de simplicidad, claridad y consistencia.
+
+**Etiquetas para la navegación principal (menú lateral):**
+* **Inicio:** Página principal con acceso a destinos sugeridos y novedades.
+* **Busqueda:** Sección para descubrir nuevos lugares mediante filtros o búsqueda.
+* **Itinerario:** Espacio donde el usuario puede planificar, visualizar y editar sus viajes.
+* **Perfil:** Acceso a la información personal y configuraciones.
+
+**Etiquetas para acciones:**
+* **Buscar:** Entrada para realizar búsquedas de destinos o usuarios.
+* **Agregar al itinerario:** Acción rápida para incluir un destino en un viaje.
+* **Editar / Eliminar:** Gestión de elementos guardados por el usuario.
+* **Guardar cambios:** Confirmación de edición o creación de itinerario.
+
+**Etiquetas asociativas para categorías:**
+* **Populares, Culturales, Naturaleza, Aventura, Relax:** Categorías que agrupan destinos según intereses.
+* **Hoy, Próximo destino, Favoritos:** Agrupaciones cronológicas y personalizadas que facilitan el acceso a información relevante.
+
 ### 4.2.3. SEO Tags and Meta Tags 
+En TripMatch, el uso de etiquetas SEO y metaetiquetas se ha diseñado con el objetivo de mejorar la visibilidad de la plataforma en motores de búsqueda y garantizar una representación clara, concisa y coherente de la información. Se prioriza la simplicidad en la redacción de etiquetas, asegurando que los términos utilizados reflejen con precisión los intereses de los usuarios y las categorías de contenido disponibles. <br/>
+
+**Landing Page:**
+- **Title:** TripMatch | Donde viajar se combina con la facilidad digital con TripMatch.
+- **Meta Description:** Plataforma para descubrir experiencias, crear itinerarios a medida y conectar con guías locales.
+- **Meta Keywords:** About us, befefits, how does it work, frequently asked questions, contact.
+- **Meta Author:** Turisnap 
+
+**Aplicación Web:**
+- **Title:** TripMatch
+- **Meta Description:** Crea y personaliza itinerarios, descubre actividades y vive nuevas experiencias en tus destinos favoritos.
+- **Meta Keywords:** Home, favoritos, planificación de itinerarios, busqueda por categoria, turismo inteligente, reservas y gestion de experiencias.
+- **Meta Author:** Turisnap 
+
 ### 4.2.4. Searching Systems
+Para garantizar una experiencia de usuario fluida y eficiente, se ha definido un sistema de búsqueda que facilite el acceso a la información dentro de TripMatch. 
+* **Búsqueda de destinos turísticos:** con filtros por tipo de lugar (playa, ciudad, naturaleza), presupuesto, temporada y popularidad.
+* **Búsqueda de experiencias:** por categoría (aventura, cultura, gastronomía), ubicación y duración.
+* **Búsqueda por palabras clave:** desde cualquier pantalla, para encontrar rápidamente destinos, usuarios o actividades relacionadas.
+* **Historial y búsquedas guardadas:** los usuarios podrán revisar búsquedas recientes y guardar filtros frecuentes para agilizar futuras consultas.
+
 ### 4.2.5. Navigation Systems 
+El sistema de navegación de TripMatch ha sido diseñado para ofrecer una experiencia fluida, adaptada a los distintos perfiles de usuario: turistas y agencias. La interfaz presenta una navegación lateral que permite un acceso rápido a las funciones principales, y mantiene una estructura coherente en toda la plataforma.
+
+**Navegación principal para turistas:**
+
+- **Inicio:** Punto de partida que muestra recomendaciones, novedades y experiencias destacadas.
+- **Buscar:** Permite explorar destinos y actividades mediante filtros avanzados.
+- **Itinerario:** Sección donde se visualizan, editan o crean nuevos itinerarios personalizados.
+- **Favoritos:** Muestra actividades o lugares marcados previamente por el usuario.
+- **Perfil:** Configuraciones personales, historial de viajes y preferencias.
+
+**Navegación principal para anfitriones/agencias:**
+
+- **Inicio:** Resumen de actividades programadas, métricas de interacción y novedades del sistema.
+- **Gestión de experiencias:** Sección dedicada a registrar, editar o eliminar experiencias ofrecidas.
+- **Reservas:** Visualización y administración de las reservas generadas por los turistas.
+- **Consultas:** Interacción con usuarios interesados, resolución de dudas o solicitud de detalles.
+- **Perfil de agencia:** Modificación de datos institucionales, fotos y verificación de identidad.
 
 ## 4.3. Landing Page UI Design  
 
