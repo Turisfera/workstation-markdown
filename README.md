@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
   <img src="assets/logos/UpcLogo.png" alt="Logo de UPC" width="100%">
 </p>
@@ -1005,3 +1006,5 @@ Gráfico de actividad de commits durante el Sprint 1 (GitHub Insights).
 - Hubo un promedio de 12 commits por desarrollador en `feature/landing-page`.  
 - El equipo cumplió el 100 % de las tareas “Done” planificadas para Sprint 1.  
 - La comunicación asíncrona en Discord permitió resolver bloqueos técnicos en menos de 1 hora.
+
+
