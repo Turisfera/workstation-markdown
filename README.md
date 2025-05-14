@@ -684,23 +684,23 @@ Una Style Guidelines es un conjunto de lineamientos y criterios que establecen l
 __Branding:__
 Para la creación del logo de nuestro producto TripMatch, se ha optado por un diseño representativo y amigable que transmite los valores de aventura, autenticidad y conexión con la naturaleza. El logotipo está compuesto por una tipografía redondeada y moderna, acompañada de un ícono que representa una montaña nevada dentro de un círculo, evocando destinos naturales, seguridad y dirección. Los colores utilizados son armónicos y cálidos, lo que refuerza la idea de un turismo responsable y accesible.
 
-![logotipo TripMatch](https://github.com/Turisfera/TFDocAplicacionesWeb/blob/cfaee8914fcfa6c0e9e9f3775cae670e8c539e20/repo/img/logo-TripMatch.png)
+![logotipo TripMatch](assets/logo-TripMatch.png)
 
 __Typography:__
 Para la tipografía de TripMatch, se ha seleccionado una fuente moderna, clara y legible, ideal para dispositivos móviles y plataformas digitales. La tipografía principal es Poppins, una fuente amigable y versátil que refuerza el carácter accesible y dinámico de la plataforma. Para títulos y encabezados se puede emplear una versión más gruesa de la misma fuente, garantizando jerarquía visual sin perder coherencia estética.
 A continuación, se presentan la tipografía seleccionadas para TripMatch:
 
-![tipography TripMatch](https://github.com/Turisfera/TFDocAplicacionesWeb/blob/cfaee8914fcfa6c0e9e9f3775cae670e8c539e20/repo/img/tipografia-poppins.png)
+![tipography TripMatch](assets/tipografia-poppins.png)
 
 __Colors:__
 La paleta de colores de TripMatch se compone de tonos que evocan calma, naturaleza y aventura. Los colores seleccionados son vibrantes pero equilibrados, lo cual permite captar la atención del usuario sin saturar visualmente la interfaz. A continuación, se presentan los colores seleccionados para TripMatch:
 
-![colors TripMatch]([img/colors-TripMatch.png](https://github.com/Turisfera/TFDocAplicacionesWeb/blob/cfaee8914fcfa6c0e9e9f3775cae670e8c539e20/repo/img/colors-TripMatch.png))
+![colors TripMatch](assets/colors-TripMatch.png)
 
 __Spacing:__
 El espaciado es un elemento clave en el diseño de TripMatch, ya que permite mantener una interfaz ordenada, limpia y fácil de navegar. Se ha utilizado un espaciado generoso y coherente entre elementos, lo cual mejora la legibilidad y crea una sensación de equilibrio visual. El uso uniforme del espacio contribuye a una experiencia de usuario fluida y cómoda, tanto en dispositivos móviles como en escritorio.
 
-![spacing TripMatch](https://github.com/Turisfera/TFDocAplicacionesWeb/blob/cfaee8914fcfa6c0e9e9f3775cae670e8c539e20/repo/img/spacing-TripMatch.png)
+![spacing TripMatch](assets/spacing-TripMatch.png)
 
 ### 4.1.2. Web Style Guidelines
 La interfaz web de TripMatch está diseñada con un estilo moderno, limpio y totalmente adaptable a distintos dispositivos, asegurando una navegación fluida tanto en móviles como en pantallas de escritorio. Se emplean paletas de colores inspiradas en la naturaleza y la aventura, tipografías claras como Poppins, y componentes visuales amigables como botones redondeados e íconos intuitivos.
