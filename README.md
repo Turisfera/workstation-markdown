@@ -722,8 +722,22 @@ Se mantiene una estructura vertical sencilla, optimizada para pantallas pequeña
 
 ### 4.3.2. Landing Page Mock-up  
 
-## 4.4. Web Applications UX/UI Design
-### 4.4.1. Web Applications Wireframes
+El mock-up de la landing page presenta un diseño limpio, moderno y enfocado en la experiencia del usuario. Se emplea una estructura clara y jerárquica que guía al visitante desde la propuesta de valor hasta la acción de registro, utilizando una paleta de colores coherente con la identidad visual del proyecto. Se prioriza la legibilidad, el contraste visual y la accesibilidad, adaptando el contenido tanto para pantallas de escritorio como para móviles, asegurando una experiencia fluida y responsiva en cualquier dispositivo.  
+
+![Landing Page- Mock Up](./assets/img/Landing%20Page-%20Mock%20Up.png)
+
+
+## 4.4. Web Applications UX/UI Design  
+### 4.4.1. Web Applications Wireframes  
+
+La propuesta de wireframes fue desarrollada aplicando los principios de diseño inclusivo, accesibilidad, jerarquía visual y usabilidad. Se busca asegurar una navegación clara y coherente, tanto para turistas como para agencias, adaptando la estructura y contenido de la interfaz según el tipo de usuario para optimizar su experiencia.  
+
+Estructura General  
+La interfaz cuenta con una barra de navegación dinámica que varía según el perfil del usuario (turista o agencia). Las secciones están organizadas para facilitar el acceso rápido a las funcionalidades más importantes para cada rol.
+
+**Para turistas**  
+Se divide en Inicio, favoritos, itinerarios y una barra de busqueda rapida, donde podra buscar agencias y experiencias por nombre.
+
 ### 4.4.2. Web Applications Wireflow Diagrams 
 ### 4.4.3. Web Applications Mock-ups  
 ### 4.4.4. Web Applications User Flow Diagrams    
