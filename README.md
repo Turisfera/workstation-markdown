@@ -345,9 +345,70 @@ Este segmento agrupa a aquellas agencias y operadores turísticos que buscan amp
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
-### 2.3.2. User Task Matrix
-### 2.3.3. User Journey Mapping
-### 2.3.4. Empathy Mapping  
+>Segmento 1: Turistas
+
+![user persona 1 - segmento 1](./assets/img/User%20Persona-%20Segmento%201.png)
+
+>Segmento 2: Agencias de Turismo
+
+![user persona 1 - segmento 1](./assets/img/User%20Persona-%20Segmento%202.png)
+
+### 2.3.2. User Task Matrix  
+
+
+>Segmento 1: Turistas
+
+|Tarea| Frecuencia| Importancia|
+|-----|-----------|-------------|
+|Buscar experiencias de viaje alineadas a sus intereses y presupuesto| Often|	High|
+|Comparar actividades entre distintas agencias antes de tomar una decisión|	Often|	High|
+Leer reseñas de otros viajeros sobre paquetes turísticos|	Often|	High|
+Reservar paquetes directamente desde la plataforma|	Occasionally	|High|
+Contactar a la agencia para resolver dudas antes de reservar	|Sometimes	|Medium|
+Compartir su experiencia dejando una reseña	|Occasionally	|Medium|
+
+>Segmento 2: Agencias de Turismo
+
+|Tarea| Frecuencia| Importancia|
+|-----|-----------|-------------|
+Publicar nuevos paquetes turísticos y actualizarlos	|Often	|High|
+Gestionar reservas en tiempo real |	Often	|High|
+Responder dudas y mensajes de potenciales clientes	|Often	|High|
+Revisar estadísticas sobre visualización y reservas de sus servicios	|Sometimes|	Medium|
+Gestionar promociones y descuentos especiales	|Occasionally	|Medium|
+Leer y responder reseñas de usuarios sobre sus servicios	|Occasionally	|Medium|
+Explorar tendencias en tipos de experiencias populares	|Rarely	|Medium|  
+
+### 2.3.3. User Journey Mapping  
+
+>Segmento 1: Turistas
+
+![user journey map - segmento 1](./assets/img/User%20journey%20map-%20Segmento%201.png)
+
+>Segmento 2: Agencias de Turismo
+
+![user journey map - segmento 2](./assets/img/User%20journey%20map-%20Segmento%202.png)
+
+
+### 2.3.4. Empathy Mapping    
+
+>Segmento 1: Turistas  
+
+![Empathy map- segmento 1](./assets/img/Empathy%20map-%20Segmento%201.png)
+
+>Segmento 2: Agencias de Turismo  
+
+![Empathy map - segmento 2](./assets/img/Empathy%20map%20-%20Segmento%202.png)
+
+
 ### 2.3.5. As-Is Scenario Mapping  
+
+>Segmento 1: Turistas
+
+![AS-IS - segmento 1](./assets/img/AS-IS%20-%20Segmento%201.jpg)
+
+>Segmento 2: Agencias de Turismo
+
+![AS-IS - segmento 2](./assets/img/AS-IS-%20Segmento%202.jpg)
 
 ## 2.4. Ubiquitous Language  
