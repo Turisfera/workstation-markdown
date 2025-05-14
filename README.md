@@ -270,7 +270,7 @@ Hemos observado un factor crítico que afecta tanto a viajeros como a agencias l
 - El cliente también puede obtener estos beneficios adicionales: Ahorro de tiempo en la búsqueda de actividades, conexión directa con proveedores confiables, flexibilidad para modificar o complementar su itinerario, reseñas verificadas, contenido visual auténtico y recomendaciones relevantes.
 - Voy a adquirir la mayoría de mis clientes a través de marketing digital, alianzas con blogs y comunidades de viajeros, y estrategias de marketing con beneficios para usuarios que recomienden la plataforma.
 - Haré dinero a través de marketing digital, anuncios y alianzas estratégicas con influencers de viajes.
-- 
+- Mi competencia principal en el mercado serán plataformas como "TripMatch", "Withlocals", "ToursByLocals" y "Showaround", que se centran en ofrecer experiencias turísticas personalizadas a través de guías o agencias locales.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 - **Creemos que** ofrecer filtros avanzados aumentará la adopción de la plataforma por parte de viajeros que buscan personalización. <br>
