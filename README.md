@@ -314,3 +314,40 @@ Este segmento agrupa a aquellas agencias y operadores turísticos que buscan amp
   - Motivaciones: Digitalizar su negocio, aumentar reservas directas, reducir costos de intermediación y fidelizar clientes mediante experiencias memorables.
   - Intereses: Innovación en turismo, marketing digital, sostenibilidad y herramientas que simplifiquen la gestión de reservas y consultas.
   - Comportamiento: Activos en redes sociales, dispuestos a adoptar tecnología accesible y con interés en destacar su propuesta de valor.
+
+
+# Capítulo 2: Requirements Eliciation & Analysis
+## 2.1. Competidores
+### 2.1.1. Análisis competitivo
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+## 2.2. Entrevistas
+### 2.2.1. Diseño de entrevistas
+### 2.2.2. Registro de entrevistas
+
+> Segmento 1: Turistas
+
+| Número de entrevista | Datos del entrevistado | Evidencia de entrevista |
+|----------------------|------------------------|-------------------------|
+| 1 | Nombres: Fernanda Rojas<br>Edad: 19 años<br>Distrito: La Molina<br>Link: [Entrevista 1 Turista: Karla Rojas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311258_upc_edu_pe/EacDNvV_oulFoz4vMVU_BT8BSuGGmomw0ULMWN7Nf8dMKg?e=LBQ57A) | ![Entrevista 1 Turista: Evidencia](assets/Entrevista%201%20-%20Turistas%20(Karla%20Rojas).png)  |
+| 2 | Nombres: <br>Edad: <br>Distrito: <br>Link:  |  |
+| 3 | Nombres: <br>Edad: <br>Distrito: <br>Link:  |  |
+
+>Segmento 2: Agencias de Turismo
+
+| Número de entrevista | Datos del entrevistado | Evidencia de entrevista |
+|----------------------|------------------------|-------------------------|
+| 1 | Nombres: <br>Edad: <br>Distrito: <br>Agencia de Turismo: <br>Link:  |  |
+| 2 | Nombres: <br>Edad: <br>Distrito: <br>Agencia de Turismo: <br>Link:  |  |
+| 3 | Nombres: <br>Edad: <br>Distrito: <br>Agencia de Turismo: <br>Link:  |  |
+
+### 2.2.3. Análisis de entrevistas
+
+## 2.3. Needfinding
+### 2.3.1. User Personas
+### 2.3.2. User Task Matrix
+### 2.3.3. User Journey Mapping
+### 2.3.4. Empathy Mapping  
+### 2.3.5. As-Is Scenario Mapping  
+
+## 2.4. Ubiquitous Language  
