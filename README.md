@@ -326,22 +326,87 @@ Este segmento agrupa a aquellas agencias y operadores turísticos que buscan amp
 ### 2.2.2. Registro de entrevistas
 
 > Segmento 1: Turistas
+<div align="center">
 
-| Número de entrevista | Datos del entrevistado | Evidencia de entrevista |
-|----------------------|------------------------|-------------------------|
-| 1 | Nombres: Fernanda Rojas<br>Edad: 19 años<br>Distrito: La Molina<br>Link: [Entrevista 1 Turista: Karla Rojas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311258_upc_edu_pe/EacDNvV_oulFoz4vMVU_BT8BSuGGmomw0ULMWN7Nf8dMKg?e=LBQ57A) | ![Entrevista 1 Turista: Evidencia](assets/Entrevista%201%20-%20Turistas%20(Karla%20Rojas).png)  |
-| 2 | Nombres: <br>Edad: <br>Distrito: <br>Agencia de Turismo: <br>Link:  |  |
-| 3 | Nombres: <br>Edad: <br>Distrito: <br>Link:  |  |
+| Nº Entrevista | Datos del entrevistado                                                                                                                                                                | Resumen de la entrevista                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Evidencia de entrevista                          |
+|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| 1             | - **Nombre:** Karla Rojas <br> - **Edad:** 19 años <br> - **Distrito:** La Molina <br> - **Link:** [Entrevista 1: Karla Rojas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311258_upc_edu_pe/EacDNvV_oulFoz4vMVU_BT8BSuGGmomw0ULMWN7Nf8dMKg?e=LBQ57A) | Karla, estudiante universitaria, comenta que organizar viajes en grupo es difícil por los distintos presupuestos e intereses. Desconfía de reservas online debido a cambios de horario y transporte deficiente. Le gustaría una app que centralice experiencias personalizadas, con reseñas reales, procesos seguros y adaptadas a jóvenes estudiantes.                                                                                                          | ![Entrevista 1](./assets/Entrevista%201%20-%20Turistas%20(Karla%20Rojas).png) |
+| 2             | - **Nombre:** Leslie Vanessa Quispe <br> - **Edad:** 22 años <br> - **Distrito:** Pachacútec – Ica <br> - **Link:** [Entrevista 2: Leslie Vanessa](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219481_upc_edu_pe/ER9uSjjYeUpAlCGDYI6ikEUBMF_SZ3xek6ePFchu92xoNg?e=KnUET1) | Leslie, joven viajera, enfrenta dificultades por precios altos y reseñas dudosas. Desea una app como TripMatch con precios claros, reseñas reales y conexión directa con operadores locales. Valora la autenticidad y personalización de las experiencias. Está motivada a apoyar el turismo local mediante plataformas confiables.                                                                                                                   | ![Entrevista 2](./assets/img/entrevista-turista-leslie.png) |
+| 3             | - **Nombre:** Kevin Vargas <br> - **Edad:** 24 años <br> - **Distrito:** La Molina <br> - **Link:** [Entrevista 3: Kevin Vargas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g671_upc_edu_pe/EZejm6seAVdMvwuToOcx1xgB1scDFPDb0jd3zL9AoQ1BkA?e=upGl44) | Kevin, ingeniero mecatrónico, considera complicado encontrar actividades turísticas personalizadas y confiables. Le interesa una app como TripMatch con recomendaciones reales, multimedia y validaciones. Critica que las plataformas actuales promueven turismo masivo y sugiere integrar pequeños operadores que ofrezcan experiencias auténticas adaptadas a cada viajero.                                                              | ![Entrevista 3](./assets/img/Entrevista%203%20-%20Turistas%20(Kevin%20Vargas).png) |
+
+</div>
+
+  #### Resumen de entrevistas  segmento #1
+  Las entrevistas realizadas a Karla Rojas, Leslie Vanessa Quispe de la Cruz y Kevin Vargas revelan una serie de necesidades y frustraciones comunes entre los turistas jóvenes al momento de planear y disfrutar de sus viajes. En general, todos coinciden en que encontrar actividades turísticas alineadas a sus intereses personales y presupuesto resulta complicado, debido a la predominancia de paquetes estándar, precios elevados, disponibilidad limitada, y una falta de personalización en las ofertas actuales. También manifiestan una profunda desconfianza hacia las plataformas online, debido a experiencias pasadas con reseñas poco fiables, fotografías engañosas y escasa información sobre operadores locales. A pesar de ello, muestran una alta disposición a descubrir nuevas actividades durante sus viajes, sobre todo si estas son auténticas, accesibles y distintas a las típicas propuestas de turismo masivo. Finalmente, valoran la idea de una app como TripMatch, siempre que esta ofrezca experiencias personalizadas, reseñas verificadas, contacto directo con agencias confiables y un diseño que considere segmentos con necesidades específicas, como estudiantes o grupos de amigos.
 
 >Segmento 2: Agencias de Turismo
 
-| Número de entrevista | Datos del entrevistado | Evidencia de entrevista |
-|----------------------|------------------------|-------------------------|
-| 1 | Nombres: <br>Edad: <br>Distrito: <br>Agencia de Turismo: <br>Link:  |  |
-| 2 | Nombres: Carlos Puma <br>Edad: 23 años <br>Departamento: Cusco <br>Link: [Entrevista 2 ] https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/Efa3TJjWZ0tOqBBYaxlHYjoBWM9G087BxQmRgo7UQcteBw?e=iYPsIk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |  |
-| 3 | Nombres: <br>Edad: <br>Distrito: <br>Agencia de Turismo: <br>Link:  |  |
+<div align="center">
+
+| Nº Entrevista | Datos del entrevistado                                                                                                                                                                | Resumen de la entrevista                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Evidencia de entrevista                          |
+|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| 1             | - **Nombre:** Abigail Rodriguez <br> - **Edad:** 21 años <br> - **Distrito:** Surco <br> - **Agencia:** Authentic Peru Travel <br> - **Link:** [Entrevista 1: Abigail Rodriguez](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210938_upc_edu_pe/EaM1U4j5zvhOs7G1DdZANkABz6WEAFJP5zx0mbfVEhGvvQ?e=dCxsWD) | Abigail, representante joven de agencia, indica que se dan a conocer principalmente por redes sociales y colaboraciones con influencers. Sus principales retos son atraer turistas independientes y enfrentar la competencia de plataformas grandes. Enfrentan problemas con pagos online, reservas simultáneas y resistencia a lo digital. Valora una app como TripMatch por su potencial para visibilizar servicios locales, automatizar consultas, gestionar pagos y reservas, y ofrecer autenticidad. | ![Entrevista 1: Evidencia](./assets/img/Entrevista_Segmento02.png) |
+| 2             | - **Nombre:** Jose Sosa <br> - **Edad:** 22 años <br> - **Distrito:** Los Olivos <br> - **Agencia:** Travel Perú <br> - **Link:** [Entrevista 2: Jose Sosa](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202316057_upc_edu_pe/EYVl_NJV4VNGtS-3XhPGVhIBLR2bjWAxQK1Iz8K4b-xVyQ?e=RlInAd) | José es dueño de una pequeña agencia que depende de redes sociales, posicionamiento en Google y alianzas con hoteles. Los principales problemas son la falta de reservas directas, el manejo disperso de herramientas y limitaciones en pagos en línea. Ve en TripMatch una solución útil para mostrar sus tours, automatizar reservas y mejorar la conexión directa con turistas sin intermediarios, lo que aumentaría sus ingresos y visibilidad. | ![Entrevista 2: Evidencia](./assets/img/entrevista-agencias-jose.png) |
+| 3             | - **Nombre:** Carlos Puma <br> - **Edad:** 23 años <br> - **Departamento:** Cusco <br> - **Agencia:** Local Trekkers Perú <br> - **Link:** [Entrevista 3: Carlos Puma](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/Efa3TJjWZ0tOqBBYaxlHYjoBWM9G087BxQmRgo7UQcteBw?e=iYPsIk) | Carlos, asistente en Local Trekkers Perú, señala que usan Instagram, su web y TripAdvisor para captar clientes, aunque les cuesta atraer turistas independientes. Enfrentan problemas operativos como desorganización en canales de contacto y escasa visibilidad frente a plataformas grandes. Desea una app como TripMatch que centralice reservas, tenga diseño visual atractivo, mensajería básica, filtros por intereses y permita destacar experiencias auténticas de operadores locales. | ![Entrevista 3: Evidencia](./assets/img/entrevista-carlos.png) |
+
+</div>
+
+  #### Resumen de entrevistas  segmento #2
+  Las entrevistas realizadas a tres representantes de agencias de turismo locales evidencian una problemática común: la dificultad para competir frente a grandes plataformas turísticas, como Despegar o portales asociados a aerolíneas. Aunque estas agencias han desarrollado presencia en redes sociales (Instagram, Facebook, TikTok), páginas web y canales como TripAdvisor o WhatsApp, la atracción de turistas independientes sin intermediarios sigue siendo limitada. Todas coinciden en que los viajeros suelen llegar con servicios ya contratados y que sus recursos no les permiten igualar en visibilidad ni en precios a las grandes agencias.
+  Además, enfrentan problemas operativos importantes, como la gestión dispersa de herramientas digitales (Google Forms, correo, WhatsApp, etc.), pagos online inseguros o ineficientes, y falta de sincronización en tiempo real de disponibilidad, lo que afecta la calidad del servicio. También se identificó la necesidad de automatizar reservas y consultas de último minuto, ya que muchas veces pierden potenciales clientes por demoras en la respuesta.
+  A pesar de estos retos, todas valoran positivamente una solución como TripMatch.
 
 ### 2.2.3. Análisis de entrevistas
+#### SEGMENTO 1: Turistas
+
+Este segmento está compuesto por tres jóvenes entre 19 y 24 años que viajan en grupo, tienen un perfil digital activo y buscan experiencias auténticas y accesibles. Todos han expresado frustraciones con plataformas tradicionales y un fuerte deseo por soluciones más personalizadas y seguras.
+
+**Principales características comunes:**
+
+- 100% tiene entre 19 y 24 años.
+- 100% suele viajar acompañado (grupo o amigos).
+- 100% ha tenido dificultades para encontrar experiencias alineadas a sus intereses y presupuesto.
+- 66.7% ha tenido problemas para contactar operadores confiables sin intermediarios.
+- 100% utiliza medios digitales para informarse y reservar (reseñas, apps, plataformas web).
+- 100% expresa desconfianza hacia plataformas turísticas tradicionales (reseñas falsas, fotos engañosas, poca transparencia).
+- 100% muestra disposición a descubrir actividades no planificadas durante sus viajes.
+- 100% valora una app como TripMatch, que permita personalización, contacto directo y reseñas verificadas.
+- 66.7% critica que las plataformas actuales ofrecen paquetes estandarizados que no responden a sus intereses reales.
+
+**Gráfico de resultados:**
+
+![Características Segmento 1 - Turistas](./assets/img/grafico-estadistico-segmento1.png)
+
+**Análisis del gráfico:**
+
+El gráfico refleja una marcada homogeneidad en las necesidades de los turistas jóvenes: prefieren experiencias personalizadas, tienen altos niveles de autonomía digital y desconfían de las plataformas tradicionales. La falta de contacto directo con agencias locales y la estandarización de los paquetes turísticos son frustraciones claves. Este segmento representa una oportunidad clara para TripMatch de posicionarse como una app auténtica, transparente y centrada en el usuario.
+
+---
+
+#### SEGMENTO 2: Agencias de Turismo
+
+Este segmento agrupa a tres representantes de agencias turísticas peruanas que enfrentan barreras en el entorno digital dominado por grandes plataformas. Todos buscan herramientas que les permitan automatizar procesos, conectarse directamente con turistas y visibilizar su propuesta auténtica.
+
+**Principales características comunes:**
+
+- 100% usa redes sociales como canal principal de promoción (Instagram, Facebook, TikTok).
+- 100% encuentra difícil captar turistas sin intermediarios.
+- 100% emplea herramientas digitales dispersas (WhatsApp, Google Forms, Mailchimp).
+- 100% menciona problemas para gestionar pagos online y disponibilidad en tiempo real.
+- 100% atiende consultas por WhatsApp manualmente (sin automatización).
+- 100% destaca la atención personalizada como su mayor diferencial competitivo.
+- 100% considera valiosa una app como TripMatch para reservas directas, filtros por intereses, contenido visual y reseñas reales.
+- 100% desea automatizar procesos básicos como confirmaciones, disponibilidad y consultas.
+- 100% indica que las plataformas actuales reducen su visibilidad y no permiten mostrar el verdadero valor de sus servicios.
+
+**Gráfico de resultados:**
+
+![Características Segmento 2 - Agencias](./assets/img/grafico-estadistico-segmento2.png)
+
+**Análisis del gráfico:**
+
+Las agencias entrevistadas comparten limitaciones tecnológicas similares: falta de integración, baja visibilidad y dependencia de canales manuales. La atención personalizada es su ventaja competitiva, pero requiere herramientas que potencien su alcance sin intermediarios. La propuesta de TripMatch les permitiría automatizar tareas repetitivas, centralizar operaciones y fortalecer su relación directa con los turistas, resaltando su autenticidad en un entorno más justo.
+
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
