@@ -265,6 +265,7 @@ Hemos observado un factor crítico que afecta tanto a viajeros como a agencias l
 **Business Assumptions**
 - Creo que nuestros clientes necesitan una manera fácil y confiable de encontrar y reservar experiencias turísticas auténticas, personalizadas y gestionadas por agencias locales, sin tener que navegar en múltiples plataformas o correr riesgos de servicios poco verificados.
 - Estas necesidades se pueden resolver con una plataforma digital que ofrezca filtros avanzados, reseñas verificadas, herramientas de comparación y comunicación en tiempo real, junto con un sistema de reservas seguro y eficiente.
+- Mis clientes iniciales serán viajeros independientes nacionales e internacionales que priorizan experiencias locales auténticas, y agencias de turismo local que buscan digitalizar sus servicios para ampliar su alcance.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 - **Creemos que** ofrecer filtros avanzados aumentará la adopción de la plataforma por parte de viajeros que buscan personalización. <br>
