@@ -412,3 +412,19 @@ Explorar tendencias en tipos de experiencias populares	|Rarely	|Medium|
 ![AS-IS - segmento 2](./assets/img/AS-IS-%20Segmento%202.jpg)
 
 
+
+## 2.4. Ubiquitous Language  
+Este glosario representa los conceptos clave que definen nuestro dominio turístico. Su propósito es establecer un lenguaje común entre todos los miembros del equipo y partes interesadas, eliminando ambigüedades y asegurando que todos hablemos el mismo idioma al momento de diseñar, construir y validar nuestra solución.   
+
+
+| Término | Definición |
+| ------- | ------- |
+| Traveler (Viajero) | Persona que utiliza la plataforma para descubrir, filtrar y reservar experiencias turísticas de acuerdo a sus intereses, presupuesto y tiempo disponible. | 
+| Tour Experience (Experiencia Turística) | Actividad organizada por una agencia, ofrecida en la plataforma, que puede incluir desde recorridos culturales hasta aventuras al aire libre. | 
+| Agency (Agencia) | Empresa turística que publica y gestiona sus experiencias a través de la plataforma, ofreciendo disponibilidad, precios y descripciones. | 
+| Direct Booking (Reserva Directa) | Proceso mediante el cual el viajero contrata una experiencia directamente con la agencia, sin pasar por intermediarios externos. | 
+| Tourist Profile | Proceso mediante el cual el viajero contrata una experiencia directamente con la agencia, sin pasar por intermediarios externos. | 
+| Review (Reseña) | Opinión publicada por un viajero después de realizar una experiencia. Las reseñas ayudan a otros viajeros a tomar decisiones basadas en experiencias reales. | 
+| Host Location (Destino Anfitrión) | Lugar donde se lleva a cabo la experiencia turística y que forma parte del entorno local ofrecido por las agencias. | 
+| Booking Confirmation (Confirmación de Reserva) | Notificación recibida por el viajero y la agencia después de completar la reserva de una experiencia, que garantiza la disponibilidad y los detalles de la actividad. | 
+| Custom Experience (Experiencia Personalizada) | Actividad o paquete turístico diseñado específicamente para un viajero o grupo, basado en preferencias particulares como intereses, tiempo disponible o tipo de viaje. | 
