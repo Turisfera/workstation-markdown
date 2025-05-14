@@ -679,361 +679,604 @@ El Impact Mapping es una metodología visual y ágil que permite a las organizac
 |37| US37  | **Como** visitante del segmento de agencias de turismo, **quiero** registrarme desde la landing **para** empezar a formar parte de la plataforma.  | 5 |
 
 
+# Capítulo 4: Product Design
+## 4.1. Style Guidelines
+Una Style Guidelines es un conjunto de lineamientos y criterios que establecen la forma en que deben redactarse, diseñarse o presentar documentos, contenido web, software u otros tipos de trabajos creativos. A continuación, se describen las especificaciones de los parámetros aplicados en la estructura del proyecto.
 
-### Capítulo IV: Product Design
-#### 4.1. Style Guidelines
-##### 4.1.1. General Style Guidelines
-##### 4.1.2. Web Style Guidelines
-#### 4.2. Information Architecture
-##### 4.2.1. Organization Systems
-##### 4.2.2. Labeling Systems
-##### 4.2.3. SEO Tags and Meta Tags
-##### 4.2.4. Searching Systems
-##### 4.2.5. Navigation Systems
-#### 4.3. Landing Page UI Design
-##### 4.3.1. Landing Page Wireframe
-##### 4.3.2. Landing Page Mock-up
-#### 4.4. Web Applications UX/UI Design
-##### 4.4.1. Web Applications Wireframes
-##### 4.4.2. Web Applications Wireflow Diagrams
-##### 4.4.3. Web Applications Mock-ups
-##### 4.4.4. Web Applications User Flow Diagrams
-#### 4.5. Web Applications Prototyping
-#### 4.6. Domain-Driven Software Architecture
-##### 4.6.1. Software Architecture Context Diagram
-##### 4.6.2. Software Architecture Container Diagrams
-##### 4.6.3. Software Architecture Components Diagrams
-#### 4.7. Software Object-Oriented Design
-##### 4.7.1. Class Diagrams
-##### 4.7.2. Class Dictionary
-#### 4.8. Database Design
-##### 4.8.1. Database Diagram
+### 4.1.1. General Style Guidelines
+__Branding:__
+Para la creación del logo de nuestro producto TripMatch, se ha optado por un diseño representativo y amigable que transmite los valores de aventura, autenticidad y conexión con la naturaleza. El logotipo está compuesto por una tipografía redondeada y moderna, acompañada de un ícono que representa una montaña nevada dentro de un círculo, evocando destinos naturales, seguridad y dirección. Los colores utilizados son armónicos y cálidos, lo que refuerza la idea de un turismo responsable y accesible.
 
+![logotipo TripMatch](./assets/img/logo-TripMatch.png)
 
+__Typography:__
+Para la tipografía de TripMatch, se ha seleccionado una fuente moderna, clara y legible, ideal para dispositivos móviles y plataformas digitales. La tipografía principal es Poppins, una fuente amigable y versátil que refuerza el carácter accesible y dinámico de la plataforma. Para títulos y encabezados se puede emplear una versión más gruesa de la misma fuente, garantizando jerarquía visual sin perder coherencia estética.
+A continuación, se presentan la tipografía seleccionadas para TripMatch:
 
+![tipography TripMatch](./assets/img//tipografia-poppins.png)
+
+__Colors:__
+La paleta de colores de TripMatch se compone de tonos que evocan calma, naturaleza y aventura. Los colores seleccionados son vibrantes pero equilibrados, lo cual permite captar la atención del usuario sin saturar visualmente la interfaz. A continuación, se presentan los colores seleccionados para TripMatch:
+
+![colors TripMatch](./assets/img/colors-TripMatch.png)
+
+__Spacing:__
+El espaciado es un elemento clave en el diseño de TripMatch, ya que permite mantener una interfaz ordenada, limpia y fácil de navegar. Se ha utilizado un espaciado generoso y coherente entre elementos, lo cual mejora la legibilidad y crea una sensación de equilibrio visual. El uso uniforme del espacio contribuye a una experiencia de usuario fluida y cómoda, tanto en dispositivos móviles como en escritorio.
+
+![spacing TripMatch](./assets/img/spacing-TripMatch.png)
+
+### 4.1.2. Web Style Guidelines
+La interfaz web de TripMatch está diseñada con un estilo moderno, limpio y totalmente adaptable a distintos dispositivos, asegurando una navegación fluida tanto en móviles como en pantallas de escritorio. Se emplean paletas de colores inspiradas en la naturaleza y la aventura, tipografías claras como Poppins, y componentes visuales amigables como botones redondeados e íconos intuitivos.
+
+Además, se prioriza la experiencia del usuario mediante interacciones suaves, menús simplificados, tarjetas informativas y animaciones sutiles. Todo el diseño responde a criterios de accesibilidad, garantizando legibilidad, contraste adecuado y compatibilidad con lectores de pantalla.
 
 
+## 4.2. Information Architecture
+La arquitectura de información de Turisnap está diseñada para optimizar la experiencia de navegación de dos tipos principales de usuarios: turistas y anfitriones. La plataforma permite a los turistas descubrir experiencias personalizadas, planificar itinerarios y conectar con guías locales o grupos de viaje. A su vez, los anfitriones pueden registrar y ofrecer actividades o tours. La estructura de la información facilita la exploración del contenido, mejora la accesibilidad a las funciones principales y permite una experiencia fluida e intuitiva.
+
+### 4.2.1. Organization Systems 
+Turisnap aplica distintos tipos de organización según la naturaleza de la información y la interacción esperada de cada tipo de usuario:
+
+**Organización jerárquica visual:** <br/>
+Para una navegación intuitiva, tanto turistas como agencias cuentan con accesos laterales clave en la pantalla principal. Los turistas disponen de "Inicio", "Favoritos", "Itinerarios" y "Buscar", mientras que las agencias acceden a "Inicio", "Gestión de experiencias", "Reservas", "Consultas" y "Perfil de agencia".<br/>
+
+**Organización secuencial:** <br/>
+En la planificación del itinerario personalizado para turistas, la secuencia comienza con la elección del destino, seguida por la selección de fechas, intereses y tipo de experiencia, culminando con la confirmación del itinerario. De manera similar, el registro de una nueva experiencia por parte de las agencias sigue este orden: selección de la experiencia, llenado de los campos requeridos (ubicación, horarios, etc.) y, finalmente, se guarda la informacion. <br/>
+
+**Organización matricial:** <br/>
+En la sección de resultados o búsqueda de experiencias, los usuarios refinan su búsqueda mediante filtros combinables por destino, día, presupuesto y tipo de experiencia. Los resultados se actualizan dinámicamente en función de las selecciones aplicadas. <br/>
+
+**Sistemas de categorización:**
+
+- **Por tópicos:** actividades, anfitriones, turistas, destinos, experiencias recomendadas, favoritos, historial de viajes.
+
+- **Cronológica:** ordenamiento de experiencias según la fecha de publicación o según las fechas de viaje elegidas.
+
+- **Alfabética:** búsqueda por tipo de experiencia, destino, o nombre de la agencia.
+
+- **Por audiencia:** se presentan interfaces diferenciadas para turistas (busqueda y planificación de itinerarios) y agencias (gestión de experiencias ofrecidas y reservas).
+
+### 4.2.2. Labeling Systems
+Para garantizar una experiencia intuitiva y sin confusiones, las etiquetas empleadas en TripMatch han sido diseñadas con base en principios de simplicidad, claridad y consistencia.
+
+**Etiquetas para la navegación principal (menú lateral):**
+* **Inicio:** Página principal con acceso a destinos sugeridos y novedades.
+* **Busqueda:** Sección para descubrir nuevos lugares mediante filtros o búsqueda.
+* **Itinerario:** Espacio donde el usuario puede planificar, visualizar y editar sus viajes.
+* **Perfil:** Acceso a la información personal y configuraciones.
+
+**Etiquetas para acciones:**
+* **Buscar:** Entrada para realizar búsquedas de destinos o usuarios.
+* **Agregar al itinerario:** Acción rápida para incluir un destino en un viaje.
+* **Editar / Eliminar:** Gestión de elementos guardados por el usuario.
+* **Guardar cambios:** Confirmación de edición o creación de itinerario.
+
+**Etiquetas asociativas para categorías:**
+* **Populares, Culturales, Naturaleza, Aventura, Relax:** Categorías que agrupan destinos según intereses.
+* **Hoy, Próximo destino, Favoritos:** Agrupaciones cronológicas y personalizadas que facilitan el acceso a información relevante.
+
+### 4.2.3. SEO Tags and Meta Tags 
+En TripMatch, el uso de etiquetas SEO y metaetiquetas se ha diseñado con el objetivo de mejorar la visibilidad de la plataforma en motores de búsqueda y garantizar una representación clara, concisa y coherente de la información. Se prioriza la simplicidad en la redacción de etiquetas, asegurando que los términos utilizados reflejen con precisión los intereses de los usuarios y las categorías de contenido disponibles. <br/>
+
+**Landing Page:**
+- **Title:** TripMatch | Donde viajar se combina con la facilidad digital con TripMatch.
+- **Meta Description:** Plataforma para descubrir experiencias, crear itinerarios a medida y conectar con guías locales.
+- **Meta Keywords:** About us, befefits, how does it work, frequently asked questions, contact.
+- **Meta Author:** Turisnap 
+
+**Aplicación Web:**
+- **Title:** TripMatch
+- **Meta Description:** Crea y personaliza itinerarios, descubre actividades y vive nuevas experiencias en tus destinos favoritos.
+- **Meta Keywords:** Home, favoritos, planificación de itinerarios, busqueda por categoria, turismo inteligente, reservas y gestion de experiencias.
+- **Meta Author:** Turisnap 
+
+### 4.2.4. Searching Systems
+Para garantizar una experiencia de usuario fluida y eficiente, se ha definido un sistema de búsqueda que facilite el acceso a la información dentro de TripMatch. 
+* **Búsqueda de destinos turísticos:** con filtros por tipo de lugar (playa, ciudad, naturaleza), presupuesto, temporada y popularidad.
+* **Búsqueda de experiencias:** por categoría (aventura, cultura, gastronomía), ubicación y duración.
+* **Búsqueda por palabras clave:** desde cualquier pantalla, para encontrar rápidamente destinos, usuarios o actividades relacionadas.
+* **Historial y búsquedas guardadas:** los usuarios podrán revisar búsquedas recientes y guardar filtros frecuentes para agilizar futuras consultas.
+
+### 4.2.5. Navigation Systems 
+El sistema de navegación de TripMatch ha sido diseñado para ofrecer una experiencia fluida, adaptada a los distintos perfiles de usuario: turistas y agencias. La interfaz presenta una navegación lateral que permite un acceso rápido a las funciones principales, y mantiene una estructura coherente en toda la plataforma.
+
+**Navegación principal para turistas:**
+
+- **Inicio:** Punto de partida que muestra recomendaciones, novedades y experiencias destacadas.
+- **Buscar:** Permite explorar destinos y actividades mediante filtros avanzados.
+- **Itinerario:** Sección donde se visualizan, editan o crean nuevos itinerarios personalizados.
+- **Favoritos:** Muestra actividades o lugares marcados previamente por el usuario.
+- **Perfil:** Configuraciones personales, historial de viajes y preferencias.
+
+**Navegación principal para anfitriones/agencias:**
+
+- **Inicio:** Resumen de actividades programadas, métricas de interacción y novedades del sistema.
+- **Gestión de experiencias:** Sección dedicada a registrar, editar o eliminar experiencias ofrecidas.
+- **Reservas:** Visualización y administración de las reservas generadas por los turistas.
+- **Consultas:** Interacción con usuarios interesados, resolución de dudas o solicitud de detalles.
+- **Perfil de agencia:** Modificación de datos institucionales, fotos y verificación de identidad.
+
+## 4.3. Landing Page UI Design  
+
+### 4.3.1. Landing Page Wireframe      
+
+La navegación principal está compuesta por secciones clave: Home, About Us, Benefits, How Does It Work?, FAQs, Contact, complementadas por botones visibles de Login y Sign Up, ubicados estratégicamente para facilitar el acceso de los usuarios según su necesidad. La estructura de la landing page fue pensada para acompañar al visitante de forma progresiva, desde entender qué ofrece la aplicación, hasta generar confianza e impulsar la acción de registro.  
+
+**Desktop Web Browser** 
+Se presentan las siguientes secciones:  
+
++ Navbar: Fijo en la parte superior con todas las secciones del sitio y botones a la derecha para iniciar sesión o registrarse.
++ Hero Section: Imagen destacada, con un eslogan directo y botón de llamada a la acción que invita al usuario a unirse.
++ About Us: Breve sección que explica la misión y vision de nuestra aplicación.
++ Benefits: Cards visuales donde se muestran los beneficios clave de la plataforma tanto para agencias como turistas, con íconos y descripciones breves.
++ How Does It Work?: Sección paso a paso explicando el funcionamiento de la plataforma tanto para turistas y agencias.
++ FAQs: Preguntas frecuentes en formato acordeón, de fácil lectura y con foco en resolver dudas comunes.
++ Contact: Formulario básico para consultas o sugerencias, junto con correo electrónico y numero de contacto.
++ Footer: Redes sociales y accesos rápidos adicionales.
 
 
+![Landing Page-Wireframe](./assets/img/Landing%20Page-Wireframe.png)
 
 
+**Mobile Web Browser**    
+En la versión móvil se incorpora un menú hamburguesa que al desplegarse permite acceder fácilmente a las secciones: Home, About Us, Benefits, How Does It Work?, FAQs, Contact, así como botones de Login y Sign Up.  
+
+![Landing Page- Wireframe- Mobile- Menu](./assets/img/Landing%20Page-%20Wireframe-%20Mobile-%20Menu.png)
+
+Se mantiene una estructura vertical sencilla, optimizada para pantallas pequeñas, priorizando la legibilidad, la navegación por scroll y el toque con el dedo. Las secciones siguen el mismo orden y contenido que en la versión desktop.
+
+![Landing Page- Wireframe- Mobile](./assets/img/Landing%20Page-%20Wireframe-%20Mobile.png)
 
 
+### 4.3.2. Landing Page Mock-up  
+
+El mock-up de la landing page presenta un diseño limpio, moderno y enfocado en la experiencia del usuario. Se emplea una estructura clara y jerárquica que guía al visitante desde la propuesta de valor hasta la acción de registro, utilizando una paleta de colores coherente con la identidad visual del proyecto. Se prioriza la legibilidad, el contraste visual y la accesibilidad, adaptando el contenido tanto para pantallas de escritorio como para móviles, asegurando una experiencia fluida y responsiva en cualquier dispositivo.  
+
+![Landing Page- Mock Up](./assets/img/Landing%20Page-%20Mock%20Up.png)
 
 
+## 4.4. Web Applications UX/UI Design  
+### 4.4.1. Web Applications Wireframes  
 
-# Capítulo V: Product Implementation, Validation & Deployment
-## 5.1. Software Configuration Management
-### 5.1.1 Configuración del Entorno de Desarrollo de Software
+La propuesta de wireframes fue desarrollada aplicando los principios de diseño inclusivo, accesibilidad, jerarquía visual y usabilidad. Se busca asegurar una navegación clara y coherente, tanto para turistas como para agencias, adaptando la estructura y contenido de la interfaz según el tipo de usuario para optimizar su experiencia.  
 
-**Requirements Management**  
-1. <img src="./assets/icons/trello.svg" alt="Trello" width="20" style="vertical-align:middle; margin-right:8px;"> **[Trello](https://trello.com/)**: Tablero Kanban web para planificar y hacer seguimiento de historias de usuario y tareas por sprint. Permite asignar responsables, fechas de entrega y checklists para cada tarjeta.  
-2. <img src="./assets/icons/discord.svg" alt="Discord" width="20" style="vertical-align:middle; margin-right:8px;"> **[Discord](https://discord.com/)**: Plataforma de chat y voz VoIP con canales temáticos, notificaciones y bots. Se utiliza como canal principal de comunicación en tiempo real, para compartir pantallazos de código, coordinar reuniones flash y notificar despliegues.  
-3. <img src="./assets/icons/vertabelo.svg" alt="Vertabelo" width="20" style="vertical-align:middle; margin-right:8px;"> **[Vertabelo](https://vertabelo.com/)**: Herramienta SaaS para diseño y modelado de bases de datos relacionales. Facilita la creación de diagramas ER, versionado de esquemas y generación de scripts SQL.
+Estructura General  
+La interfaz cuenta con una barra de navegación dinámica que varía según el perfil del usuario (turista o agencia). Las secciones están organizadas para facilitar el acceso rápido a las funcionalidades más importantes para cada rol.
 
-**Product UX/UI Design**  
-1. <img src="./assets/icons/figma.svg" alt="Figma" width="20" style="vertical-align:middle; margin-right:8px;"> **[Figma](https://www.figma.com/)**: Editor de interfaces colaborativo en la nube. Soporta diseño vectorial, prototipado interactivo y comentarios en tiempo real. Usado para iterar wireframes y mock-ups de Desktop y Mobile Web.  
-2. <img src="./assets/icons/lucidchart.svg" alt="Lucidchart" width="20" style="vertical-align:middle; margin-right:8px;"> **[Lucidchart](https://www.lucidchart.com/)**: Aplicación web para diagramas de flujo, wireflows y diagramas de clases. Permite conectar objetos con líneas inteligentes y exportar en múltiples formatos.  
-3. <img src="./assets/icons/uxpressia.svg" alt="Uxpressia" width="20" style="vertical-align:middle; margin-right:8px;"> **[Uxpressia](https://uxpressia.com/)**: Plataforma online para mapas de empatía, Customer Journey y escenarios As-Is / To-Be. Estandariza hallazgos de entrevistas y visualiza puntos de dolor.  
-4. <img src="./assets/icons/visual-paradigm.svg" alt="Visual Paradigm" width="20" style="vertical-align:middle; margin-right:8px;"> **[Visual Paradigm](https://www.visual-paradigm.com/)**: Suite de modelado UML y C4 para diagramas de contenedores, componentes y despliegue. Genera documentación técnica que facilita la comunicación entre analistas y desarrolladores.
-
-**Software Development**  
-1. <img src="./assets/icons/webstorm.svg" alt="WebStorm" width="20" style="vertical-align:middle; margin-right:8px;"> **[WebStorm](https://www.jetbrains.com/webstorm/)**: IDE de JetBrains con autocompletado inteligente, refactorización segura, depurador integrado y plugins de linters/formateadores.  
-2. <img src="./assets/icons/html5.svg" alt="HTML5" width="20" style="vertical-align:middle; margin-right:8px;"> **HTML5**: Lenguaje de marcado semántico para estructurar contenido y mejorar accesibilidad (etiquetas `<header>`, `<nav>`, `<main>`, `<footer>`).  
-3. <img src="./assets/icons/css.svg" alt="CSS3" width="20" style="vertical-align:middle; margin-right:8px;"> **CSS3**: Hojas de estilo en cascada para layouts, media queries y variables CSS, siguiendo la convención BEM ligero.  
-4. <img src="./assets/icons/javascript.svg" alt="JavaScript" width="20" style="vertical-align:middle; margin-right:8px;"> **[JavaScript](https://developer.mozilla.org/docs/Web/JavaScript)**: Lenguaje de scripting para manipular el DOM, manejar eventos y validar formularios en `script.js` (por ejemplo, validación de campos antes de enviar).
-
-**Software Deployment**  
-1. <img src="./assets/icons/git.svg" alt="Git" width="20" style="vertical-align:middle; margin-right:8px;"> **[Git](https://git-scm.com/)**: Sistema de control de versiones distribuido. Utilizamos GitFlow para crear ramas `feature/`, `release/` y `hotfix/`, facilitar merges y revertir cambios si es necesario.  
-2. <img src="./assets/icons/github-pages.svg" alt="GitHub Pages" width="20" style="vertical-align:middle; margin-right:8px;"> **[GitHub Pages](https://pages.github.com/)**: Servicio de hosting estático gratuito. Configuramos la carpeta `/docs` en `main` para publicar automáticamente la landing page tras cada push.
-
-**Software Documentation and Project Management**  
-1. <img src="./assets/icons/github.svg" alt="GitHub" width="20" style="vertical-align:middle; margin-right:8px;"> **[GitHub](https://github.com/)** (Wiki / `README.md`): Documentación técnica centralizada con guías de estilo, convenciones de commits y manuales de despliegue.  
-2. <img src="./assets/icons/google-drive.svg" alt="Google Drive" width="20" style="vertical-align:middle; margin-right:8px;"> **[Google Drive](https://drive.google.com/)** /**[Google Docs](https://docs.google.com/)**: Repositorio de requisitos, actas de reunión y borradores de informes con control de versiones de documento y comentarios colaborativos.  
+**Para turistas**  
+Se divide en Inicio, favoritos, itinerarios y una barra de busqueda rapida, donde podra buscar agencias y experiencias por nombre.
 
 
-### 5.1.2 Source Code Management
+**Inicio**  
+Esta sección presenta un buscador con filtros (por tipo, lugar, precio y dia) que permite a los usuarios explorar experiencias turísticas de manera rápida. También se muestran recomendaciones personalizadas según intereses y tendencias.  
 
-Para garantizar trazabilidad y control de versiones claros, adoptamos el modelo **GitFlow** de Vincent Driessen (https://nvie.com/posts/a-successful-git-branching-model/):
+![Wireframe-home-tourits](./assets/img/Wireframe-home-tourits.png)
 
-**Branching Model (GitFlow)**
-1. **main**: contiene siempre el código listo para producción.
-2. **develop**: integración continua de todas las _features_ terminadas; funciona como base para nuevos desarrollos.
-3. **feature/<name>**: ramas derivadas de `develop` para cada funcionalidad.
-```bash
-git checkout develop
-git checkout -b feature/user-auth
-```
-Al completarla, abrimos un Pull Request hacia `develop`.
+*Favoritos*
+Aquí se almacenan todas las experiencias marcadas como favoritas por el turista, permitiendo un acceso rápido a opciones que desea considerar más adelante.   
 
-4. **release/vMAJOR.MINOR.PATCH**: se crea desde `develop` para preparar una nueva versión; en ella corregimos bugs menores, actualizamos documentación y realizamos el bump de versión.
-5. **hotfix/vMAJOR.MINOR.PATCH**: correcciones urgentes derivadas de `main`; tras aplicarlas, se fusiona tanto a `main` como a `develop`.
+![Wireframe-favorites-tourits](./assets/img/Wireframe-favorites-tourits.png)
 
-**Versionado Semántico & Conventional Commits**
-- **Semantic Versioning** (`MAJOR.MINOR.PATCH`):
-  - **MAJOR**: cambios incompatibles con versiones anteriores.
-  - **MINOR**: añadidos de funcionalidades sin romper API.
-  - **PATCH**: correcciones de bugs y mejoras menores.
-- **Conventional Commits**: mensajes de commit con estructura:
-  ```text
-  docs(report): actualizar sección 5.1.2 de Source Code Management
-  feat(landing-page): centrar iconos sociales y mejorar CSS de formulario
-  fix(form-validation): impedir envío si hay errores de validación
-  chore(assets): agregar diagramas UML de C4 en carpeta img
-Esto facilita la generación de _changelogs_ automáticos y una lectura rápida del historial.
+**Itinerarios**  
 
-**Etiquetado de Releases**
-Al finalizar el testing de una _release_ branch, generamos la etiqueta con:
-```bash
-git tag -a v1.0.0 -m "release: v1.0.0"
-git push origin v1.0.0
-```
+Se muestra el historial de reservas del usuario, permitiéndole ver detalles de sus próximas experiencias y acceder fácilmente a la información necesaria para cada actividad.    
 
-**Repositorios & Enlaces**
-- **Landing Page**: https://github.com/Turisfera/Landing-Page
-- **Repository**: https://github.com/Turisfera/TFDocAplicacionesWeb
+![Wireframe-itinerary-tourits](./assets/img/Wireframe-itinerary-tourits.png)
 
-Cada repositorio sigue el mismo flujo GitFlow y cumple con las convenciones de naming y commits descritas.
+**Resultados de la busqueda** 
 
-### 5.1.3 Source Code Style Guide & Conventions
+Aqui se mostraran los resultados de las busquedas que el usuario realice.   
 
-Para garantizar código limpio, consistente y mantenible, adoptamos las siguientes convenciones (todas en inglés):
+![Wireframe-search-tourits](./assets/img/Wireframe-search-tourits.png)
 
-**HTML**  
-- **Semantics first**: usar etiquetas `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>` según el propósito del contenido.  
-- **Lowercase & closing tags**: nombres de elementos y atributos siempre en minúsculas, cerrar explícitamente todas las etiquetas (incluyendo `<img />`, `<input />`).  
-- **Attribute order**: primero `id`, luego `class`, después otros atributos (`name`, `src`, `alt`, `aria-*`).  
-- **Indentation**: 2 spaces por nivel de anidamiento.  
-- **Comments**: `<!-- Comment -->` en una línea o multilínea, sin abreviaturas.
+**visualización de perfil de agencias para Turistas**  
 
-**CSS**  
-- **Naming**: kebab-case para clases y selectores (`.btn-primary`, `.card-header`).  
-- **BEM‐inspired**: bloques, elementos y modificadores (`.block`, `.block__element`, `.block--modifier`).  
-- **Property order**:  
-  1. Positioning (`position`, `top`, `left`, `z-index`)  
-  2. Box Model (`display`, `margin`, `padding`, `width`, `height`)  
-  3. Typography (`font`, `line-height`, `color`)  
-  4. Visual (`background`, `border`, `box-shadow`)  
-  5. States and interactions (`:hover`, `:focus`, `:active`)  
-- **Formatting**: 2 spaces por nivel, un selector por línea, llave de apertura en la misma línea, cierre en nueva línea.  
-- **Comments**: `/* Section name */` para separar bloques lógicos.
+Aquí se muestran los datos públicos de la agencia (nombre, descripcion, contacto, etc.), con opción de editar su información cuando sea necesario.  
+![Wireframe-agency-profile-tourits](./assets/img/Wireframe-agency-profile-tourits.png) 
 
-**JavaScript**  
-- **Naming**:  
-  - `camelCase` para variables y funciones (`myFunction`, `userName`).  
-  - `PascalCase` para clases y constructores (`UserService`, `DataModel`).  
-- **Syntax**:  
-  - Siempre `;` al final de declaraciones.  
-  - Comillas simples para strings (`'hello'`), salvo cuando el contenido requiere comillas dobles.  
-- **Indentation**: 2 spaces, no tabs.  
-- **Modern ES**: usar `const`/`let` en lugar de `var`, arrow functions para callbacks.  
-- **Modules**: `import { something } from './module.js';`  
-- **Comments & JSDoc**:  
-  ```js
-  /**
-   * Fetch user data by ID.
-   * @param {string} id
-   * @returns {Promise<User>}
-   */
-  export async function fetchUser(id) { … }
+**Para Agencias de Turismo**  
 
-  
-### 5.1.4 Software Deployment Configuration
+**Inicio**  
 
-Para el despliegue de la **Landing Page** en GitHub Pages, hemos seguido estos pasos:
+Brinda una vista general del estado actual de la agencia, incluyendo un resumen, comentarios o reseñas recientes de sus experiencias, y algunas reservas recientes.    
 
-1. **Repositorio**  
-   - URL: https://github.com/Turisfera/Landing-Page  
-   - Rama principal: `main`  
-
-2. **Estructura de archivos**  
-   - `index.html` en la raíz  
-   - Carpetas:  
-     - `styles/` (CSS)  
-     - `scripts/` (JavaScript)  
-     - `img/` (imágenes y assets)  
-
-3. **Configuración de GitHub Pages**  
-   - En el repositorio, ir a **Settings → Pages**  
-   - Seleccionar fuente de despliegue:  
-     - **Branch**: `main`  
-     - **Folder**: `/ (root)`  
-   - Guardar los cambios  
-
-4. **Publicación automática**  
-   Cada vez que hacemos `git push origin main`, GitHub reconstruye y publica la página sin intervención manual.
-
-5. **URL pública**  
-   https://turisfera.github.io/Landing-Page/
-
-Con esta configuración, cualquier actualización en `main`—ya sea HTML, CSS, JS o imágenes—se refleja automáticamente en el sitio publicado.
+![Wireframe-home-agency](./assets/img/Wireframe-home-agency.png)  
 
 
+**Gestión de experiencias**  
+
+Permite a la agencia crear, editar o eliminar experiencias turísticas.  
+
+![Wireframe-Experience-Management-agency](./assets/img/Wireframe-Experience-Management-agency.png)   
 
 
-## 5.2. Landing Page, Services & Applications Implementation
-### 5.2.1. Sprint 1
-En el primer sprint se implementó y desplegó la Landing Page.
-#### 5.2.1.1 Sprint Planning 1
+**Reservas**   
 
-El Sprint Planning 1 es la reunión inicial de la iteración donde el equipo define la meta (Sprint Goal), revisa el Sprint anterior y selecciona los User Stories que abordará en este Sprint.
+En esta sección se listan todas las reservas hechas por los turistas, con información detallada por experiencia y fecha. Incluye filtros para facilitar la gestión.    
 
-| **Sprint #**                        | **Sprint 1**                                                                                                                                          |
-| ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Sprint Planning Background**      |                                                                                                                                                       |
-| **Date**                            | 2025-04-19                                                                                                                                            |
-| **Time**                            | 07:00 PM – 10:00 PM                                                                                                                                    |
-| **Location / Platform**             | Discord                                                                                                                                               |
-| **Prepared by**                     | Marcia Victoria Melgarejo Gomez – U20231C505                                                                                                          |
-| **Attendees (to planning meeting)** | María Patricia Hernández Uchuya – U202311258<br>Britney Delhy Q. Rodríguez – U20211G671<br>Rodrigo Alaya Cabrera – U202219481<br>Ariadna G. Poma Muñoz – U20221D328<br>Jorge E. Guevara Tejada – U202316057<br>Raúl A. Medina Cruzado – U202210938 |
-| **Sprint 0 Review Summary**         | Definición del Product Backlog inicial, creación de wireframes y prototipo de landing page en Figma, y feedback temprano de stakeholders.             |
-| **Sprint 0 Retrospective Summary**  | Consolidación de roles (diseño vs. desarrollo), estandarización de estilos CSS y establecimiento de canales de comunicación (Discord, WhatsApp, GitHub). |
-| **Sprint 1 Goal**                   | Nos centramos en una página de destino totalmente adaptable. Creemos que ofrece una primera impresión clara y una experiencia de registro sencilla para los nuevos usuarios. Esto se confirmará cuando las pruebas de control de calidad informen un 100 % de éxito en el registro de tickets en entornos de prueba.. |
-| **Sprint 1 Velocity**               | 15                                                                                                                                                    |
-| **Sum of Story Points**             | 15                                                                                                                                                    |
+![Wireframe-Reservations-agency](./assets/img/Wireframe-Reservations-agency.png)  
+
+
+**Consultas**  
+
+Las agencias pueden ver preguntas o dudas realizadas por los usuarios respecto a sus experiencias y responderlas desde esta misma vista.  
+
+![Wireframe-Consultations-agency](./assets/img/Wireframe-Consultations-agency.png)  
+
+
+**Perfil de agencia**  
+
+Aquí se muestran los datos públicos de la agencia (nombre, descripcion, contacto, etc.), con opción de editar su información cuando sea necesario.  
+
+![Wireframe-agency-profile-agency](./assets/img/Wireframe-agency-profile-agency.png) 
+
+
+### 4.4.2. Web Applications Wireflow Diagrams   
+
+Esta sección presenta los Wireflows propuestos para los principales objetivos de usuario identificados en la plataforma, considerando tanto el perfil del turista como el de la agencia.  
+
+Los diagramas reflejan visualmente cómo evoluciona cada pantalla en función de las acciones del usuario, mostrando tanto los estados iniciales como los cambios posteriores. Estos flujos no solo ilustran la navegación paso a paso, sino que también evidencian cómo se aplican principios de diseño centrado en el usuario, arquitectura de información y consistencia en la interfaz.    
+
+**Turistas**  
+
+Buscar experiencias turisticas
+
+![Wireflow-BuscarExperiencia](./assets/img/Wireflow-BuscarExperiencia.png)    
+
+Cancelar reserva 
+
+![Wireflow- Cancelar reserva](./assets/img/Wireflow-%20Cancelar%20reserva.png)     
+
+Dejar una reseña
+
+![Wireflow- Dejar Reseña](./assets/img/Wireflow-%20Dejar%20Rese%C3%B1a.png)  
+
+Realizar una consulta
+
+![Wireflow- Realizar una consulta](./assets/img/Wireflow-%20Realizar%20una%20consulta.png)  
+
+Realizar una reserva
+
+![Wireflow- Realizar reserva](./assets/img/Wireflow-%20Realizar%20reserva.png) 
+
+Seleccionar como experiencias como favoritas
+
+![Wireflow- Seleccionar Favoritas](./assets/img/Wireflow-%20Seleccionar%20Favoritas.png)    
+
+**Para Agencias de Turismo**    
+
+Registrar una experiencia turística  
+
+![Wireflow-RegistrarExperiencia](./assets/img/Wireflow-RegistrarExperiencia.png)   
+
+Editar una experiencia ya creada
+
+![Wireflow-EditarExperiencia](./assets/img/Wireflow-EditarExperiencia.png)    
+
+Eliminar una experiencia ya creada 
+
+![Wireflow- Eliminar experiencia](./assets/img/Wireflow-%20Eliminar%20experiencia.png)    
+
+Editar perfil de agencia  
+
+![Wireflow-EditarPerfil](./assets/img/Wireflow-EditarPerfil.png)    
+
+Ver reservas  
+
+![Wireflow- Cancelar reserva](./assets/img/Wireflow-%20Ver%20reservas.png)  
+
+Responder consultas a los clientes
+
+![Wireflow- Responder consultas](./assets/img/Wireflow-%20Responder%20consultas.png)    
+
+
+Ver reseñas  
+
+![Wireflow- Ver reseñas](./assets/img/Wireflow-%20Ver%20rese%C3%B1as.png)  
+
+### 4.4.3. Web Applications Mock-ups  
+
+
+La propuesta de Mock-ups busca representar visualmente la experiencia final de la aplicación web, integrando los principios de diseño inclusivo, jerarquía informativa, accesibilidad y consistencia visual. El diseño responde a las necesidades diferenciadas de turistas y agencias, priorizando la claridad en la navegación, la eficiencia en las tareas y la estética alineada al propósito del proyecto.  
+Se utilizó un diseño que incluye una paleta de colores asociada al turismo sostenible, íconos comprensibles, tipografía legible y componentes reutilizables que aseguran coherencia y escalabilidad. 
+
+**Turistas**  
+Los mock-ups para turistas presentan una interfaz enfocada en la exploración de experiencias, con una sección de inicio que destaca filtros intuitivos y recomendaciones personalizadas. Las secciones de favoritos e itinerarios permiten un acceso rápido al contenido guardado o reservado. La barra de búsqueda se presenta de forma accesible en todo momento, facilitando la localización de agencias o experiencias específicas.  
+
+**Inicio**    
+
+![Mockup-home-tourits](./assets/img/Mockup-home-tourits.png)
+
+**Favoritos**  
+
+![Mockup-favorites-tourits](./assets/img/Mockup-favorites-tourits.png) 
  
-Los User Stories planificados (US01, US02, US03, US04, US06, US07, US15 y US10) y sus criterios de aceptación están detallados en la sección User Stories.
+**Itinerarios**    
+![Mockup-itinerary-tourits](./assets/img/Mockup-itinerary-tourits.png) 
+ 
+**Resultados de la busqueda**  
 
-#### 5.2.1.2 Aspect Leaders and Collaborators
+![Mockup-search-tourits](./assets/img/Mockup-search-tourits.png)
 
-En el Sprint 1 se definieron los siguientes aspectos clave para la implementación del Landing Page:
+**visualización de perfil de agencias para Turistas**  
 
-1. **UI/UX Design**  
-2. **Maquetación HTML/CSS**  
-3. **Desarrollo JavaScript**  
-4. **Documentación de Servicios**  
-5. **Despliegue**  
+![Mockup-agency-profile-tourits](./assets/img/Mockup-agency-profile-tourits.png) 
 
-A continuación la matriz de Liderazgo y Colaboración (LACX), donde “L” indica el líder de cada aspecto y “C” a sus colaboradores:
+**Para Agencias de Turismo**    
+En el caso de las agencias, los mock-ups reflejan una interfaz orientada a la gestión eficiente. En el inicio se muestran métricas clave, últimas reservas y reseñas recientes. Las secciones de gestión de experiencias y reservas cuentan con formularios organizados, tablas y botones de acción bien jerarquizados. Se prioriza la claridad en los procesos de edición, respuesta a consultas y mantenimiento del perfil público de la agencia.
 
-| **Team Member (Last Name, First Name)** | **GitHub Username** | **UI/UX Design** | **Maquetación HTML/CSS** | **Desarrollo JavaScript** | **Documentación de Servicios** | **Despliegue** |
-|-----------------------------------------|---------------------|:----------------:|:------------------------:|:-------------------------:|:------------------------------:|:--------------:|
-| Hernández Uchuya, María Patricia        | Bal2220             | C                | C                        | C                         | C                              | C              |
-| Qqueso Rodríguez, Britney Delhy         | Brit2801            | C                | L                        | C                         | C                              | C              |
-| Alaya Cabrera, Rodrigo                  | ALAYA1803           | C                | C                        | L                         | C                              | C              |
-| Poma Muñoz, Ariadna Geraldine           | InAsui              | C                | C                        | C                         | L                              | C              |
-| Guevara Tejada, Jorge Enrique           | Jorgito170          | C                | C                        | C                         | L                              | C              |
-| Medina Cruzado, Raúl Adrián             | Necxuz18            | C                | C                        | C                         | C                              | L              |
-| Melgarejo Gomez, Marcia Victoria        | Mevi1217            | L                | C                        | C                         | C                              | C              |
+Ambas interfaces fueron diseñadas pensando en una experiencia fluida tanto en pantallas de escritorio como en dispositivos con distintas resoluciones, asegurando una estructura responsive y accesible para todos los usuarios.
 
-#### 5.2.1.3 Sprint Backlog 1
+**Inicio**    
 
-El objetivo principal de Sprint 1 fue implementar y validar el flujo de registro de usuarios (User Stories EP01) y desarrollar las secciones clave del landing page para turistas (User Stories EP08) y agencias (EP09).
-
-![Sprint 1 Board](./assets/img/sprint1.png)  
-URL público del Board: [turisfera-sprint1](https://trello.com/invite/b/680a5d07ff18703eb7402872/ATTI2fd77ec1fb5032204a94d6d21ba910772CC16189/tripmatch-sprint-1)
-
-| **User Story** | **Work-Item/Task Id** | **Título**                                                     | **Estimation (Hours)** | **Assigned To**                        | **Status** |
-|---------------:|-----------------------|----------------------------------------------------------------|-----------------------:|----------------------------------------|------------|
-| US01          | T01                   | Implementar formulario de registro                            | 2                      | Britney Delhy Q. Rodríguez             | Done         |
-| US02          | T02                   | Validar datos de registro                                      | 2                      | Rodrigo Alaya Cabrera                  | IN-PROGRESS|
-| US03          | T03                   | Implementar confirmación de contraseña                         | 1                      | Marcia Victoria Melgarejo Gomez        | Done       |
-| US04          | T04                   | Mostrar mensaje de bienvenida dinámico                         | 1                      | Marcia Victoria Melgarejo Gomez        | To-do      |
-| US06          | T05                   | Configurar envío de correo de confirmación                     | 2                      | Ariadna Geraldine Poma Muñoz           | To-do        |
-| US28          | T06                   | Crear y maquetar sección “Benefits”                            | 2                      | María Patricia Hernández Uchuya        | Done       |
-| US29          | T07                   | Maquetar sección “About us”                                    | 1                      | María Patricia Hernández Uchuya        | Done       |
-| US30          | T08                   | Implementar navegación por scroll desde el header              | 1                      | Marcia Victoria Melgarejo Gomez        | To-do        |
-| US31          | T09                   | Vincular botón “Contact” con el formulario                     | 1                      | Rodrigo Alaya Cabrera                  | Done       |
-| US32          | T10                   | Añadir y enlazar botón “Sign Up” en el header                  | 1                      | Britney Delhy Q. Rodríguez             | Done       |
-| US33          | T11                   | Adaptar sección “Benefits” para agencias                       | 2                      | Raúl Adrián Medina Cruzado             | Done     |
-| US34          | T12                   | Desarrollar sección “How does it work?”                        | 2                      | Jorge Enrique Guevara Tejada           | Done      |
-| US35          | T13                   | Implementar formulario de contacto para agencias               | 2                      | Rodrigo Alaya Cabrera                  | Done      |
-| US36          | T14                   | Agregar enlaces “FAQs” y “About us” en el menú para agencias   | 1                      | Ariadna Geraldine Poma Muñoz           | Done      |
-| US37          | T15                   | Implementar flujo de registro para agencias desde landing page | 2                      | Jorge Enrique Guevara Tejada           | IN-PROGRESS      |
-
-#### 5.2.1.4 Development Evidence for Sprint Review
-
-Durante el Sprint 1 se avanzó en la implementación de la landing page del sistema, incluyendo prototipado, maquetación responsiva y ajustes visuales. A continuación se listan los commits más relevantes:
-
-| **Repository**        | **Branch**                | **Commit Id** | **Commit Message**                   | **Commit Message Body**                                                                                                              | **Committed on** |
-|-----------------------|---------------------------|---------------|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|------------------|
-| user/turisfera-web    | feature/landing-page      | a1b2c3d       | feat: diseño base del landing        | Se implementó la estructura HTML de la landing page en `/src/pages/index.html` y los estilos iniciales en `/src/styles/styles.css`. | 2025-04-19       |
-| user/turisfera-web    | feature/landing-page      | d4e5f6a       | style: mejoras visuales en el home   | Ajustes de color, tipografías y espaciados en la sección principal para alinear con el prototipo de Figma y mejorar la legibilidad.       | 2025-04-20       |
-| user/turisfera-web    | feature/landing-page      | f7g8h9i       | fix: corrección de márgenes y fuentes | Corrección de inconsistencias en márgenes y fuentes para asegurar uniformidad entre vistas de escritorio y móvil.                         | 2025-04-21       |
-#### 5.2.1.5 Execution Evidence for Sprint Review
-
-Durante el Sprint 1 se completó la implementación de las principales secciones del **Landing Page** y se validó su diseño y navegación.
-
-**Principales avances ejecutados**  
-- Header fijo con navegación y botones “Log in” / “Sign Up”  
-- Secciones “Home”, “About us”, “Benefits”, “How does it work?”, “FAQs” y “Contact”  
-- Scroll suave y comportamiento responsive en toda la página  
-- Formulario de contacto operativo y validado  
-
-**Capturas de pantalla**  
-
-![Landing Page – Hero Section](./assets/img/landingevi1.png)  
-Hero section con imagen de fondo, título y CTA “Get started”. 
-
-![About Us Section](./assets/img/landingevi2.png)  
-Sección “About Us” mostrando misión y visión con imágenes.  
-
-![Benefits & How does it work](./assets/img/landingevi3.png)  
-Sección “Benefits” para turistas y agencias y “How does it work?” con tarjetas de pasos. 
-
-![FAQs & Contact](./assets/img/landingevi4.png)  
-Sección de Preguntas Frecuentes y formulario de contacto.  
-**Video de demostración**  
-[Ver demo del Sprint 1]()  
-Recorrido por el Landing Page mostrando navegación entre secciones y formulario de contacto.  
-
-#### 5.2.1.6 Services Documentation Evidence for Sprint Review
-
-Nota: En el Sprint 1 nos enfocamos en el front-end (Landing Page) y no se implementaron Web Services.  
-La documentación de endpoints se trabajará a partir del Sprint 2, cuando desarrollemos e integremos la API.
+![Mockup-home-agency](./assets/img/Mockup-home-agency.png)  
 
 
-#### 5.2.1.7 Software Deployment Evidence for Sprint Review
+**Gestión de experiencias**  
 
-Durante el Sprint 1 se desplegó la **Landing Page** en GitHub Pages, asegurando que la versión en producción reflejara los cambios implementados:
-
-- **Configuración del repositorio**  
-  - Se creó la rama `gh-pages` a partir de `main`.  
-  - En Settings → Pages, se habilitó la publicación desde la rama `gh-pages` y la carpeta `/ (root)`.  
-- **Automatización básica**  
-  - Se añadió un workflow de GitHub Actions (`deploy.yml`) que compila y publica automáticamente al merge en `main`.  
-- **URL de producción**  
-  https://turisfera.github.io/Landing-Page/
-
-| **Repository**       | **Branch**       | **Commit Id** | **Commit Message**                     | **Committed on** |
-|----------------------|------------------|---------------|----------------------------------------|------------------|
-| user/turisfera-web   | gh-pages         | c4e1f2a       | ci: agregar workflow de despliegue     | 2025-04-22       |
-| user/turisfera-web   | gh-pages         | a1b2c3d       | feat: desplegar landing en GitHub Pages| 2025-04-22       |
-
-**Capturas de despliegue**  
-
-![Landing Page en producción](./assets/img/landingevi1.png)  
-
-#### 5.2.1.8 Team Collaboration Insights for Sprint Review
-
-Durante el Sprint 1 el equipo mantuvo una colaboración activa y organizada, apoyándose en los siguientes canales y herramientas:
-
-- **Comunicación:** reuniones diarias breves por Discord y canal de WhatsApp para consultas rápidas.  
-- **Gestión de tareas:** GitHub Projects con tablero Kanban (“To Do”, “In Progress”, “Done”).  
-- **Control de versiones:** GitHub para commits, pull requests y revisiones de código.  
-
-**Participación por miembro (commits en `feature/landing-page`):**
-
-| Miembro                              | Commits |
-|--------------------------------------|--------:|
-| María Patricia Hernández Uchuya      |       13 |
-| Britney Delhy Q. Rodríguez           |     2 |
-| Rodrigo Alaya Cabrera                |       3 |
-| Ariadna Geraldine Poma Muñoz         |       54 |
-| Jorge Enrique Guevara Tejada         |       1 |
-| Raúl Adrián Medina Cruzado           |       4 |
-| Marcia Victoria Melgarejo Gomez      |       4 |
-
-**Capturas de GitHub Insights**  
-
-![Contribuciones Sprint 1](./assets/img/commits1.png)  
-Gráfico de actividad de commits durante el Sprint 1 (GitHub Insights).
-
-![Contributors](./assets/img/contributors1.png)  
-
-**Observaciones:**  
-- Hubo un promedio de 12 commits por desarrollador en `feature/landing-page`.  
-- El equipo cumplió el 100 % de las tareas “Done” planificadas para Sprint 1.  
-- La comunicación asíncrona en Discord permitió resolver bloqueos técnicos en menos de 1 hora.
+![Mockup-Experience-Management-agency](./assets/img/Mockup-Experience-Management-agency.png)   
 
 
+**Reservas**       
+
+![Mockup-Reservations-agency](./assets/img/Mockup-Reservations-agency.png)  
+
+
+**Consultas**      
+
+![Mockup-Consultations-agency](./assets/img/Mockup-Consultations-agency.png)  
+
+
+**Perfil de agencia**   
+
+![Mockup-agency-profile-agency](./assets/img/Mockup-agency-profile-agency.png) 
+
+
+### 4.4.4. Web Applications User Flow Diagrams    
+
+Esta sección presenta los User Flows diseñados para las aplicaciones web en su versión de escritorio, con el objetivo de cubrir rutas clave de interacción para cada tipo de usuario: turista y agencia. Cada flujo muestra visualmente el recorrido que realiza el usuario a través de la aplicación, integrando los mock-ups de las pantallas involucradas. Se consideran tanto rutas exitosas (happy path) como posibles rutas alternativas (unhappy path), asegurando que la navegación sea intuitiva, inclusiva y coherente con la arquitectura de información planteada.  
+
+**Turistas**  
+
+Como turista, quiero poder buscar experiencias turísticas.
+
+![User Flow- Buscar Experiencias](./assets/img/User%20Flow-%20Buscar%20Experiencias.png) 
+
+Como turista, quiero poder realizar una reserva.
+
+![User Flow- Realizar reserva](./assets/img/User%20Flow-%20Realizar%20reserva.png) 
+
+Como turista, quiero poder cancelar una reserva.
+
+![User Flow- Cancelar Reserva](./assets/img/User%20Flow-%20Cancelar%20Reserva.png) 
+
+Como turista, quiero poder dejar una reseña sobre una experiencia realizada.
+
+![User Flow- Dejar reseña](./assets/img/User%20Flow-%20Dejar%20rese%C3%B1a.png) 
+
+Como turista, quiero poder realizar una consulta a una agencia.
+
+![User Flow- Realizar consulta](./assets/img/User%20Flow-%20Realizar%20consulta.png) 
+
+**Para Agencias de Turismo**   
+
+Como agencia, quiero poder registrar una nueva experiencia turística.
+
+![User Flow- Añadir experiencia](./assets/img/User%20Flow-%20A%C3%B1adir%20experiencia.png) 
+
+Como agencia, quiero poder editar una experiencia ya creada.
+
+![User Flow- Editar Experiencia](./assets/img/User%20Flow-%20Editar%20Experiencia.png) 
+
+Como agencia, quiero poder eliminar una experiencia ya creada.
+
+![User Flow- Eliminar experiencia](./assets/img/User%20Flow-%20Eliminar%20experiencia.png) 
+
+Como agencia, quiero poder ver las reservas recibidas.
+
+![User Flow- Reservas](./assets/img/User%20Flow-%20Reservas.png) 
+
+Como agencia, quiero poder responder consultas de los turistas.
+
+![User Flow- Añadir respuesta](./assets/img/User%20Flow-%20A%C3%B1adir%20respuesta.png) 
+
+Como agencia, quiero poder ver las respuestas enviadas.
+
+![User Flow- Ver respuestas](./assets/img/User%20Flow-%20Ver%20respuestas.png) 
+
+Como agencia, quiero poder editar mi perfil.
+
+![User Flow- Editar perfil de agencia](./assets/img/User%20Flow-%20Editar%20perfil%20de%20agencia.png) 
+
+
+
+## 4.5. Web Applications Prototyping  
+
+En esta sección se presentan los prototipos de interfaz de usuario desarrollados para la versión web en navegadores de escritorio, tanto para turistas como para agencias. Estos prototipos simulan la navegación e interacción con las principales funcionalidades, en base a los flujos definidos previamente en los Wireflow Diagrams.
+
+Las decisiones de interacción se tomaron considerando principios de usabilidad, claridad visual, diseño inclusivo y una arquitectura de información coherente. Se priorizó una navegación intuitiva, adaptada al perfil y objetivos de cada usuario. El sistema de navegación, las jerarquías visuales y los tipos de interacción fueron diseñados para facilitar la exploración de contenido, la gestión de experiencias y la reserva de actividades turísticas.
+
+Los prototipos permiten visualizar el comportamiento del sistema ante las principales tareas definidas, asegurando una experiencia consistente y funcional. Se incluye una captura de pantalla y un enlace al video en Microsoft Stream donde se muestra la simulación de interacción correspondiente.
+
+![Web applications Prototyping](./assets/img/Web%20applications%20Prototyping%20.png)   
+
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231c505_upc_edu_pe/EWCB3XE4nJhNpKf_2ovj8msB2RBu4poQh48oS5TLIKm62w?e=7f7JKE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+
+## 4.6. Domain-Driven Software Architecture
+### 4.6.1. Software Architecture Context Diagram  
+
+Este diagrama muestra el sistema TripMatch dentro de su entorno, identificando cómo interactúa con usuarios y otros sistemas externos.
+
+![Context Diagram TripMatch](./assets/img/SystemContext-TripMatch.png)
+### 4.6.2. Software Architecture Container Diagrams
+
+Este diagrama detalla los principales contenedores (aplicaciones o servicios ejecutables) que componen el sistema y cómo se comunican entre sí.
+
+![Component Diagram TripMatch](./assets/img/DiagramadeContenedores-TripMatch.png)
+### 4.6.3. Software Architecture Components Diagrams
+
+Este diagrama profundiza en los componentes internos del contenedor principal
+
+![Container Diagram TripMatch](./assets/img/DiagramadeComponentes-TripMatch.png)
+
+## 4.7. Software Object-Oriented Design  
+
+![Diagrama de Clase](./assets/img/Aplicaciones%20Web%20-%20P%C3%A1gina%201%20(12).png)
+
+### 4.7.1. Class Diagrams   
+
+
+![Diagrama de Clase](./assets/img/Aplicaciones%20Web%20-%20P%C3%A1gina%201%20(12).png)
+
+
+### 4.7.2. Class Dictionary  
+
+**User**
+
+Entidad base que representa a cualquier usuario de la plataforma.
+
+| Campo     | Tipo de dato | Descripción                        |
+|-----------|--------------|------------------------------------|
+| _id       | UUID         | Identificador único del usuario    |
+| firstName | String       | Nombre del usuario                 |
+| lastName  | String       | Apellido del usuario               |
+| number    | String       | Número de contacto                 |
+| email     | Email        | Correo del usuario                 |
+| password  | Password     | Contraseña del usuario             |
+
+**AgencyUser**
+
+Usuario que representa a una agencia, hereda de User.
+
+| Campo         | Tipo de dato     | Descripción                                |
+|---------------|------------------|--------------------------------------------|
+| agencyName    | String           | Nombre de la agencia                        |
+| ruc           | String           | Registro Único de Contribuyente             |
+| contactInfo   | String           | Información de contacto adicional           |
+| publicProfile | PublicProfile    | Perfil público visible de la agencia        |
+| location      | Location         | Ubicación física de la agencia              |
+
+**TouristUser**
+
+Usuario con rol de turista, hereda de `User`.
+
+| Campo       | Tipo de dato | Descripción                         |
+|-------------|--------------|-------------------------------------|
+| preferences | String[]     | Preferencias del turista            |
+
+**PublicProfile**
+
+Perfil público de una agencia.
+
+| Campo       | Tipo de dato | Descripción               |
+|-------------|--------------|---------------------------|
+| bio         | String       | Biografía o presentación  |
+| website     | String       | Página web oficial        |
+| socialLinks | List<String> | Redes sociales asociadas  |
+
+**Booking**
+
+Reserva hecha por un usuario para una experiencia.
+
+| Campo          | Tipo de dato | Descripción                              |
+|----------------|--------------|------------------------------------------|
+| id             | UUID         | ID de la reserva                         |
+| experienceId   | UUID         | ID de la experiencia reservada           |
+| userId         | UUID         | ID del usuario que reserva               |
+| bookingDate    | DateTime     | Fecha y hora de la reserva               |
+| numberOfPeople | Int          | Número de personas incluidas en la reserva |
+
+**Inquiry**
+
+Consulta hecha por un turista a una agencia.
+
+| Campo          | Tipo de dato | Descripción                          |
+|----------------|--------------|--------------------------------------|
+| id             | UUID         | ID de la consulta                    |
+| experienceId   | UUID         | ID de la experiencia consultada      |
+| fromUserId     | UUID         | ID del usuario que consulta          |
+| toAgencyUserId | UUID         | ID de la agencia consultada          |
+| question       | String       | Pregunta del usuario                 |
+| answer         | String       | Respuesta de la agencia              |
+| askedAt        | DateTime     | Fecha de consulta                    |
+| answeredAt     | DateTime     | Fecha de respuesta                   |
+
+**Review**
+
+Reseña hecha por un usuario sobre una experiencia.
+
+| Campo        | Tipo de dato | Descripción                            |
+|--------------|--------------|----------------------------------------|
+| id           | UUID         | ID de la reseña                        |
+| userId       | UUID         | ID del usuario que realizó la reseña   |
+| rating       | Number       | Calificación otorgada                  |
+| comment      | String       | Comentario de la reseña                |
+| createdAt    | DateTime     | Fecha de creación                      |
+| favorite     | Boolean      | Marca si es una reseña destacada       |
+
+**Experience**
+
+Experiencia publicada por una agencia.
+
+| Campo          | Tipo de dato   | Descripción                             |
+|----------------|----------------|-----------------------------------------|
+| id             | UUID           | ID de la experiencia                    |
+| title          | String         | Título de la experiencia                |
+| description    | String         | Descripción detallada                   |
+| location       | Location       | Ubicación de la experiencia             |
+| price          | Money          | Precio de la experiencia                |
+| duration       | String         | Duración estimada                       |
+| meetingPoint   | String         | Punto de encuentro                      |
+| schedule       | Schedule[]     | Horarios disponibles                    |
+| categories     | Category[]     | Categorías de la experiencia            |
+| photos         | Photo[]        | Imágenes relacionadas                   |
+| availableDates | AvailableDate[]| Fechas disponibles                      |
+
+**Category**
+
+Categoría asociada a una experiencia.
+
+| Campo | Tipo de dato | Descripción               |
+|-------|--------------|---------------------------|
+| _id   | UUID         | Identificador único       |
+| name  | String       | Nombre de la categoría    |
+
+**Schedule**
+
+Días y horarios disponibles para una experiencia.
+
+| Campo     | Tipo de dato | Descripción                  |
+|-----------|--------------|------------------------------|
+| dayOfWeek | String       | Día de la semana             |
+| times     | String[]     | Horarios disponibles         |
+
+**Photo**
+
+Imagen de una experiencia.
+
+| Campo   | Tipo de dato | Descripción               |
+|---------|--------------|---------------------------|
+| url     | String       | URL de la imagen          |
+| caption | String       | Descripción de la imagen  |
+
+**PriceRange**
+
+Rango de precios usado en filtros de búsqueda.
+
+| Campo | Tipo de dato | Descripción         |
+|-------|--------------|---------------------|
+| min   | Number       | Precio mínimo       |
+| max   | Number       | Precio máximo       |
+
+**Location**
+
+Ubicación geográfica.
+
+| Campo       | Tipo de dato | Descripción                 |
+|-------------|--------------|-----------------------------|
+| country     | String       | País                        |
+| city        | String       | Ciudad                      |
+## 4.8. Database Design
+### 4.8.1. Database Diagram
+![Database-Diagram](./assets/Database-Diagram.png)
