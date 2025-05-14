@@ -926,6 +926,62 @@ Ambas interfaces fueron diseñadas pensando en una experiencia fluida tanto en p
 
 ### 4.4.4. Web Applications User Flow Diagrams    
 
+Esta sección presenta los User Flows diseñados para las aplicaciones web en su versión de escritorio, con el objetivo de cubrir rutas clave de interacción para cada tipo de usuario: turista y agencia. Cada flujo muestra visualmente el recorrido que realiza el usuario a través de la aplicación, integrando los mock-ups de las pantallas involucradas. Se consideran tanto rutas exitosas (happy path) como posibles rutas alternativas (unhappy path), asegurando que la navegación sea intuitiva, inclusiva y coherente con la arquitectura de información planteada.  
+
+**Turistas**  
+
+Como turista, quiero poder buscar experiencias turísticas.
+
+![User Flow- Buscar Experiencias](./assets/img/User%20Flow-%20Buscar%20Experiencias.png) 
+
+Como turista, quiero poder realizar una reserva.
+
+![User Flow- Realizar reserva](./assets/img/User%20Flow-%20Realizar%20reserva.png) 
+
+Como turista, quiero poder cancelar una reserva.
+
+![User Flow- Cancelar Reserva](./assets/img/User%20Flow-%20Cancelar%20Reserva.png) 
+
+Como turista, quiero poder dejar una reseña sobre una experiencia realizada.
+
+![User Flow- Dejar reseña](./assets/img/User%20Flow-%20Dejar%20rese%C3%B1a.png) 
+
+Como turista, quiero poder realizar una consulta a una agencia.
+
+![User Flow- Realizar consulta](./assets/img/User%20Flow-%20Realizar%20consulta.png) 
+
+**Para Agencias de Turismo**   
+
+Como agencia, quiero poder registrar una nueva experiencia turística.
+
+![User Flow- Añadir experiencia](./assets/img/User%20Flow-%20A%C3%B1adir%20experiencia.png) 
+
+Como agencia, quiero poder editar una experiencia ya creada.
+
+![User Flow- Editar Experiencia](./assets/img/User%20Flow-%20Editar%20Experiencia.png) 
+
+Como agencia, quiero poder eliminar una experiencia ya creada.
+
+![User Flow- Eliminar experiencia](./assets/img/User%20Flow-%20Eliminar%20experiencia.png) 
+
+Como agencia, quiero poder ver las reservas recibidas.
+
+![User Flow- Reservas](./assets/img/User%20Flow-%20Reservas.png) 
+
+Como agencia, quiero poder responder consultas de los turistas.
+
+![User Flow- Añadir respuesta](./assets/img/User%20Flow-%20A%C3%B1adir%20respuesta.png) 
+
+Como agencia, quiero poder ver las respuestas enviadas.
+
+![User Flow- Ver respuestas](./assets/img/User%20Flow-%20Ver%20respuestas.png) 
+
+Como agencia, quiero poder editar mi perfil.
+
+![User Flow- Editar perfil de agencia](./assets/img/User%20Flow-%20Editar%20perfil%20de%20agencia.png) 
+
+
+
 ## 4.5. Web Applications Prototyping  
 
 ## 4.6. Domain-Driven Software Architecture
