@@ -677,7 +677,7 @@ El Impact Mapping es una metodología visual y ágil que permite a las organizac
 
 # Capítulo 4: Product Design
 
-## 4.1. Style Guidelines
+## 4.1. Style Guidelines  
 ### 4.1.1. General Style Guidelines
 ### 4.1.2. Web Style Guidelines
 
@@ -688,8 +688,38 @@ El Impact Mapping es una metodología visual y ágil que permite a las organizac
 ### 4.2.4. Searching Systems
 ### 4.2.5. Navigation Systems 
 
-## 4.3. Landing Page UI Design
-### 4.3.1. Landing Page Wireframe    
+## 4.3. Landing Page UI Design  
+
+### 4.3.1. Landing Page Wireframe      
+
+La navegación principal está compuesta por secciones clave: Home, About Us, Benefits, How Does It Work?, FAQs, Contact, complementadas por botones visibles de Login y Sign Up, ubicados estratégicamente para facilitar el acceso de los usuarios según su necesidad. La estructura de la landing page fue pensada para acompañar al visitante de forma progresiva, desde entender qué ofrece la aplicación, hasta generar confianza e impulsar la acción de registro.  
+
+**Desktop Web Browser** 
+Se presentan las siguientes secciones:  
+
++ Navbar: Fijo en la parte superior con todas las secciones del sitio y botones a la derecha para iniciar sesión o registrarse.
++ Hero Section: Imagen destacada, con un eslogan directo y botón de llamada a la acción que invita al usuario a unirse.
++ About Us: Breve sección que explica la misión y vision de nuestra aplicación.
++ Benefits: Cards visuales donde se muestran los beneficios clave de la plataforma tanto para agencias como turistas, con íconos y descripciones breves.
++ How Does It Work?: Sección paso a paso explicando el funcionamiento de la plataforma tanto para turistas y agencias.
++ FAQs: Preguntas frecuentes en formato acordeón, de fácil lectura y con foco en resolver dudas comunes.
++ Contact: Formulario básico para consultas o sugerencias, junto con correo electrónico y numero de contacto.
++ Footer: Redes sociales y accesos rápidos adicionales.
+
+
+![Landing Page-Wireframe](./assets/img/Landing%20Page-Wireframe.png)
+
+
+**Mobile Web Browser**    
+En la versión móvil se incorpora un menú hamburguesa que al desplegarse permite acceder fácilmente a las secciones: Home, About Us, Benefits, How Does It Work?, FAQs, Contact, así como botones de Login y Sign Up.  
+
+![Landing Page- Wireframe- Mobile- Menu](./assets/img/Landing%20Page-%20Wireframe-%20Mobile-%20Menu.png)
+
+Se mantiene una estructura vertical sencilla, optimizada para pantallas pequeñas, priorizando la legibilidad, la navegación por scroll y el toque con el dedo. Las secciones siguen el mismo orden y contenido que en la versión desktop.
+
+![Landing Page- Wireframe- Mobile](./assets/img/Landing%20Page-%20Wireframe-%20Mobile.png)
+
+
 ### 4.3.2. Landing Page Mock-up  
 
 ## 4.4. Web Applications UX/UI Design
