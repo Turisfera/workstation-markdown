@@ -401,3 +401,14 @@ Explorar tendencias en tipos de experiencias populares	|Rarely	|Medium|
 
 
 
+### 2.3.5. As-Is Scenario Mapping  
+
+>Segmento 1: Turistas
+
+![AS-IS - segmento 1](./assets/img/AS-IS%20-%20Segmento%201.jpg)
+
+>Segmento 2: Agencias de Turismo
+
+![AS-IS - segmento 2](./assets/img/AS-IS-%20Segmento%202.jpg)
+
+
