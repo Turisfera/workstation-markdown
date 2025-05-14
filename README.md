@@ -319,7 +319,58 @@ Este segmento agrupa a aquellas agencias y operadores turísticos que buscan amp
 # Capítulo 2: Requirements Eliciation & Analysis
 ## 2.1. Competidores
 ### 2.1.1. Análisis competitivo
+**¿Por qué llevar a cabo este análisis?**  
+    Este análisis permite entender el entorno competitivo en el que TripMatch operará, identificar las fortalezas y debilidades de plataformas similares a nivel local e internacional, y delinear estrategias efectivas para posicionar a Turisnap como una solución confiable y diferenciada para el turismo personalizado y responsable.
+
+| **Categoría** | **TripMatch**<br>![TripMatch Logo](./assets/img/logo-TripMatch.png) | **Withlocals**<br>![Withlocals Logo](./assets/img/withlocals-logo.png) | **ToursByLocals**<br>![ToursByLocals Logo](./assets/img/toursbylocals-logo.png) | **Showaround**<br>![Showaround Logo](./assets/img/showaround-logo.png) |
+|---------------|------------------|-------------------|----------------------|----------------------|
+| **Overview** | Plataforma digital que conecta turistas con agencias locales para experiencias personalizadas. | Conecta viajeros con anfitriones locales para tours privados. | Tours privados guiados por expertos locales. | Recorridos personalizados con locales en su ciudad. |
+| **Ventaja competitiva** | Filtros por tipo de viaje, presupuesto, duración; reservas instantáneas; soporte a agencias locales. | Experiencias privadas y auténticas en ciudades populares. | Personalización de itinerarios con guías especializados. | Perspectiva local auténtica para conocer la ciudad como residente. |
+| **Mercado objetivo** | Viajeros que buscan autenticidad y agencias que desean digitalizarse. | Viajeros interesados en cultura local y experiencias no masificadas. | Turistas con alto presupuesto que buscan experiencias exclusivas. | Millennials y Gen Z viajeros espontáneos. |
+| **Estrategias de marketing** | Alianzas con blogs de viaje, redes sociales, posicionamiento SEO en turismo peruano. | Marketing de influencers, presencia en redes, contenido en video. | Posicionamiento premium, campañas dirigidas a mercados maduros. | Promoción directa en Instagram y TikTok. |
+| **Productos & Servicios** | Buscador por intereses, chat con agencias, reseñas, pagos online. | Tours guiados 1:1, personalizables. | Itinerarios custom, filtros por estilo de viaje. | Recorridos casuales, flexibles y sociales. |
+| **Precios & Costos** | Comisión por transacción (microtransacciones), acceso freemium para agencias. | Precio por experiencia, sin comisiones intermedias. | Tarifa fija por guía, orientado a turismo premium. | Precios negociados directamente con los locales. |
+| **Canales de distribución** | Web responsive, futura app móvil. | Web y app móvil. | Web y app. | App y sitio móvil social. |
+| **Fortalezas** | Enfoque local, flexibilidad, apoyo a pymes, interfaz intuitiva. | Autenticidad, enfoque humano. | Alta calidad y seguridad en el servicio. | Espontaneidad, enfoque juvenil. |
+| **Debilidades** | Plataforma nueva, sin marca reconocida aún. | Limitado a ciertas ciudades. | Costos altos | **Oportunidades** | Crecimiento del turismo interno y de experiencias locales. | Tendencia al turismo responsable. | Viajeros de lujo que buscan experiencias únicas. | Mayor uso de apps sociales de viaje. |
+| **Amenazas** | Alta competencia y presencia de marcas globales. | Escalabilidad limitada por modelo 1:1. | Barrera de acceso por costos. | Riesgos de seguridad para el usuario. |
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
+ TripMatch debe posicionarse como una alternativa local, accesible, confiable y especializada en conectar a viajeros con agencias peruanas. A continuación, se detallan estrategias para competir frente a las fortalezas de plataformas globales, aprovechar debilidades del mercado y mitigar amenazas.
+
+#### Frente a las fortalezas de los competidores
+
+| **Fortalezas de los competidores** | **Estrategias de TripMatch** |
+|-----------------------------------|-------------------------------|
+| Withlocals ofrece tours íntimos y personalizados. | Reforzar alianzas con agencias locales para experiencias culturales en zonas menos exploradas. |
+| ToursByLocals tiene alta reputación y seguridad. | Incorporar validación de identidad, garantías y sistema de soporte proactivo. |
+| Showaround apela al contacto informal entre viajeros y locales. | Crear perfiles verificados para guías y filtros por estilo de viaje para personalización real. |
+
+#### Frente a las debilidades de los competidores
+
+| **Debilidades de los competidores** | **Tácticas de TripMatch** |
+|------------------------------------|-------------------------------|
+| Withlocals está limitado a ciudades grandes. | Enfocarse en destinos emergentes y rurales dentro del Perú. |
+| ToursByLocals tiene precios elevados. | Ofrecer experiencias de calidad a precios accesibles gracias a la eliminación de intermediarios. |
+| Showaround carece de control de calidad. | Sistema de reputación, verificación de agencias y reseñas verificadas. |
+
+#### Aprovechamiento de oportunidades del entorno
+
+| **Oportunidades del entorno** | **Estrategias para capitalizarlas** |
+|-------------------------------|------------------------------------|
+| Creciente interés en el turismo responsable. | Promover experiencias sostenibles y apoyar económicamente a comunidades locales. |
+| Mayor uso de herramientas digitales para planificar viajes. | Optimizar UX de TripMatch para dispositivos móviles y ofrecer recomendaciones inteligentes. |
+
+#### Mitigación de amenazas del entorno
+
+| **Amenazas externas** | **Tácticas de mitigación** |
+|------------------------|----------------------------|
+| Presencia de plataformas consolidadas. | Posicionar TripMatch como una solución peruana con valor local y enfoque en experiencias genuinas. |
+| Baja confianza en plataformas nuevas. | Transparencia total en tarifas, reseñas verificadas, y garantías de reserva. |
+
+#### Estrategia general
+
+TripMatch se posicionará como una plataforma peruana de turismo responsable y digitalizado, enfocada en conectar viajeros con experiencias auténticas de forma directa y accesible. Su modelo flexible y su enfoque en la experiencia del usuario permitirá escalar en destinos clave del Perú y luego expandirse regionalmente, diferenciándose de competidores globales por su cercanía, confiabilidad y valor cultural.
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
