@@ -377,3 +377,15 @@ Revisar estadísticas sobre visualización y reservas de sus servicios	|Sometime
 Gestionar promociones y descuentos especiales	|Occasionally	|Medium|
 Leer y responder reseñas de usuarios sobre sus servicios	|Occasionally	|Medium|
 Explorar tendencias en tipos de experiencias populares	|Rarely	|Medium|  
+
+### 2.3.3. User Journey Mapping  
+
+>Segmento 1: Turistas
+
+![user journey map - segmento 1](./assets/img/User%20journey%20map-%20Segmento%201.png)
+
+>Segmento 2: Agencias de Turismo
+
+![user journey map - segmento 2](./assets/img/User%20journey%20map-%20Segmento%202.png)
+
+
