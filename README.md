@@ -755,7 +755,8 @@ Se muestra el historial de reservas del usuario, permitiéndole ver detalles de 
 
 ![Wireframe-itinerary-tourits](./assets/img/Wireframe-itinerary-tourits.png)
 
-**Resultados de la busqueda**  
+**Resultados de la busqueda** 
+
 Aqui se mostraran los resultados de las busquedas que el usuario realice.   
 
 ![Wireframe-search-tourits](./assets/img/Wireframe-search-tourits.png)
@@ -867,6 +868,60 @@ Ver reseñas
 
 ### 4.4.3. Web Applications Mock-ups  
 
+
+La propuesta de Mock-ups busca representar visualmente la experiencia final de la aplicación web, integrando los principios de diseño inclusivo, jerarquía informativa, accesibilidad y consistencia visual. El diseño responde a las necesidades diferenciadas de turistas y agencias, priorizando la claridad en la navegación, la eficiencia en las tareas y la estética alineada al propósito del proyecto.  
+Se utilizó un diseño que incluye una paleta de colores asociada al turismo sostenible, íconos comprensibles, tipografía legible y componentes reutilizables que aseguran coherencia y escalabilidad. 
+
+**Turistas**  
+Los mock-ups para turistas presentan una interfaz enfocada en la exploración de experiencias, con una sección de inicio que destaca filtros intuitivos y recomendaciones personalizadas. Las secciones de favoritos e itinerarios permiten un acceso rápido al contenido guardado o reservado. La barra de búsqueda se presenta de forma accesible en todo momento, facilitando la localización de agencias o experiencias específicas.  
+
+**Inicio**    
+
+![Mockup-home-tourits](./assets/img/Mockup-home-tourits.png)
+
+**Favoritos**  
+
+![Mockup-favorites-tourits](./assets/img/Mockup-favorites-tourits.png) 
+ 
+**Itinerarios**    
+![Mockup-itinerary-tourits](./assets/img/Mockup-itinerary-tourits.png) 
+ 
+**Resultados de la busqueda**  
+
+![Mockup-search-tourits](./assets/img/Mockup-search-tourits.png)
+
+**visualización de perfil de agencias para Turistas**  
+
+![Mockup-agency-profile-tourits](./assets/img/Mockup-agency-profile-tourits.png) 
+
+**Para Agencias de Turismo**    
+En el caso de las agencias, los mock-ups reflejan una interfaz orientada a la gestión eficiente. En el inicio se muestran métricas clave, últimas reservas y reseñas recientes. Las secciones de gestión de experiencias y reservas cuentan con formularios organizados, tablas y botones de acción bien jerarquizados. Se prioriza la claridad en los procesos de edición, respuesta a consultas y mantenimiento del perfil público de la agencia.
+
+Ambas interfaces fueron diseñadas pensando en una experiencia fluida tanto en pantallas de escritorio como en dispositivos con distintas resoluciones, asegurando una estructura responsive y accesible para todos los usuarios.
+
+**Inicio**    
+
+![Mockup-home-agency](./assets/img/Mockup-home-agency.png)  
+
+
+**Gestión de experiencias**  
+
+![Mockup-Experience-Management-agency](./assets/img/Mockup-Experience-Management-agency.png)   
+
+
+**Reservas**       
+
+![Mockup-Reservations-agency](./assets/img/Mockup-Reservations-agency.png)  
+
+
+**Consultas**      
+
+![Mockup-Consultations-agency](./assets/img/Mockup-Consultations-agency.png)  
+
+
+**Perfil de agencia**   
+
+![Mockup-agency-profile-agency](./assets/img/Mockup-agency-profile-agency.png) 
 
 
 ### 4.4.4. Web Applications User Flow Diagrams    
