@@ -738,6 +738,70 @@ La interfaz cuenta con una barra de navegación dinámica que varía según el p
 **Para turistas**  
 Se divide en Inicio, favoritos, itinerarios y una barra de busqueda rapida, donde podra buscar agencias y experiencias por nombre.
 
+
+**Inicio**  
+Esta sección presenta un buscador con filtros (por tipo, lugar, precio y dia) que permite a los usuarios explorar experiencias turísticas de manera rápida. También se muestran recomendaciones personalizadas según intereses y tendencias.  
+
+![Wireframe-home-tourits](./assets/img/Wireframe-home-tourits.png)
+
+*Favoritos*
+Aquí se almacenan todas las experiencias marcadas como favoritas por el turista, permitiendo un acceso rápido a opciones que desea considerar más adelante.   
+
+![Wireframe-favorites-tourits](./assets/img/Wireframe-favorites-tourits.png)
+
+**Itinerarios**  
+
+Se muestra el historial de reservas del usuario, permitiéndole ver detalles de sus próximas experiencias y acceder fácilmente a la información necesaria para cada actividad.    
+
+![Wireframe-itinerary-tourits](./assets/img/Wireframe-itinerary-tourits.png)
+
+**Resultados de la busqueda**  
+Aqui se mostraran los resultados de las busquedas que el usuario realice.   
+
+![Wireframe-search-tourits](./assets/img/Wireframe-search-tourits.png)
+
+**visualización de perfil de agencias para Turistas**  
+
+Aquí se muestran los datos públicos de la agencia (nombre, descripcion, contacto, etc.), con opción de editar su información cuando sea necesario.  
+![Wireframe-agency-profile-tourits](./assets/img/Wireframe-agency-profile-tourits.png) 
+
+**Para Agencias de Turismo**  
+
+**Inicio**  
+
+Brinda una vista general del estado actual de la agencia, incluyendo un resumen, comentarios o reseñas recientes de sus experiencias, y algunas reservas recientes.    
+
+![Wireframe-home-agency](./assets/img/Wireframe-home-agency.png)  
+
+
+**Gestión de experiencias**  
+
+Permite a la agencia crear, editar o eliminar experiencias turísticas.  
+
+![Wireframe-Experience-Management-agency](./assets/img/Wireframe-Experience-Management-agency.png)   
+
+
+**Reservas**   
+
+En esta sección se listan todas las reservas hechas por los turistas, con información detallada por experiencia y fecha. Incluye filtros para facilitar la gestión.    
+
+![Wireframe-Reservations-agency](./assets/img/Wireframe-Reservations-agency.png)  
+
+
+**Consultas**  
+
+Las agencias pueden ver preguntas o dudas realizadas por los usuarios respecto a sus experiencias y responderlas desde esta misma vista.  
+
+![Wireframe-Consultations-agency](./assets/img/Wireframe-Consultations-agency.png)  
+
+
+**Perfil de agencia**  
+
+Aquí se muestran los datos públicos de la agencia (nombre, descripcion, contacto, etc.), con opción de editar su información cuando sea necesario.  
+
+![Wireframe-agency-profile-agency](./assets/img/Wireframe-agency-profile-agency.png) 
+
+
 ### 4.4.2. Web Applications Wireflow Diagrams 
 ### 4.4.3. Web Applications Mock-ups  
 ### 4.4.4. Web Applications User Flow Diagrams    
