@@ -330,7 +330,7 @@ Este segmento agrupa a aquellas agencias y operadores turísticos que buscan amp
 | Número de entrevista | Datos del entrevistado | Evidencia de entrevista |
 |----------------------|------------------------|-------------------------|
 | 1 | Nombres: Fernanda Rojas<br>Edad: 19 años<br>Distrito: La Molina<br>Link: [Entrevista 1 Turista: Karla Rojas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311258_upc_edu_pe/EacDNvV_oulFoz4vMVU_BT8BSuGGmomw0ULMWN7Nf8dMKg?e=LBQ57A) | ![Entrevista 1 Turista: Evidencia](assets/Entrevista%201%20-%20Turistas%20(Karla%20Rojas).png)  |
-| 2 | Nombres: <br>Edad: <br>Distrito: <br>Link:  |  |
+| 2 | Nombres: <br>Edad: <br>Distrito: <br>Agencia de Turismo: <br>Link:  |  |
 | 3 | Nombres: <br>Edad: <br>Distrito: <br>Link:  |  |
 
 >Segmento 2: Agencias de Turismo
@@ -338,7 +338,7 @@ Este segmento agrupa a aquellas agencias y operadores turísticos que buscan amp
 | Número de entrevista | Datos del entrevistado | Evidencia de entrevista |
 |----------------------|------------------------|-------------------------|
 | 1 | Nombres: <br>Edad: <br>Distrito: <br>Agencia de Turismo: <br>Link:  |  |
-| 2 | Nombres: <br>Edad: <br>Distrito: <br>Agencia de Turismo: <br>Link:  |  |
+| 2 | Nombres: Carlos Puma <br>Edad: 23 años <br>Departamento: Cusco <br>Link: [Entrevista 2 ] https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/Efa3TJjWZ0tOqBBYaxlHYjoBWM9G087BxQmRgo7UQcteBw?e=iYPsIk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |  |
 | 3 | Nombres: <br>Edad: <br>Distrito: <br>Agencia de Turismo: <br>Link:  |  |
 
 ### 2.2.3. Análisis de entrevistas
