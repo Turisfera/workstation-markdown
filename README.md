@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <p align="center">
   <img src="assets/logos/UpcLogo.png" alt="Logo de UPC" width="100%">
 </p>
