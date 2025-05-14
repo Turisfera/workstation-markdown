@@ -1101,11 +1101,26 @@ Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231c505_upc
 
 
 ## 4.6. Domain-Driven Software Architecture
-### 4.6.1. Software Architecture Context Diagram
+### 4.6.1. Software Architecture Context Diagram  
+
+Este diagrama muestra el sistema TripMatch dentro de su entorno, identificando cómo interactúa con usuarios y otros sistemas externos.
+
+![Context Diagram TripMatch](./assets/img/SystemContext-TripMatch.png)
 ### 4.6.2. Software Architecture Container Diagrams
+
+Este diagrama detalla los principales contenedores (aplicaciones o servicios ejecutables) que componen el sistema y cómo se comunican entre sí.
+
+![Component Diagram TripMatch](./assets/img/DiagramadeContenedores-TripMatch.png)
 ### 4.6.3. Software Architecture Components Diagrams
 
-## 4.7. Software Object-Oriented Design
+Este diagrama profundiza en los componentes internos del contenedor principal
+
+![Container Diagram TripMatch](./assets/img/DiagramadeComponentes-TripMatch.png)
+
+## 4.7. Software Object-Oriented Design  
+
+![Diagrama de Clase](./assets/img/Aplicaciones%20Web%20-%20P%C3%A1gina%201%20(12).png)
+
 ### 4.7.1. Class Diagrams   
 
 
