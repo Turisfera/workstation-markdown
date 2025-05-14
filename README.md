@@ -389,3 +389,15 @@ Explorar tendencias en tipos de experiencias populares	|Rarely	|Medium|
 ![user journey map - segmento 2](./assets/img/User%20journey%20map-%20Segmento%202.png)
 
 
+### 2.3.4. Empathy Mapping    
+
+>Segmento 1: Turistas  
+
+![Empathy map- segmento 1](./assets/img/Empathy%20map-%20Segmento%201.png)
+
+>Segmento 2: Agencias de Turismo  
+
+![Empathy map - segmento 2](./assets/img/Empathy%20map%20-%20Segmento%202.png)
+
+
+
