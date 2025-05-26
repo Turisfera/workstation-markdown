@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <p align="center">
   <img src="assets/logos/UpcLogo.png" alt="Logo de UPC" width="100%">
 </p>
@@ -75,6 +74,24 @@
   </tr>
   </tbody>
 </table>
+
+## Project Report Collaboration Insights
+
+
+| URL de la organización del proyecto | URL del repositorio del reporte   |
+| :------------------: | :---------------------------: | 
+| https://github.com/Turisfera | https://github.com/Turisfera/workstation-markdown |
+
+| URL del repositorio de la landing page | URL del repositorio del frontend |
+| :----------------------------: | :-----------------------: |
+| https://github.com/Turisfera/workstation-landing-page | https://github.com/Turisfera/workstation-front-end |
+
+
+
+**URL LANDING PAGE DESPLEGADO**: https://turisfera.github.io/workstation-landing-page/
+
+**URL FRONTEND DESPLEGADO:**: https://trip-match-2025.web.app/
+
 
 
 # **Student Outcomes**
@@ -411,7 +428,7 @@ Segmento 2: Agencias de Turismo
 
 | Nº Entrevista | Datos del entrevistado                                                                                                                                                                | Resumen de la entrevista                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Evidencia de entrevista                          |
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
-| 1             | - **Nombre:** Karla Rojas <br> - **Edad:** 19 años <br> - **Distrito:** La Molina <br> - **Link:** [Entrevista 1: Karla Rojas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311258_upc_edu_pe/EacDNvV_oulFoz4vMVU_BT8BSuGGmomw0ULMWN7Nf8dMKg?e=LBQ57A) | Karla, estudiante universitaria, comenta que organizar viajes en grupo es difícil por los distintos presupuestos e intereses. Desconfía de reservas online debido a cambios de horario y transporte deficiente. Le gustaría una app que centralice experiencias personalizadas, con reseñas reales, procesos seguros y adaptadas a jóvenes estudiantes.                                                                                                          | ![Entrevista 1](./assets/Entrevista%201%20-%20Turistas%20(Karla%20Rojas).png) |
+| 1             | - **Nombre:** Karla Rojas <br> - **Edad:** 19 años <br> - **Distrito:** La Molina <br> - **Link:** [Entrevista 1: Karla Rojas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311258_upc_edu_pe/EacDNvV_oulFoz4vMVU_BT8BSuGGmomw0ULMWN7Nf8dMKg?e=LBQ57A) | Karla, estudiante universitaria, comenta que organizar viajes en grupo es difícil por los distintos presupuestos e intereses. Desconfía de reservas online debido a cambios de horario y transporte deficiente. Le gustaría una app que centralice experiencias personalizadas, con reseñas reales, procesos seguros y adaptadas a jóvenes estudiantes.                                                                                                          | ![Entrevista 1](./assets/img/Entrevista%201%20-%20Turistas%20(Karla%20Rojas).png) |
 | 2             | - **Nombre:** Leslie Vanessa Quispe <br> - **Edad:** 22 años <br> - **Distrito:** Pachacútec – Ica <br> - **Link:** [Entrevista 2: Leslie Vanessa](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219481_upc_edu_pe/ER9uSjjYeUpAlCGDYI6ikEUBMF_SZ3xek6ePFchu92xoNg?e=KnUET1) | Leslie, joven viajera, enfrenta dificultades por precios altos y reseñas dudosas. Desea una app como TripMatch con precios claros, reseñas reales y conexión directa con operadores locales. Valora la autenticidad y personalización de las experiencias. Está motivada a apoyar el turismo local mediante plataformas confiables.                                                                                                                   | ![Entrevista 2](./assets/img/entrevista-turista-leslie.png) |
 | 3             | - **Nombre:** Kevin Vargas <br> - **Edad:** 24 años <br> - **Distrito:** La Molina <br> - **Link:** [Entrevista 3: Kevin Vargas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g671_upc_edu_pe/EZejm6seAVdMvwuToOcx1xgB1scDFPDb0jd3zL9AoQ1BkA?e=upGl44) | Kevin, ingeniero mecatrónico, considera complicado encontrar actividades turísticas personalizadas y confiables. Le interesa una app como TripMatch con recomendaciones reales, multimedia y validaciones. Critica que las plataformas actuales promueven turismo masivo y sugiere integrar pequeños operadores que ofrezcan experiencias auténticas adaptadas a cada viajero.                                                              | ![Entrevista 3](./assets/img/Entrevista%203%20-%20Turistas%20(Kevin%20Vargas).png) |
 
@@ -1684,11 +1701,11 @@ Durante el Sprint 2 se completaron:
 
 **Capturas de pantalla**
 
-- ![Login](./assets/login.png)
-- ![Home Turista](./assets/home-turist.png)
-- ![Reservas Agencia](./assets/reservation.png)
-- ![Perfil Agencia](./assets/agency-profile.png)
-- ![Gestor de Experiencias](./assets/experience-manager.png)
+- ![Login](./assets/img/login.png)
+- ![Home Turista](./assets/img/home-turist.png)
+- ![Reservas Agencia](./assets/img/reservation.png)
+- ![Perfil Agencia](./assets/img/agency-profile.png)
+- ![Gestor de Experiencias](./assets/img/experience-manager.png)
 
 #### 5.2.2.6 Services Documentation Evidence for Sprint Review
 
