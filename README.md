@@ -1632,8 +1632,8 @@ El Sprint Planning 2 es la reunión inicial de la iteración donde el equipo def
 | **Sprint 1 Review Summary**         | Se completó la landing page, validación visual y formularios. Se detectaron necesidades de navegación por usuario y diseño responsivo. Y un avance de la aplicacion web              |
 | **Sprint 1 Retrospective Summary**  | Se acordó documentar mejor el uso de GitHub, revisar nombres de ramas y establecer responsables por vista.                                           |
 | **Sprint 2 Goal**                   | Tener un flujo de login funcional, vistas por rol (usuario y agencia), reservas, sección de perfil y navegación básica funcional desde el layout.    |
-| **Sprint 2 Velocity**               | 22                                                                                                                                                    |
-| **Sum of Story Points**             | 22                                                                                                                                                    |
+| **Sprint 2 Velocity**               | 47                                                                                                                                                    |
+| **Sum of Story Points**             | 47                                                                                                                                                    |
 
 Los User Stories planificados (US10 al US20) están detallados en el Sprint Backlog.
 
@@ -1669,17 +1669,41 @@ URL público del Board: [turisfera-sprint2](https://trello.com/b/680a5d07ff18703
 
 | **User Story** | **Work-Item/Task Id** | **Título**                                             | **Estimation (Hours)** | **Assigned To**                        | **Status**     |
 |---------------:|-----------------------|--------------------------------------------------------|------------------------|----------------------------------------|----------------|
-| US10           | T16   | Implementar login para agencias y usuarios      | 3   | Rodrigo Alaya Cabrera       | Done           |
-| US11           | T17    | Vista home para turistas  | 2  | Rodrigo Alaya Cabrera                  | Done           |
-| US12           | T18                   | Layout estructural base (DefaultLayout)                | 2                      | Jorge Enrique Guevara Tejada           | Done           |
-| US13           | T19                   | Reservas para vista de agencias                        | 2                      | Jorge Enrique Guevara Tejada           | Done           |
-| US14           | T20                   | Consultas para vista de agencias                       | 2                      | Raúl Adrián Medina Cruzado             | Done           |
-| US15           | T21    | Landing Page responsive (mobile-first)   | 2    | María Patricia Hernández Uchuya        | Done           |
-| US16           | T22                   | Itinerarios para turistas                              | 2                      | Rodrigo Alaya Cabrera                  | Done           |
-| US17           | T23                   | Recomendaciones turísticas                             | 2                      | Ariadna G. Poma Muñoz                  | In Progress    |
-| US18           | T24                   | Sección de perfil de agencia                           | 2                      | Britney Delhy Q. Rodríguez             | In Progress    |
-| US19           | T25                   | Corrección de análisis de entrevistas                  | 1                      | Marcia Victoria Melgarejo Gomez        | Done           |
-| US20           | T26                   | Actualización del README y corrección del diagrama C4  | 1                      | Rodrigo Alaya Cabrera                  | Done           |
+| US09           | T16                   | Implementar lógica de ordenamiento por relevancia      | 1                      | Jorge Enrique Guevara Tejada           | Done           |
+| US09           | T17                   | Mostrar resultados priorizando coincidencias           | 1                      | Jorge Enrique Guevara Tejada           | Done           |
+| US16           | T18                   | Crear selección múltiple de categorías de experiencia  | 1                      | Jorge Enrique Guevara Tejada           | Done           |
+| US16           | T19                   | Programar lógica de filtrado por categorías             | 1                      | Jorge Enrique Guevara Tejada           | Done           |
+| US16           | T20                   | Mostrar resultados que coincidan con categorías         | 2                      | Jorge Enrique Guevara Tejada           | Done           |
+| US20           | T21                   | Crear sección "Gestión de experiencias" para agencias  | 1                     | Marcia Victoria Melgarejo Gomez        | Done           |
+| US20           | T22                   | Programar botón "Añadir nueva experiencia turística"   | 2                      | Marcia Victoria Melgarejo Gomez        | Done           |
+| US20           | T23                   | Diseñar e implementar formulario de ingreso de experiencia | 1                   | Marcia Victoria Melgarejo Gomez        | Done           |
+| US20           | T24                   | Guardar nueva experiencia en base de datos y mostrarla | 2                      | Marcia Victoria Melgarejo Gomez        | Done           |
+| US20           | T25                   | Implementar layout base por defecto                      | 1                      | Marcia Victoria Melgarejo Gomez        | Done           |
+| US21           | T26                   | Permitir visualización de experiencias publicadas       | 1                      | Marcia Victoria Melgarejo Gomez        | Done           |
+| US21           | T27                   | Implementar botón "Editar" en experiencias              | 2                      | Marcia Victoria Melgarejo Gomez        | Done           |
+| US21           | T28                   | Permitir modificación de campos de experiencia          | 1                      | Marcia Victoria Melgarejo Gomez        | Done           |
+| US21           | T29                   | Guardar cambios en base de datos y actualizar info      | 1                      | Marcia Victoria Melgarejo Gomez        | Done           |
+| US22           | T30                   | Implementar botón "Editar perfil" y mostrar formulario editable | 1                 | Rodrigo Alaya Cabrera                  | Done           |
+| US22           | T31                   | Desarrollar lógica para guardar cambios y actualizar datos | 1                    | Rodrigo Alaya Cabrera                  | Done           |
+| US22           | T32                   | Redirigir automáticamente a edición tras registro nuevo | 1                      | Rodrigo Alaya Cabrera                  | Done           |
+| US23           | T33                   | Crear sección de reservas para agencias                  | 1                      | María Patricia Hernández Uchuya        | Done           |
+| US23           | T34                   | Mostrar listado de reservas con detalles relevantes      | 1                      | María Patricia Hernández Uchuya        | Done           |
+| US23           | T35                   | Implementar búsqueda por reserva                         | 1                      | María Patricia Hernández Uchuya        | Done           |
+| US24           | T36                   | Crear vista "Perfil de Agencia" y mostrar datos básicos  | 1                      | Rodrigo Alaya Cabrera                  | Done           |
+| US24           | T37                   | Mostrar resumen de actividad: reseñas, calificación, reservas | 2                 | Rodrigo Alaya Cabrera                  | Done           |
+| US24           | T38                   | Cargar y mostrar las 2 reseñas más recientes             | 1                      | Rodrigo Alaya Cabrera                  | Done           |
+| US27           | T39                   | Implementar botón "Ver más" en sección de reseñas        | 1                      | Rodrigo Alaya Cabrera                  | Done           |
+| US27           | T40                   | Crear modal con listado completo de reseñas              | 2                      | Rodrigo Alaya Cabrera                  | Done           |
+| US27           | T41                   | Mostrar detalle en cada reseña: usuario, fecha, calificación, comentario | 3             | Rodrigo Alaya Cabrera                  | Done           |
+| US02           | T42                   | Implementar mensajes de error específicos junto a los campos con errores | 2              | Rodrigo Alaya Cabrera                  | In Progress    |
+| US03           | T43                   | Mostrar mensaje de error si las contraseñas no coinciden | 1                      | Rodrigo Alaya Cabrera                  | In Progress    |
+| US04           | T44                   | Programar mensaje de bienvenida personalizado          | 1                      | Rodrigo Alaya Cabrera                  | In Progress    |
+| US04           | T45                   | Estilizar el mensaje para que sea visible y amigable   | 2                      | Rodrigo Alaya Cabrera                  | In Progress    |
+| US12           | T46                   | Diseñar menú desplegable con regiones o países          | 2                      | Jorge Enrique Guevara Tejada           | In Progress    |
+| US12           | T47                   | Conectar selección con backend para filtrar destinos    | 1                      | Jorge Enrique Guevara Tejada           | In Progress    |
+| US12           | T48                   | Mostrar únicamente destinos filtrados                   | 1                      | Jorge Enrique Guevara Tejada           | In Progress    |
+| US22           | T49                   | Mostrar mensaje de confirmación tras guardar cambios    | 2                      | Rodrigo Alaya Cabrera                  | In Progress    |
+
 
 #### 5.2.2.4 Development Evidence for Sprint Review
 
