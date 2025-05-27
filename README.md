@@ -603,16 +603,16 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 
 >Segmento 1: Turistas
 
-![TO-BE - segmento 1](./assets/TO-BE-Segmento1.jpg)
+![TO-BE - segmento 1](./assets/img/TO-BE%20-%20Segmento%201.jpg)
 
 >Segmento 2: Agencias de Turismo
 
-![TO-BE - segmento 2](./assets/TO-BE-Segmento2.jpg)
+![TO-BE - segmento 2](./assets/img/TO-BE%20-%20Segmento%202.jpg)
 
 ## 3.2. User Stories
 
 |**User story ID**|**Título**|**Descripción** |**Criterio de aceptación**|**Relación (EPIC ID)**|
-| :-: | :-: | :-: | :-: | :-: |
+| - | - | - | - | - |
 |US01|Registro de usuario|**Como** usuario, **quiero** registrarme en la aplicación **para** poder acceder a sus funcionalidades y planificar mis viajes.|<p>Escenario : Validación de registro de usuario</p><p></p><p>**Dado que** el sistema verifica que el correo electrónico no esté registrado</p><p>**Y** el usuario selecciona "Crear cuenta"</p><p>**Cuando** el usuario ingresa todos los campos requeridos y hace clic en "Registrar"</p><p>**Entonces** el sistema valida los datos y crea la cuenta del usuario</p><p>**Y** muestra un mensaje de éxito en el registro</p>|EP01|
 |US02|Validación de datos de registro|**Como** usuario, **quiero** que el sistema valide mis datos correctamente al registrarme **para** evitar errores.|<p>Escenario : Validación de campos obligatorios</p><p>**Dado que** el usuario intenta registrarse<br>` `**Y** el sistema detecta campos vacíos o mal ingresados<br>` `**Cuando** el usuario hace clic en "Registrar"<br>` `**Entonces** el sistema muestra mensajes de error junto a los campos incorrectos<br>` `**Y** evita que se complete el registro hasta que todos los campos sean válidos</p>|EP01|
 |US03|Confirmación de contraseña|**Como** usuario, **quiero** confirmar mi contraseña durante el registro **para** asegurarme de que la escribí correctamente.|<p>Escenario: Comparación de contraseña y confirmación</p><p></p><p>**Dado que** el usuario ingresa su contraseña en dos campos distintos</p><p>**Y** el sistema debe comparar ambas</p><p>**Cuando** el usuario hace clic en "Registrar"</p><p>**Entonces** el sistema valida que ambas contraseñas coincidan</p><p>**Y** muestra un mensaje de error si son diferente</p>|EP01|
@@ -632,14 +632,14 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 |US17|Ver detalles de un destino turístico|**Como** usuario, **quiero** ver la información completa de un destino (fotos, descripción, actividades disponibles) **para** decidir si me interesa visitarlo.|<p>Escenario: Visualización del destino</p><p></p><p>**Dado que** el usuario ha seleccionado un destino de la lista</p><p>**Cuando** hace clic en su nombre o imagen</p><p>**Entonces** el sistema muestra una página con todos los detalles del destino y opciones relacionadas</p>|EP04|
 |US18|Guardar destinos favoritos|**Como** usuario, **quiero** guardar destinos como favoritos **para** poder acceder rápidamente a ellos en el futuro.|<p>Escenario: Agregar a favoritos</p><p></p><p>**Dado que** el usuario ve un destino interesante</p><p>**Cuando** presiona el botón "Guardar como favorito"</p><p>**Entonces** el sistema añade ese destino a su lista personal de favoritos y lo confirma con un mensaje</p>|EP04|
 |US19|Ver recomendaciones de destinos según preferencias|**Como** usuario, **quiero** recibir recomendaciones de destinos según mis búsquedas y preferencias **para** descubrir nuevas opciones personalizadas.|<p>Escenario: Sugerencias personalizadas</p><p></p><p>**Dado que** el usuario ha interactuado con el sistema (búsquedas, favoritos, filtros)</p><p>**Cuando** accede a la sección de recomendaciones</p><p>**Entonces** el sistema muestra una lista de destinos sugeridos que se alinean con sus intereses y comportamientos anteriores</p>|EP04|
-|US20|Publicación de paquetes turísticos|**Como** agencia de turismo, **quiero** poder publicar mis paquetes turísticos en la plataforma **para** llegar a más usuarios interesados en viajar.|<p>**Escenario:** Registro de paquetes turísticos</p><p>**Dado que** la agencia tiene una cuenta verificada en TravelMatch</p><p>**Cuando** accede a la sección de gestión de paquetes</p><p>**Entonces** puede ingresar los detalles del viaje y publicarlos para los usuarios</p>|EP05|
+|US20|Publicación de paquetes turísticos|**Como** agencia de turismo, **quiero** poder publicar mis paquetes turísticos en la plataforma **para** llegar a más usuarios interesados en viajar.|<p>**Escenario:** Registro de paquetes turísticos</p><p>**Dado que** la agencia tiene una cuenta verificada en TripMatch</p><p>**Cuando** accede a la sección de gestión de experiencias</p><p>**Y** le da click en el boton "Añadir nueva"<p><p>**Entonces** puede ingresar los detalles del viaje y publicarlos para los usuarios</p>|EP05|
 |US21|Edición de paquetes turísticos publicados|**Como** agencia de turismo, **quiero** editar la información de los paquetes turísticos que ya publiqué **para** mantenerlos actualizados.|<p>**Escenario:** Actualización de contenido</p><p>Dado que la agencia ya tiene paquetes publicados</p><p>Cuando necesita cambiar información (fechas, precios, destinos)</p><p>Entonces el sistema le permite hacer modificaciones y actualizar los datos</p>|EP05|
-|US22|Gestión de disponibilidad de paquetes|**Como** agencia de turismo, **quiero** poder activar o desactivar la disponibilidad de mis paquetes **para** ajustarlos según la temporada o los cupos disponibles.|<p>**Escenario:** Control de disponibilidad</p><p>**Dado que** un paquete puede estar activo o inactivo según disponibilidad</p><p>**Cuando** la agencia desee pausarlo o reactivarlo</p><p>**Entonces** el sistema le permite modificar su estado fácilmente</p>|EP05|
+|US22|Edición de perfil de agencia|**Como** agencia de turismo, **quiero** editar los datos de mi perfil, **para** mantener mi información actualizada.|<p>**Escenario:** Ingreso al formulario de edición</p><p>**Dado que** la agencia se encuentra en la sección “Perfil de Agencia”</p><p>**Y** visualiza sus datos</p><p>**Cuando** hace clic en el botón “Editar perfil”</p><p>**Entonces** el sistema muestra un formulario editable con los campos: nombre, RUC, descripción, y contacto</p><br><p>**Escenario:** Actualización exitosa del perfil</p><p>**Dado que** la agencia ha ingresado nuevos datos válidos en el formulario de edición</p><p>**Cuando** hace clic en “Guardar cambios”</p><p>**Entonces** el sistema actualiza los datos del perfil</p><p>**Y** muestra un mensaje confirmando que la información se actualizó correctamente</p><br><p>**Escenario:** Redirección a edición tras registro nuevo</p><p>**Dado que** una agencia recién se ha registrado y no tiene datos de perfil</p><p>**Cuando** se completa el proceso de creación de cuenta</p><p>**Entonces** el sistema redirige automáticamente a la pantalla de edición de perfil</p><p>**Y** la agencia puede llenar los datos iniciales</p>|EP06|
 |US23|Gestión de reservas de paquetes turísticos|**Como** agencia de turismo, **quiero** gestionar las reservas realizadas por los usuarios **para** tener un control claro de los cupos y atención al cliente.|<p>**Escenario:** Visualización de reservas</p><p>**Dado que** los usuarios realizan reservas a través de la plataforma</p><p>**Cuando** la agencia accede a su panel de control</p><p>**Entonces** puede ver el listado de reservas con sus detalles (usuario, fecha, paquete)</p>|EP06|
-|US24|Confirmación de reservas|**Como** agencia de turismo, **quiero** confirmar o rechazar reservas pendientes **para** asegurar que se respeten los cupos y condiciones del servicio.|<p>**Escenario:** Validación de reservas</p><p>**Dado que** hay reservas pendientes por confirmar</p><p>**Cuando** la agencia revisa los datos de la reserva</p><p>**Entonces** puede aprobarla o rechazarla según la disponibilidad</p>|EP06|
+|US24|Ver perfil de agencia|**Como** agencia de turismo, **quiero** visualizar mi perfil de agencia, **para** consultar mis datos y el resumen de mi actividad.|<p>**Escenario:** Visualización del perfil de agencia</p><p>**Dado que** la agencia tiene una cuenta activa</p><p>**Y** ha iniciado sesión en la plataforma</p><p>**Cuando** accede a la sección “Perfil de Agencia” desde el menú principal</p><p>**Entonces** el sistema muestra la información registrada: nombre de agencia, RUC, descripción, datos de contacto</p><p>**Y** el sistema muestra el resumen con número de reseñas, promedio de calificación y cantidad de reservaciones</p><br><p>**Escenario:** Visualización de resumen de reseñas</p><p>**Dado que** la agencia se encuentra en la sección “Perfil de Agencia”</p><p>**Cuando** el sistema carga el componente de reseñas</p><p>**Entonces** se muestran las 2 reseñas más recientes</p><p>**Y** se muestra el promedio de calificaciones y número total de reseñas</p>|EP06|
 |US25|Comunicación directa con el cliente|**Como** agencia de turismo, **quiero** comunicarme directamente con los usuarios que reservaron **para** brindar información adicional o resolver dudas.|<p>**Escenario:** Contacto post-reserva</p><p>**Dado que** un usuario ha realizado una reserva</p><p>**Cuando** la agencia necesite enviar información adicional</p><p>**Entonces** se comunicara directamente con el cliente</p>|EP06|
 |US26|Gestión y edición de paquetes turísticos|**Como** agencia de turismo, **quiero** crear y editar paquetes turísticos en la plataforma **para** ofrecer experiencias personalizadas a los usuarios.|<p>**Escenario:** Creación de paquetes</p><p>**Dado que** la agencia desea agregar un nuevo paquete turístico</p><p>**Cuando** accede a la sección de administración de paquetes</p><p>**Entonces** puede ingresar información como destino, fechas, precios y servicios incluidos</p>|EP07|
-|US27|Actualización de precios y promociones|**Como** agencia de turismo, **quiero** modificar precios y aplicar promociones en mis paquetes **para** atraer más clientes según temporadas.|<p>**Escenario:** Edición de precios</p><p>**Dado que** el paquete ya está publicado en la plataforma</p><p>**Cuando** la agencia desea modificar el precio o aplicar un descuento</p><p>**Entonces** el sistema actualiza la información y notifica a los usuarios interesados</p>|EP07|
+|US27|Ver reseñas de la agencia|**Como** agencia de turismo, **quiero** ver todas las reseñas que han dejado los usuarios, **para** conocer su experiencia y mejorar mis servicios.|<p>**Escenario:** Acceso a pantalla flotante con todas las reseñas</p><p>**Dado que** la agencia visualiza el resumen de reseñas en su perfil</p><p>**Cuando** hace clic en el botón “Ver más” en la sección de reseñas</p><p>**Entonces** el sistema abre una pantalla flotante</p><p>**Y** muestra el listado completo de reseñas realizadas por los usuarios</p><br><p>**Escenario:** Visualización de detalle de cada reseña</p><p>**Dado que** el sistema muestra el listado completo de reseñas en la pantalla flotante</p><p>**Cuando** la agencia explora la lista</p><p>**Entonces** puede ver en cada reseña: el nombre del usuario, fecha, calificación y comentario detallado</p>|EP06|
 | US28 | Descubrimiento de beneficios para turistas | **Como** visitante del segmento de turistas, **quiero** ver claramente los beneficios que ofrece la plataforma **para** entender cómo puede mejorar mi experiencia de viaje. | <p>**Escenario:** Visualización de beneficios</p><p>**Dado que** el visitante se encuentra en la sección “Benefits”</p><p>**Cuando** hace scroll hasta esa sección</p><p>**Entonces** puede visualizar una lista de beneficios relevantes para turistas</p><p>Y entender cómo estos se relacionan con sus necesidades</p> | EP08 |
 | US29 | Conocer el propósito de la plataforma | **Como** visitante del segmento de turistas, **quiero** saber de qué se trata Turisfera **para** decidir si me interesa seguir explorando. | <p>**Escenario:** Lectura de “About us”</p><p>**Dado que** el visitante accede a la sección “About us”</p><p>**Cuando** lee la descripción disponible</p><p>**Entonces** puede comprender el propósito de la plataforma</p> | EP08  |
 | US30 | Navegación simple desde el header | **Como** visitante del segmento de turistas, **quiero** usar el menú superior **para** moverme fácilmente por la página. | <p>**Escenario:** Uso del menú</p><p>**Dado que** el visitante visualiza el menú superior</p><p>**Cuando** hace clic en un ítem (Home, About us, etc.)</p><p>**Entonces** la página hace scroll automáticamente a esa sección</p> | EP08  |
@@ -652,6 +652,7 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 | US37 | Registro para agencias | **Como** visitante del segmento de agencias de turismo, **quiero** registrarme desde la landing **para** empezar a formar parte de la plataforma. | <p>**Escenario:** Registro desde botón</p><p>**Dado que** el botón “Sign Up” está visible</p><p>**Cuando** el visitante hace clic en él</p><p>**Entonces** es redirigido a la interfaz de registro correspondiente</p> | EP09 |
 
 
+
 ## 3.3. Impact Mapping
 
 El Impact Mapping es una metodología visual y ágil que permite a las organizaciones enfocar el desarrollo de productos y servicios en función de sus metas estratégicas. Esta técnica facilita la identificación de una relación directa entre los objetivos del negocio, las acciones esperadas de los usuarios clave y las soluciones o funcionalidades que deben implementarse para lograr dichos objetivos.![Impact Mapping](./assets/Impact-map-Turisfera.png)
@@ -659,7 +660,7 @@ El Impact Mapping es una metodología visual y ágil que permite a las organizac
 ## 3.4. Product Backlog
 
 |# Orden|User Story Id|Description|Story Points (1 /3 /5 /8)|
-| :-: | :-: | :-: | :-: |
+| :-: | :-: | - | :-: |
 |1|US01|**Como** usuario, **quiero** registrarme en la aplicación **para** poder acceder a sus funcionalidades y planificar mis viajes.|8|
 |2|US02|**Como** usuario, **quiero** que el sistema valide mis datos correctamente al registrarme **para** evitar errores.|5|
 |3|US03|**Como** usuario, **quiero** confirmar mi contraseña durante el registro **para** asegurarme de que la escribí correctamente.|3|
@@ -1369,7 +1370,7 @@ git push origin v1.0.0
 
 **Repositorios & Enlaces**
 - **Landing Page**: https://github.com/Turisfera/Landing-Page
-- **Repository**: https://github.com/Turisfera/TFDocAplicacionesWeb
+- **Repository**: https://github.com/Turisfera/workstation-markdown
 
 Cada repositorio sigue el mismo flujo GitFlow y cumple con las convenciones de naming y commits descritas.
 
@@ -1442,7 +1443,7 @@ Para el despliegue de la **Landing Page** en GitHub Pages, hemos seguido estos p
    Cada vez que hacemos `git push origin main`, GitHub reconstruye y publica la página sin intervención manual.
 
 5. **URL pública**  
-   https://turisfera.github.io/Landing-Page/
+   https://turisfera.github.io/workstation-landing-page/
 
 Con esta configuración, cualquier actualización en `main`—ya sea HTML, CSS, JS o imágenes—se refleja automáticamente en el sitio publicado.
 
@@ -1499,7 +1500,7 @@ A continuación la matriz de Liderazgo y Colaboración (LACX), donde “L” ind
 El objetivo principal de Sprint 1 fue implementar y validar el flujo de registro de usuarios (User Stories EP01) y desarrollar las secciones clave del landing page para turistas (User Stories EP08) y agencias (EP09).
 
 ![Sprint 1 Board](./assets/img/sprint1.png)  
-URL público del Board: [turisfera-sprint1](https://trello.com/invite/b/680a5d07ff18703eb7402872/ATTI2fd77ec1fb5032204a94d6d21ba910772CC16189/tripmatch-sprint-1)
+URL público del Board: [turisfera-sprint1](https://trello.com/invite/b/680a5d07ff18703eb7402872/ATTI2fd77ec1fb5032204a94d6d21ba910772CC16189/tripmatch-sprint-1) https://trello.com/invite/b/680a5d07ff18703eb7402872/ATTI2fd77ec1fb5032204a94d6d21ba910772CC16189/tripmatch-sprint-1
 
 | **User Story** | **Work-Item/Task Id** | **Título**                                                     | **Estimation (Hours)** | **Assigned To**                        | **Status** |
 |---------------:|-----------------------|----------------------------------------------------------------|-----------------------:|----------------------------------------|------------|
@@ -1510,7 +1511,7 @@ URL público del Board: [turisfera-sprint1](https://trello.com/invite/b/680a5d07
 | US06          | T05                   | Configurar envío de correo de confirmación                     | 2                      | Ariadna Geraldine Poma Muñoz           | To-do        |
 | US28          | T06                   | Crear y maquetar sección “Benefits”                            | 2                      | María Patricia Hernández Uchuya        | Done       |
 | US29          | T07                   | Maquetar sección “About us”                                    | 1                      | María Patricia Hernández Uchuya        | Done       |
-| US30          | T08                   | Implementar navegación por scroll desde el header              | 1                      | Marcia Victoria Melgarejo Gomez        | To-do        |
+| US30          | T08                   | Implementar el header y la gestion de navegación               | 1                      | Marcia Victoria Melgarejo Gomez        | To-do        |
 | US31          | T09                   | Vincular botón “Contact” con el formulario                     | 1                      | Rodrigo Alaya Cabrera                  | Done       |
 | US32          | T10                   | Añadir y enlazar botón “Sign Up” en el header                  | 1                      | Britney Delhy Q. Rodríguez             | Done       |
 | US33          | T11                   | Adaptar sección “Benefits” para agencias                       | 2                      | Raúl Adrián Medina Cruzado             | Done     |
@@ -1628,7 +1629,7 @@ El Sprint Planning 2 es la reunión inicial de la iteración donde el equipo def
 | **Location / Platform**             | Discord                                                                                                                                               |
 | **Prepared by**                     | María Patricia Hernández Uchuya – U202311258                                                                                                          |
 | **Attendees (to planning meeting)** | Britney Delhy Q. Rodríguez – U20211G671<br>Rodrigo Alaya Cabrera – U202219481<br>Ariadna G. Poma Muñoz – U20221D328<br>Jorge Enrique Guevara Tejada – U202316057<br>Raúl A. Medina Cruzado – U202210938<br>Marcia Victoria Melgarejo Gomez – U20231C505 |
-| **Sprint 1 Review Summary**         | Se completó la landing page, validación visual y formularios. Se detectaron necesidades de navegación por usuario y diseño responsivo.               |
+| **Sprint 1 Review Summary**         | Se completó la landing page, validación visual y formularios. Se detectaron necesidades de navegación por usuario y diseño responsivo. Y un avance de la aplicacion web              |
 | **Sprint 1 Retrospective Summary**  | Se acordó documentar mejor el uso de GitHub, revisar nombres de ramas y establecer responsables por vista.                                           |
 | **Sprint 2 Goal**                   | Tener un flujo de login funcional, vistas por rol (usuario y agencia), reservas, sección de perfil y navegación básica funcional desde el layout.    |
 | **Sprint 2 Velocity**               | 22                                                                                                                                                    |
@@ -1668,12 +1669,12 @@ URL público del Board: [turisfera-sprint2](https://trello.com/b/680a5d07ff18703
 
 | **User Story** | **Work-Item/Task Id** | **Título**                                             | **Estimation (Hours)** | **Assigned To**                        | **Status**     |
 |---------------:|-----------------------|--------------------------------------------------------|------------------------|----------------------------------------|----------------|
-| US10           | T16                   | Implementar login para agencias y usuarios             | 3                      | Rodrigo Alaya Cabrera                  | Done           |
-| US11           | T17                   | Vista home para turistas                               | 2                      | Rodrigo Alaya Cabrera                  | Done           |
+| US10           | T16   | Implementar login para agencias y usuarios      | 3   | Rodrigo Alaya Cabrera       | Done           |
+| US11           | T17    | Vista home para turistas  | 2  | Rodrigo Alaya Cabrera                  | Done           |
 | US12           | T18                   | Layout estructural base (DefaultLayout)                | 2                      | Jorge Enrique Guevara Tejada           | Done           |
 | US13           | T19                   | Reservas para vista de agencias                        | 2                      | Jorge Enrique Guevara Tejada           | Done           |
 | US14           | T20                   | Consultas para vista de agencias                       | 2                      | Raúl Adrián Medina Cruzado             | Done           |
-| US15           | T21                   | Landing Page responsive (mobile-first)                 | 2                      | María Patricia Hernández Uchuya        | Done           |
+| US15           | T21    | Landing Page responsive (mobile-first)   | 2    | María Patricia Hernández Uchuya        | Done           |
 | US16           | T22                   | Itinerarios para turistas                              | 2                      | Rodrigo Alaya Cabrera                  | Done           |
 | US17           | T23                   | Recomendaciones turísticas                             | 2                      | Ariadna G. Poma Muñoz                  | In Progress    |
 | US18           | T24                   | Sección de perfil de agencia                           | 2                      | Britney Delhy Q. Rodríguez             | In Progress    |
