@@ -1943,24 +1943,23 @@ https://trip-match-2025.web.app/manageExperience
     </tr>
     <tr>
         <td>Prepared By</td>
-        <td>Claudia Belledonne</td>
+        <td>Marcia Victoria Melgarejo Gomez</td>
     </tr>
     <tr>
         <td>Attendees (to planning meeting)</td>
         <td>
-
-- Marcia Melgarejo
-- María Hernández
-- Britney Qqueso
-- Rodrigo Alaya
-- Ariadna Poma
-- Jorge Guevara
-- Raúl Medina
+        - Britney Delhy Qqueso Rodríguez – U20211G671<br>
+        - Rodrigo Alaya Cabrera – U202219481<br>
+        - Ariadna G. Poma Muñoz – U20221D328<br>
+        - Jorge Enrique Guevara Tejada – U202316057<br>
+        - Raúl A. Medina Cruzado – U202210938<br>
+        - María Patricia Hernández Uchuya - U202311258<br>
+        - Marcia Victoria Melgarejo Gomez – U20231C505
    </td>
     </tr>
     <tr>
         <td>Sprint 3 – 2 Review Summary</td>
-        <td>............</td>
+        <td>Durante la revisión del Sprint 2 se logró implementar el flujo de login funcional, vistas diferenciadas por rol (usuario y agencia), y navegación básica a través del layout principal. También se trabajó la visualización del perfil y la interfaz de reservas. Se identificaron oportunidades de mejora para optimizar la carga de datos y modularizar mejor la lógica en el frontend.</td>
     </tr>
     <tr>
         <td>Sprint 3 – 2 Retrospective Summary</td>
@@ -1972,38 +1971,389 @@ https://trip-match-2025.web.app/manageExperience
     <tr>
         <td>Sprint 3 Goal</td>
         <td>
-<strong>Nuestra meta para este sprint es</strong> desarrollar e implementar las funcionalidades esenciales del backend para la aplicación MecaNet, enfocándonos en la creación de APIs REST para la gestión de usuarios (registro y consulta), administración de roles, manejo de órdenes de trabajo (creación y seguimiento), control de inventario (registro y consulta de ítems) y gestión de activos (maquinarias y equipos).
-
-<strong>Creemos que</strong> esto proporcionará una base técnica sólida para el correcto funcionamiento del sistema, permitiendo el almacenamiento seguro de datos y la comunicación efectiva entre el frontend y el backend.
-
-<strong>Esto se confirmará</strong> cuando las APIs de usuarios permitan registrar, consultar datos y roles correctamente. Se validará que las APIs de órdenes de trabajo faciliten la creación y listado de órdenes sin errores, mientras que las APIs de inventario soporten el registro de ítems y la consulta de su información. Finalmente, se confirmará cuando las APIs de activos permitan el registro y consulta de detalles de equipos, y las métricas de mantenimiento puedan generarse y consultarse adecuadamente, garantizando que los usuarios gestionen eficientemente sus operaciones desde la página web.
+<strong>Nuestra meta para este sprint es</strong> desarrollar e implementar las funcionalidades esenciales del backend para la aplicación TripMatch, enfocándonos en la creación de APIs RESTful para la gestión de usuarios, agencias, paquetes turísticos, destinos, reservas e itinerarios. <br> 
+<br>
+<strong>Creemos que</strong> esto establecerá la base de comunicación entre el frontend y el servidor, permitiendo la persistencia, consulta y manipulación segura de datos.<br>
+<br>
+<strong>Esto se confirmará</strong> cuando las APIs de usuarios permitan registrar y autenticar usuarios; las de agencias gestionen sus perfiles y paquetes turísticos; las de reservas permitan registrar y consultar reservas correctamente; y las de destinos e itinerarios soporten el flujo de planificación de viajes y recomendaciones personalizadas.
     </td>
     </tr>
      <tr>
         <td>Sprint 3 Velocity  </td>
-        <td>- Story Points.</td>
+        <td>53 Story Points.</td>
     </tr>
      <tr>
         <td>Sum of Story Points  </td>
-        <td>- Story Points.</td>
+        <td>53 Story Points.</td>
     </tr>
 </table>
 
 #### 5.2.3.2. Aspect Leaders and Collaborators.
+<table> 
+  <tr> 
+    <th>Team Member (Last Name, First Name)</th> 
+    <th>GitHub Username</th> 
+    <th>API Gestión de Usuarios<br/>Leader (L) / Collaborator (C)</th> 
+    <th>API Gestión de Agencias<br/>Leader (L) / Collaborator (C)</th> 
+    <th>API Paquetes Turísticos<br/>Leader (L) / Collaborator (C)</th> 
+    <th>API Reservas<br/>Leader (L) / Collaborator (C)</th> 
+    <th>API Destinos<br/>Leader (L) / Collaborator (C)</th> 
+    <th>API Itinerarios<br/>Leader (L) / Collaborator (C)</th> 
+  </tr> 
+  <tr> 
+    <td>Hernández Uchuya, María Patricia </td> 
+    <td>Bal2220 </td> 
+    <td>L</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>L</td> 
+    <td>C</td> 
+  </tr> 
+  <tr> 
+    <td>Qqueso Rodríguez, Britney Delhy</td> 
+    <td>Brit2801</td> 
+    <td>C</td> 
+    <td>L</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>C</td> 
+  </tr> 
+  <tr> 
+    <td>Alaya Cabrera, Rodrigo</td> 
+    <td>ALAYA1803</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>L</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>C</td> 
+  </tr> 
+  <tr> 
+    <td>Poma Muñoz, Ariadna Geraldine</td> 
+    <td>InAsui</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>L</td> 
+    <td>C</td> 
+    <td>C</td> 
+  </tr> 
+  <tr> 
+    <td>Guevara Tejada, Jorge Enrique</td> 
+    <td>Jorgito170 </td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>L</td> 
+  </tr> 
+  <tr> 
+    <td>Medina Cruzado, Raúl Adrián</td> 
+    <td>Necxuz18</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>L</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>C</td> 
+  </tr> 
+  <tr> 
+    <td>Melgarejo Gomez, Marcia Victoria</td> 
+    <td>Mevi1217</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>L</td> 
+    <td>C</td> 
+    <td>C</td> 
+  </tr> 
+</table>
 
 #### 5.2.3.3. Sprint Backlog 3.
+<p>El objetivo de este tercer sprint es desarrollar las APIs fundamentales del backend para la plataforma TripMatch. Estas APIs abarcan la gestión de usuarios (registro, inicio de sesión), agencias de turismo, paquetes turísticos, reservas, destinos e itinerarios. Este desarrollo sentará las bases funcionales y técnicas para la integración futura con el frontend y permitirá a los usuarios interactuar con el sistema de manera segura y eficiente.</p> 
+<img src="img/sprint3/Trello-TripMatch-Sprint3.png">
+<p>link: https://trello.com/b/TripMatchBoard/sprint3</p>
+
+<table>
+  <tr>
+    <th colspan="2">Sprint #</th>
+    <th colspan="6">Sprint 3</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="6">Work-Item / Task</th>
+  </tr>
+  <tr>
+    <th>TS#</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Task</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status</th>
+  </tr>
+
+  <tr>
+    <th rowspan="1">TS01</th>
+    <th rowspan="1">Registro de Usuario</th>
+    <td>1</td>
+    <td>Crear endpoint POST /users</td>
+    <td>Implementar la API para registrar un nuevo usuario con validaciones básicas.</td>
+    <td>4 hr</td>
+    <td>Rodrigo Alaya</td>
+    <td>In Progress</td>
+  </tr>
+
+  <tr>
+    <th rowspan="2">TS02</th>
+    <th rowspan="2">Gestión de Agencia</th>
+    <td>3</td>
+    <td>Crear endpoint POST /agencies</td>
+    <td>Registrar agencias con nombre comercial, RUC y datos de contacto.</td>
+    <td>3 hr</td>
+    <td>Marcia Melgarejo</td>
+    <td>In Progress</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Crear endpoint PUT /agencies/{id}</td>
+    <td>Actualizar información del perfil de una agencia autenticada.</td>
+    <td>3 hr</td>
+    <td>Ariadna Poma</td>
+    <td>To Do</td>
+  </tr>
+
+  <tr>
+    <th rowspan="2">TS03</th>
+    <th rowspan="2">Gestión de Paquetes Turísticos</th>
+    <td>5</td>
+    <td>Crear endpoint POST /packages</td>
+    <td>Registrar paquetes turísticos con título, descripción, destino y precio.</td>
+    <td>4 hr</td>
+    <td>Jorge Guevara</td>
+    <td>In Progress</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Crear endpoint GET /packages/by-agency</td>
+    <td>Listar paquetes turísticos registrados por una agencia autenticada.</td>
+    <td>3 hr</td>
+    <td>Rodrigo Alaya</td>
+    <td>To Do</td>
+  </tr>
+
+ 
+  <tr>
+    <th>TS04</th>
+    <th>Listado de Destinos</th>
+    <td>7</td>
+    <td>Crear endpoint GET /destinations</td>
+    <td>Obtener lista de destinos turísticos disponibles.</td>
+    <td>2 hr</td>
+    <td>Raúl Medina</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <th rowspan="2">TS05</th>
+    <th rowspan="2">Gestión de Itinerarios</th>
+    <td>8</td>
+    <td>Diseñar modelo Itinerary</td>
+    <td>Definir estructura de datos para los itinerarios: destinos, fechas, actividades.</td>
+    <td>3 hr</td>
+    <td>María Hernández</td>
+    <td>In Progress</td>
+  </tr>
+
+  <tr>
+    <td>9</td>
+    <td>Crear endpoint POST /itineraries</td>
+    <td>Registrar itinerarios relacionados a paquetes turísticos o reservas.</td>
+    <td>3 hr</td>
+    <td>Britney Qqueso</td>
+    <td>To Do</td>
+  </tr>
+
+  <tr>
+    <th rowspan="2">TS06</th>
+    <th rowspan="2">Gestión de Reservas</th>
+    <td>10</td>
+    <td>Crear endpoint POST /bookings</td>
+    <td>Permitir a los usuarios crear reservas de paquetes turísticos.</td>
+    <td>3 hr</td>
+    <td>Jorge Guevara</td>
+    <td>In Progress</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Crear endpoint GET /bookings/by-user</td>
+    <td>Listar reservas realizadas por un usuario autenticado.</td>
+    <td>2 hr</td>
+    <td>María Hernández</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <th rowspan="1">TS07</th>
+    <th rowspan="1">Listado de Agencias</th>
+    <td>12</td>
+    <td>Crear endpoint GET /agencies</td>
+    <td>Permitir listar todas las agencias registradas, con filtros por ubicación o tipo de servicio.</td>
+    <td>2 hr</td>
+    <td>Rodrigo Alaya</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <th rowspan="2">TS08</th>
+    <th rowspan="2">Consulta de Paquetes Turísticos</th>
+    <td>13</td>
+    <td>Crear endpoint GET /packages</td>
+    <td>Listar todos los paquetes disponibles para usuarios, con filtros por destino, precio y duración.</td>
+    <td>3 hr</td>
+    <td>Ariadna Poma</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Crear endpoint GET /packages/{id}</td>
+    <td>Obtener los detalles de un paquete turístico específico (incluye agencia, destinos e itinerario).</td>
+    <td>2 hr</td>
+    <td>Marcia Melgarejo</td>
+    <td>To Do</td>
+  </tr>
+</table>
 
 #### 5.2.3.4. Development Evidence for Sprint Review.
+Durante el Sprint 3 del proyecto TripMatch, se avanzó de forma significativa en el desarrollo del backend, enfocándose en la creación de APIs RESTful fundamentales para la gestión de usuarios, agencias, paquetes turísticos, destinos, itinerarios y reservas. Estas funcionalidades sientan la base para la comunicación fluida con el frontend y habilitan la persistencia de datos críticos en la plataforma.
+
+Se priorizó una arquitectura escalable y mantenible, alineada con buenas prácticas de diseño (DDD, separación por capas y validaciones). Esto permitió asegurar tanto la integridad de los datos como la futura extensibilidad del sistema.
+
+A continuación, se presenta una tabla con los commits más relevantes relacionados con la implementación de estas funcionalidades:
+
+| Repository                                                                                                     | Branch          | Commit Id | Commit Message                                    | Commit Message Body                                                                   | Committed on (Date) |
+| -------------------------------------------------------------------------------------------------------------- | --------------- | --------- | ------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------- |
+| [https://github.com/Turisfera/workstation-back-end.git](https://github.com/Turisfera/workstation-back-end.git) | feature/tb2 | 6a2f3bc   | feat(user): implement POST user registration      | Added endpoint for user registration with request validation and DTO assembler        | 11/06/2025          |
+| [https://github.com/Turisfera/workstation-back-end.git](https://github.com/Turisfera/workstation-back-end.git) | feature/tb2 | 7c5a98d   | feat(auth): implement JWT authentication          | Implemented login endpoint with token generation and secured route access control     | 12/06/2025          |
+| [https://github.com/Turisfera/workstation-back-end.git](https://github.com/Turisfera/workstation-back-end.git) | feature/tb2 | b83d6e1   | feat(agency): create POST /agencies endpoint      | Created endpoint for registering agencies with company info and validation layers     | 13/06/2025          |
+| [https://github.com/Turisfera/workstation-back-end.git](https://github.com/Turisfera/workstation-back-end.git) | feature/tb2 | c19fd82   | feat(package): implement POST /packages           | Added ability to register packages including title, description, price and agencyId   | 14/06/2025          |
+| [https://github.com/Turisfera/workstation-back-end.git](https://github.com/Turisfera/workstation-back-end.git) | feature/tb2 | d70a8fc   | feat(destination): create GET /destinations       | Endpoint for retrieving all available destinations for filtering packages             | 15/06/2025          |
+| [https://github.com/Turisfera/workstation-back-end.git](https://github.com/Turisfera/workstation-back-end.git) | feature/tb2 | e124f1a   | feat(itinerary): create POST /itineraries         | Added itinerary model and API to attach plans to packages or bookings                 | 16/06/2025          |
+| [https://github.com/Turisfera/workstation-back-end.git](https://github.com/Turisfera/workstation-back-end.git) | feature/tb2 | f3870a2   | feat(booking): implement POST /bookings           | Developed booking endpoint to reserve packages for registered users                   | 17/06/2025          |
+| [https://github.com/Turisfera/workstation-back-end.git](https://github.com/Turisfera/workstation-back-end.git) | main         | 9031bed   | chore(release): merge Sprint 3 backend to develop | Merged all Sprint 3 backend features including users, agencies, packages and bookings | 18/06/2025          |
+
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
+Durante el Sprint 3 del proyecto TripMatch, se implementaron con éxito las principales funcionalidades del sistema, enfocadas en la gestión de usuarios, agencias, paquetes turísticos, destinos, itinerarios y reservas. Estas funciones permiten cubrir el flujo operativo inicial de la plataforma, desde el registro de los actores principales hasta la configuración y reserva de experiencias turísticas personalizadas.
+
+A continuación, se presentan capturas de pantalla de las vistas y endpoints probados como evidencia de la correcta ejecución de estas funcionalidades:
+
+#### Evidencia 1: 
+![Evidencia 1:]()
+
+#### Evidencia 2: 
+![Evidencia 2:]()
+
+#### Evidencia 3: 
+![Evidencia 3:]()
+
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+Durante este Sprint, se avanzó considerablemente en la documentación de los servicios REST desarrollados para el backend de TripMatch, utilizando la especificación OpenAPI (Swagger). Esta documentación es clave para facilitar la integración entre el backend y el frontend, así como para permitir pruebas rápidas y comprensión clara de la estructura de los endpoints implementados.
+
+Los servicios documentados incluyen funcionalidades centrales como la gestión de usuarios, autenticación, creación de agencias, paquetes turísticos, reservas, itinerarios y destinos. A través de Swagger UI, se puede explorar cada uno de estos endpoints, visualizar parámetros esperados, realizar peticiones simuladas y verificar las respuestas del sistema.
+
+| Módulo              | Acción                     | Método | Endpoint            | Parámetros (ejemplo)                                                             | Respuesta (ejemplo)                                                 |
+| ------------------- | -------------------------- | ------ | ------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| Usuarios            | Registrar usuario          | POST   | `/api/users`        | `{"username": "britney", "email": "britney@test.com", "password": "12345678"}`   | `{"id": 1, "username": "britney", "email": "britney@test.com"}`     |
+| Autenticación       | Iniciar sesión             | POST   | `/api/auth/sign-in` | `{"username": "britney", "password": "12345678"}`                                | `{"token": "eyJhbGciOi..."}`                                        |
+| Agencias            | Registrar agencia          | POST   | `/api/agencies`     | `{"name": "Agencia Andes", "email": "contacto@andes.com", "ruc": "12345678901"}` | `{"id": 1, "name": "Agencia Andes", "email": "contacto@andes.com"}` |
+| Paquetes turísticos | Crear paquete turístico    | POST   | `/api/packages`     | `{"name": "Cusco Explorer", "price": 550.00, "agencyId": 1}`                     | `{"id": 1, "name": "Cusco Explorer", "price": 550.00}`              |
+| Reservas            | Reservar paquete turístico | POST   | `/api/bookings`     | `{"packageId": 1, "userId": 1, "travelDate": "2025-07-10"}`                      | `{"id": 1, "status": "CONFIRMED"}`                                  |
+| Destinos            | Obtener todos los destinos | GET    | `/api/destinations` | -                                                                                | `[{"id": 1, "name": "Cusco"}, {"id": 2, "name": "Arequipa"}]`       |
+| Itinerarios         | Registrar itinerario       | POST   | `/api/itineraries`  | `{"packageId": 1, "day": 1, "description": "Tour por el Valle Sagrado"}`         | `{"id": 1, "day": 1, "description": "Tour por el Valle Sagrado"}`   |
+
+#### Capturas de la documentación OpenAPI/Swagger
+#### Evidencia 1: 
+![Evidencia 1:]()
+
+#### Evidencia 2: 
+![Evidencia 2:]()
+
+#### Evidencia 3: 
+![Evidencia 3:]()
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+Durante este Sprint, se avanzó en el proceso de Deployment del backend de la aplicación TripMatch, logrando poner en funcionamiento todos los servicios desarrollados en un entorno de desarrollo accesible. Esto permitió al equipo validar funcionalmente los endpoints REST y realizar pruebas de integración iniciales con el frontend.
+
+#### Actividades realizadas en el Sprint 3:
+1. Configuración de repositorio remoto:
+
+    * Se utilizó GitHub como repositorio de control de versiones.
+
+    * Repositorio oficial del backend: https://github.com/Turisfera/workstation-back-end
+
+2. Creación de entorno de despliegue local:
+
+    * Para este Sprint se optó por un despliegue local en entorno de desarrollo utilizando:
+
+      * Spring Boot como framework base.
+
+      * Swagger UI para la documentación de servicios.
+
+      * MySQL como base de datos relacional.
+
+      * Docker para levantar contenedores del backend y base de datos en conjunto.
+
+   * Se configuraron los siguientes archivos para automatizar el entorno:
+
+      * Dockerfile para la imagen de backend.
+
+      * docker-compose.yml para levantar el backend y la base de datos.
+
+3. Ejecución local exitosa:
+
+    * La aplicación fue levantada en el entorno local accediendo desde http://localhost:8080/swagger-ui.html.
+
+    * Esto permitió validar el comportamiento de todos los endpoints REST desarrollados y su interacción con la base de datos.
+
+#### Capturas del Proceso de Deployment
+1. Evidencia 1:
+![Evidencia 1:]()
+
+1. Evidencia 2:
+![Evidencia 2:]()
+
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
+Durante el desarrollo del Sprint 3, el equipo colaboró de forma activa, coordinada y orientada a objetivos comunes para implementar los componentes esenciales del backend de la aplicación TripMatch. El trabajo se centró en el modelado del dominio, la creación de controladores REST, el desarrollo de servicios para usuarios, agencias, paquetes turísticos, destinos y reservas, así como la configuración del entorno de despliegue local y la documentación de servicios mediante Swagger UI.
 
+A continuación, se detalla la participación específica de cada integrante del equipo en las principales áreas funcionales del backend:
 
+| **Nombre**                       | **Actividad**                                                                                                                                                                 |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Melgarejo Gomez, Marcia Victoria  | Encargada del modelado de entidades y configuración de la base de datos MySQL. Implementó entidades como Usuario, Agencia, Paquete, Reserva e Itinerario.                     |
+| Alaya Cabrera, Rodrigo           | Responsable de la documentación con Swagger (OpenAPI) y despliegue local con Docker. Participó en la estructuración del entorno de ejecución con `docker-compose`.            |
+| Poma Muñoz, Ariadna G.           | Participó en la implementación de servicios y controladores REST, especialmente en los módulos de autenticación, reservas y usuarios. Realizó pruebas funcionales en Swagger. |
+| Guevara Tejada, Jorge Enrique    | Colaboró en la construcción de endpoints para gestión de paquetes turísticos y destinos. Implementó validaciones y estructuras DTO para transporte de datos.                  |
+| Medina Cruzado, Raúl A.          | Apoyó en el desarrollo de casos de uso de inscripción y lógica de negocio en el dominio de itinerarios.            |
+| Hernández Uchuya, María Patricia | Participó activamente en los casos de uso relacionados a usuarios y autenticación. Validó flujos de creación de cuenta y login.                                               |
+| Qqueso Rodríguez, Britney Delhy | Responsable de la implementación de controladores REST para destinos y paquetes. Documentó flujos en Swagger y validó el correcto funcionamiento de los endpoints.            |
+
+Evidencia de colaboración en GitHub
+A continuación, se presentan capturas del historial de commits y analítica de colaboración del repositorio oficial del backend, donde se evidencia la participación activa y sostenida de todos los integrantes del equipo durante el Sprint 3:
+
+1. Evidencia 1:
+![Evidencia 1:]()
+
+1. Evidencia 2:
+![Evidencia 2:]()
+
+#### Repositorio de trabajo:
+* Repositorio del Backend en GitHub: https://github.com/Turisfera/workstation-back-end
+
+El equipo mantuvo una comunicación constante durante todo el Sprint, utilizando herramientas colaborativas como GitHub y reuniones breves, permitiendo una integración progresiva de los módulos desarrollados y asegurando que cada funcionalidad contara con aportes técnicos y revisiones cruzadas por parte de todos los miembros.
 
 ## 5.3. Validation Interviews.
 
