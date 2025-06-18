@@ -1980,11 +1980,11 @@ https://trip-match-2025.web.app/manageExperience
     </tr>
      <tr>
         <td>Sprint 3 Velocity  </td>
-        <td>53 Story Points.</td>
+        <td>42 Story Points.</td>
     </tr>
      <tr>
         <td>Sum of Story Points  </td>
-        <td>53 Story Points.</td>
+        <td>42 Story Points.</td>
     </tr>
 </table>
 
@@ -2396,22 +2396,20 @@ Nissa, M. (2021, 07 de abril). *7 Estadísticas Esenciales de Reservas de Viajes
 TravelPerk. (2022, 29 de diciembre). *Más de 60 estadísticas y tendencias de reservas de viajes en línea*. TravelPerk. Recuperado el día 10 de abril de 2025, de <https://www.travelperk.com/es/blog/estadisticas-reservas-de-viajes-en-linea/>
 
 # Anexos
-
+Link del Repositorio del Proyecto: https://github.com/Turisfera
 
 Link del Proyecto Desplegado: 
 
-Link de la Landing Page: 
+Link de la Landing Page Desplegado: https://turisfera.github.io/workstation-landing-page/
 
-Link del Figma: 
+Link del Figma: https://www.figma.com/design/lflyFttFYoeptYGiVfbafR/Turisfera?node-id=0-1&t=iY0zqFc1QdBBj7eg-1
 
-Link del Repositorio del informe: 
+Link del Repositorio del informe: https://github.com/Turisfera/workstation-markdown
 
-Link del Respositorio de la Landing Page: 
-
-Link del Repositorio del Proyecto: 
+Link del Respositorio de la Landing Page: https://github.com/Turisfera/workstation-landing-page
 
 Link del Video del Product: 
 
-Video de Exposición TP: 
+Video de Exposición TB2: 
 
 
