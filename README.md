@@ -748,6 +748,42 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 | US36 | Acceder a secciones informativas | **Como** visitante del segmento de agencias de turismo, **quiero** acceder desde el menú a secciones como FAQs y About us **para** informarme. | <p>**Escenario:** Navegación por menú</p><p>**Dado que** el menú incluye accesos</p><p>**Cuando** hace clic en “FAQs” o “About us”</p><p>**Entonces** es dirigido a esas secciones</p> | EP09 |
 | US37 | Registro para agencias | **Como** visitante del segmento de agencias de turismo, **quiero** registrarme desde la landing **para** empezar a formar parte de la plataforma. | <p>**Escenario:** Registro desde botón</p><p>**Dado que** el botón “Sign Up” está visible</p><p>**Cuando** el visitante hace clic en él</p><p>**Entonces** es redirigido a la interfaz de registro correspondiente</p> | EP09 |
 
+### Epics:
+| Epic ID | Título                                      | Descripción                                                                                                     | HUs asociadas                      |
+| ---- | ------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| EP01 | Registro y validación de usuario            | Funcionalidades relacionadas al proceso de registro, validación y bienvenida de nuevos usuarios.                | US01, US02, US03, US04, US05, US06 |
+| EP02 | Búsqueda y exploración de destinos          | Permite a los usuarios buscar, filtrar y previsualizar destinos turísticos.                                     | US07, US08, US09, US10, US11, US12 |
+| EP03 | Gestión de itinerarios                      | Funcionalidades para visualizar y eliminar itinerarios planificados por el usuario.                             | US13, US14                         |
+| EP04 | Experiencia personalizada y recomendaciones | Proporciona a los usuarios funciones para ver detalles, guardar favoritos y recibir sugerencias personalizadas. | US15, US16, US17, US18, US19       |
+| EP05 | Publicación de experiencias por agencias    | Permite a las agencias registrar y editar los paquetes turísticos que ofrecen.                                  | US20, US21                         |
+| EP06 | Gestión de perfil y reservas para agencias  | Permite a las agencias gestionar su perfil, reservas y comunicación con clientes.                               | US22, US23, US24, US25, US27       |
+| EP07 | Creación y edición de paquetes turísticos   | Unifica la creación y mantenimiento de experiencias por parte de las agencias.                                  | US26                               |
+| EP08 | Experiencia de visitante (turistas)         | Información orientada a visitantes turistas no registrados: beneficios, navegación y contacto.                  | US28, US29, US30, US31, US32       |
+| EP09 | Experiencia de visitante (agencias)         | Información orientada a visitantes del segmento de agencias: funcionamiento, beneficios y registro.             | US33, US34, US35, US36, US37       |
+
+
+### Technical Stories:
+| Story ID | Título                             | Descripción                                                                                                                                                           |
+| -------- | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| TS01     | Post Usuario                       | Como desarrollador de TripMatch, quiero registrar un nuevo usuario mediante una API REST para que pueda autenticarse y utilizar las funcionalidades de la plataforma. |
+| TS02     | Get Usuario                        | Como desarrollador de TripMatch, quiero obtener los datos del perfil de un usuario para mostrarlos en la interfaz y permitir su edición.                              |
+| TS03     | Post Autenticación                 | Como desarrollador de TripMatch, quiero permitir que un usuario inicie sesión a través de la API para gestionar su sesión de forma segura.                            |
+| TS04     | Post Agencia                       | Como desarrollador de TripMatch, quiero registrar una nueva agencia de turismo mediante la API REST para que pueda publicar paquetes turísticos.                      |
+| TS05     | Get Agencia                        | Como desarrollador de TripMatch, quiero obtener la información del perfil de una agencia para mostrar sus datos y sus paquetes en la plataforma.                      |
+| TS06     | Put Agencia                        | Como desarrollador de TripMatch, quiero permitir que una agencia actualice su perfil mediante la API REST para mantener la información vigente.                       |
+| TS07     | Post Paquete Turístico             | Como desarrollador de TripMatch, quiero registrar un nuevo paquete turístico desde la API para que las agencias puedan publicarlos en la plataforma.                  |
+| TS08     | Get Paquetes por Agencia           | Como desarrollador de TripMatch, quiero listar todos los paquetes turísticos registrados por una agencia específica para mostrarlos en su perfil.                     |
+| TS09     | Put Paquete Turístico              | Como desarrollador de TripMatch, quiero permitir la actualización de paquetes turísticos mediante la API para mantenerlos actualizados.                               |
+| TS10     | Post Reserva                       | Como desarrollador de TripMatch, quiero permitir que los usuarios reserven paquetes turísticos mediante la API para confirmar su participación en una experiencia.    |
+| TS11     | Get Reservas por Agencia           | Como desarrollador de TripMatch, quiero obtener la lista de reservas asociadas a una agencia para facilitar su gestión en el panel de administración.                 |
+| TS12     | Get Destinos                       | Como desarrollador de TripMatch, quiero listar los destinos turísticos disponibles mediante la API para alimentar la búsqueda de los usuarios.                        |
+| TS13     | Get Detalle de Destino             | Como desarrollador de TripMatch, quiero obtener la información completa de un destino para mostrarla cuando el usuario lo seleccione.                                 |
+| TS14     | Post Favorito                      | Como desarrollador de TripMatch, quiero permitir que un usuario agregue un destino a su lista de favoritos a través de la API.                                        |
+| TS15     | Get Favoritos del Usuario          | Como desarrollador de TripMatch, quiero obtener la lista de destinos favoritos de un usuario para mostrarlos en su perfil.                                            |
+| TS16     | Get Recomendaciones Personalizadas | Como desarrollador de TripMatch, quiero obtener recomendaciones de destinos en base al comportamiento del usuario para ofrecerle experiencias personalizadas.         |
+| TS17     | Post Itinerario                    | Como desarrollador de TripMatch, quiero permitir que un usuario registre un nuevo itinerario con destinos seleccionados mediante la API REST.                         |
+| TS18     | Get Itinerario del Usuario         | Como desarrollador de TripMatch, quiero obtener todos los itinerarios de un usuario para que pueda gestionarlos desde su cuenta.                                      |
+| TS19     | Delete Itinerario                  | Como desarrollador de TripMatch, quiero permitir que un usuario elimine un itinerario que ya no necesita desde la API.                                                |
 
 
 ## 3.3. Impact Mapping
@@ -795,6 +831,25 @@ El Impact Mapping es una metodología visual y ágil que permite a las organizac
 |35| US35  | **Como** visitante del segmento de agencias de turismo, **quiero** usar el formulario de contacto **para** hacer consultas o proponer colaboración. | 8 |
 |36| US36  | **Como** visitante del segmento de agencias de turismo, **quiero** acceder desde el menú a secciones como FAQs y About us **para** informarme. | 5 |
 |37| US37  | **Como** visitante del segmento de agencias de turismo, **quiero** registrarme desde la landing **para** empezar a formar parte de la plataforma.  | 5 |
+|38|TS01|**Como** desarrollador de TripMatch, **quiero** registrar un nuevo usuario mediante una API REST **para** que pueda autenticarse y utilizar las funcionalidades de la plataforma.|8|
+|39|TS02|**Como** desarrollador de TripMatch, **quiero** obtener los datos del perfil de un usuario **para** mostrarlos en la interfaz y permitir su edición.|5|
+|40|TS03|**Como** desarrollador de TripMatch, **quiero** permitir que un usuario inicie sesión mediante la API **para** gestionar su sesión de forma segura.|5|
+|41|TS04|**Como** desarrollador de TripMatch, **quiero** registrar una nueva agencia de turismo mediante la API REST **para** que pueda publicar paquetes turísticos.|5|
+|42|TS05|**Como** desarrollador de TripMatch, **quiero** obtener la información del perfil de una agencia **para** mostrar sus datos y sus paquetes en la plataforma.|3|
+|43|TS06|**Como** desarrollador de TripMatch, **quiero** permitir que una agencia actualice su perfil mediante la API REST **para** mantener la información vigente.|3|
+|44|TS07|**Como** desarrollador de TripMatch, **quiero** registrar un nuevo paquete turístico desde la API **para** que las agencias puedan publicarlos en la plataforma.|8|
+|45|TS08|**Como** desarrollador de TripMatch, **quiero** listar todos los paquetes turísticos de una agencia específica **para** mostrarlos en su perfil.|3|
+|46|TS09|**Como** desarrollador de TripMatch, **quiero** permitir la actualización de paquetes turísticos mediante la API **para** mantenerlos actualizados.|5|
+|47|TS10|**Como** desarrollador de TripMatch, **quiero** permitir que los usuarios reserven paquetes turísticos mediante la API **para** confirmar su participación en una experiencia.|8|
+|48|TS11|**Como** desarrollador de TripMatch, **quiero** obtener la lista de reservas asociadas a una agencia **para** facilitar su gestión en el panel de administración.|3|
+|49|TS12|**Como** desarrollador de TripMatch, **quiero** listar los destinos turísticos disponibles mediante la API **para** alimentar la búsqueda de los usuarios.|5|
+|50|TS13|**Como** desarrollador de TripMatch, **quiero** obtener la información completa de un destino **para** mostrarla cuando el usuario lo seleccione.|3|
+|51|TS14|**Como** desarrollador de TripMatch, **quiero** permitir que un usuario agregue un destino a su lista de favoritos a través de la API **para** poder guardarlo.|3|
+|52|TS15|**Como** desarrollador de TripMatch, **quiero** obtener la lista de destinos favoritos de un usuario **para** mostrarlos en su perfil.|3|
+|53|TS16|**Como** desarrollador de TripMatch, **quiero** obtener recomendaciones de destinos en base al comportamiento del usuario **para** ofrecer experiencias personalizadas.|8|
+|54|TS17|**Como** desarrollador de TripMatch, **quiero** permitir que un usuario registre un nuevo itinerario con destinos seleccionados mediante la API REST **para** planificar su viaje.|5|
+|55|TS18|**Como** desarrollador de TripMatch, **quiero** obtener todos los itinerarios de un usuario **para** que pueda gestionarlos desde su cuenta.|3|
+|56|TS19|**Como** desarrollador de TripMatch, **quiero** permitir que un usuario elimine un itinerario que ya no necesita desde la API **para** mantener su planificación actualizada.|3|
 
 
 # Capítulo 4: Product Design
@@ -1864,7 +1919,101 @@ https://trip-match-2025.web.app/manageExperience
 - La participación fue más equitativa y se mejoró el control de merges
 - Las correcciones en documentación (README, C4) facilitaron la comprensión del repositorio para nuevos miembros
 
+### 5.2.3. Sprint 3
+#### 5.2.3.1. Sprint Planning 3.
+<table>
+    <tr>
+        <td>Sprint #</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <th colspan="2"><strong>Sprint Planning Background</strong></th>
+    </tr>
+    <tr>
+        <td>Date</td>
+        <td>10/06/2025</td>
+    </tr>
+     <tr>
+        <td>Time</td>
+        <td> 11:00 AM</td>
+    </tr>
+     <tr>
+        <td>Location</td>
+        <td>Reunión virtual – Discord</td>
+    </tr>
+    <tr>
+        <td>Prepared By</td>
+        <td>Claudia Belledonne</td>
+    </tr>
+    <tr>
+        <td>Attendees (to planning meeting)</td>
+        <td>
 
+- Marcia Melgarejo
+- María Hernández
+- Britney Qqueso
+- Rodrigo Alaya
+- Ariadna Poma
+- Jorge Guevara
+- Raúl Medina
+   </td>
+    </tr>
+    <tr>
+        <td>Sprint 3 – 2 Review Summary</td>
+        <td>............</td>
+    </tr>
+    <tr>
+        <td>Sprint 3 – 2 Retrospective Summary</td>
+        <td>En la retrospectiva del Sprint 2, se destacó como aspectos positivos la buena comunicación y coordinación durante el sprint, así como una mayor claridad en la definición de tareas desde la planificación. Sin embargo, se identificaron oportunidades de mejora, como refinar la estimación de tiempos para evitar retrasos en tareas complejas y distribuir mejor la carga de trabajo.</td>
+    </tr>
+    <tr>
+        <th colspan="2"><strong>Sprint Goal & User Stories</strong></th>
+    </tr>
+    <tr>
+        <td>Sprint 3 Goal</td>
+        <td>
+<strong>Nuestra meta para este sprint es</strong> desarrollar e implementar las funcionalidades esenciales del backend para la aplicación MecaNet, enfocándonos en la creación de APIs REST para la gestión de usuarios (registro y consulta), administración de roles, manejo de órdenes de trabajo (creación y seguimiento), control de inventario (registro y consulta de ítems) y gestión de activos (maquinarias y equipos).
+
+<strong>Creemos que</strong> esto proporcionará una base técnica sólida para el correcto funcionamiento del sistema, permitiendo el almacenamiento seguro de datos y la comunicación efectiva entre el frontend y el backend.
+
+<strong>Esto se confirmará</strong> cuando las APIs de usuarios permitan registrar, consultar datos y roles correctamente. Se validará que las APIs de órdenes de trabajo faciliten la creación y listado de órdenes sin errores, mientras que las APIs de inventario soporten el registro de ítems y la consulta de su información. Finalmente, se confirmará cuando las APIs de activos permitan el registro y consulta de detalles de equipos, y las métricas de mantenimiento puedan generarse y consultarse adecuadamente, garantizando que los usuarios gestionen eficientemente sus operaciones desde la página web.
+    </td>
+    </tr>
+     <tr>
+        <td>Sprint 3 Velocity  </td>
+        <td>- Story Points.</td>
+    </tr>
+     <tr>
+        <td>Sum of Story Points  </td>
+        <td>- Story Points.</td>
+    </tr>
+</table>
+
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+
+#### 5.2.3.3. Sprint Backlog 3.
+
+#### 5.2.3.4. Development Evidence for Sprint Review.
+
+#### 5.2.3.5. Execution Evidence for Sprint Review.
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
+
+
+
+## 5.3. Validation Interviews.
+
+### 5.3.1. Diseño de Entrevistas.
+
+### 5.3.2. Registro de Entrevistas.
+
+### 5.3.3. Evaluaciones según heurísticas.
+
+## 5.4. Video About-the-Product.
 
 # Conclusiones y recomendaciones.
 ## Conclusiones: 
