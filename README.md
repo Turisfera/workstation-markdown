@@ -2358,6 +2358,26 @@ El equipo mantuvo una comunicación constante durante todo el Sprint, utilizando
 ## 5.3. Validation Interviews.
 
 ### 5.3.1. Diseño de Entrevistas.
+#### Introducción
+Saludo: Buenas noches, soy —--, parte del equipo de Turisfera. Estamos trabajando en una solución innovadora para facilitar el acceso a experiencias turísticas auténticas y personalizadas que conecte a viajeros con agencias de turismo de manera directa, eficiente y transparente.
+Propósito de la entrevista: El objetivo de esta entrevista es recopilar tus opiniones y validar algunos aspectos clave de nuestra aplicación y landing page para asegurar que se ajuste a las necesidades de usuarios como tú.
+Proceso de la sesión: Vamos a mostrarte algunas funciones de la aplicación y el diseño de la página de aterrizaje. Al final, haremos algunas preguntas para conocer tu experiencia y obtener sugerencias.
+#### Preguntas Principales
+Sobre el diseño y la usabilidad:
+¿Qué opinas del diseño del prototipo de nuestra aplicación?
+¿Consideras que el diseño es intuitivo y fácil de navegar?
+Validación de funciones:
+¿Te parecen útiles las funciones?
+¿Crees que esta aplicación facilita el acceso a experiencias turisticas?
+#### Opiniones sobre la Landing Page:
+¿La información en el Landing Page es clara y atractiva?
+¿Qué mejorarías en la presentación de la aplicación en la página?
+#### Publicidad:
+¿Crees que la inclusión de anuncios afectaría negativamente tu experiencia en la app?
+Feedback final:
+¿Qué otras funciones consideras que deberían incluirse o eliminarse en la app?
+#### Cierre
+Agradecimiento: Muchas gracias por tu tiempo y respuestas. Tu feedback es muy valioso para mejorar nuestra propuesta y desarrollar una aplicación que realmente responda a tus necesidades. ¡Hasta luego!
 
 ### 5.3.2. Registro de Entrevistas.
 
