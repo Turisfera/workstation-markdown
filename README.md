@@ -2382,7 +2382,6 @@ Agradecimiento: Muchas gracias por tu tiempo y respuestas. Tu feedback es muy va
 ### 5.3.2. Registro de Entrevistas.
 
 Segmento 1: Turistas
-<div align="center">
 
 | Nº Entrevista | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
 |---------------|------------------------|--------------------------|-------------------------|
