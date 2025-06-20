@@ -2314,7 +2314,7 @@ Durante este Sprint, se avanzó en el proceso de Deployment del backend de la ap
 
 #### Capturas del Proceso de Deployment
 1. Evidencia 1:
-![Evidencia 1:](assets/img/contributions-sprint3)
+![Evidencia 1:]()
 
 
 
@@ -2338,10 +2338,9 @@ Evidencia de colaboración en GitHub
 A continuación, se presentan capturas del historial de commits y analítica de colaboración del repositorio oficial del backend, donde se evidencia la participación activa y sostenida de todos los integrantes del equipo durante el Sprint 3:
 
 1. Evidencia 1:
-![Evidencia 1:]()
+![Evidencia 1:](assets/img/contributions-sprint3.png)
 
-1. Evidencia 2:
-![Evidencia 2:]()
+
 
 #### Repositorio de trabajo:
 * Repositorio del Backend en GitHub: https://github.com/Turisfera/workstation-back-end
