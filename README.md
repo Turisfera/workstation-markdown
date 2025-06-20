@@ -2386,7 +2386,7 @@ Segmento 1: Turistas
 
 | Nº Entrevista | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
 |---------------|------------------------|--------------------------|-------------------------|
-| 1 | - **Nombre:** Karla Rojas <br> - **Edad:** 19 años <br> - **Distrito:** La Molina <br> - **Link:** [Entrevista 1: Karla Rojas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311258_upc_edu_pe/EZkH1XHIPlpMls6gDwaEYdQB9YxdJZ1nfwtxHh9s93kXNg?e=Sd1iUR) | Karla considera que la interfaz de la landing page y la aplicación es intuitiva, dinámica y genera confianza. Además, destaca que las funciones disponibles le resultan muy útiles. En su opinión, no hay aspectos que requieran mejora por el momento. Sin embargo, advierte que la incorporación de anuncios podría afectar negativamente su experiencia de navegación. | ![Entrevista 1]() |
+| 1 | - **Nombre:** Karla Rojas <br> - **Edad:** 19 años <br> - **Distrito:** La Molina <br> - **Link:** [Entrevista 1: Karla Rojas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311258_upc_edu_pe/EZkH1XHIPlpMls6gDwaEYdQB9YxdJZ1nfwtxHh9s93kXNg?e=Sd1iUR) | Karla considera que la interfaz de la landing page y la aplicación es intuitiva, dinámica y genera confianza. Además, destaca que las funciones disponibles le resultan muy útiles. En su opinión, no hay aspectos que requieran mejora por el momento. Sin embargo, advierte que la incorporación de anuncios podría afectar negativamente su experiencia de navegación. | ![Entrevista 1](./assets/img/Image-Interview-KarlaRojas.png) |
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
