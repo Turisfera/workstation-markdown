@@ -2386,7 +2386,6 @@ Segmento 1: Turistas
 | Nº Entrevista | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
 |---------------|------------------------|--------------------------|-------------------------|
 | 1 | - **Nombre:** Karla Rojas <br> - **Edad:** 19 años <br> - **Distrito:** La Molina <br> - **Link:** [Entrevista 1: Karla Rojas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311258_upc_edu_pe/EZkH1XHIPlpMls6gDwaEYdQB9YxdJZ1nfwtxHh9s93kXNg?e=Sd1iUR) | Karla considera que la interfaz de la landing page y la aplicación es intuitiva, dinámica y genera confianza. Además, destaca que las funciones disponibles le resultan muy útiles. En su opinión, no hay aspectos que requieran mejora por el momento. Sin embargo, advierte que la incorporación de anuncios podría afectar negativamente su experiencia de navegación. | ![Entrevista 1](./assets/img/Image-Interview-KarlaRojas.png) |
-|---------------|------------------------|--------------------------|-------------------------|
 | 2 | - **Nombre:** Joaquin Alejandro <br> - **Edad:** 20 años <br> - **Distrito:** Jesus Maria <br> - **Link:** [Entrevista 1: Joaquin Gudiel](https://upcedupe-my.sharepoint.com/personal/u20221d382_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20221d382%5Fupc%5Fedu%5Fpe%2FDocuments%2FVID%5F20250619%5F233803%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ec0a66987%2D8b57%2D438b%2D922f%2D5c0b4db84e83&isDarkMode=false) | Joaquín considera que la landing page es fácil de entender y destaca que sus opciones son muy útiles, ya que le facilitan el trabajo. También valora positivamente que la plataforma establezca conexión con agencias pequeñas, lo cual le parece una ventaja. Sin embargo, menciona que la forma en que se apliquen los anuncios en la landing page puede influir en el tiempo que permanece en ella.| ![Entrevista 1]() |
 
 ### 5.3.3. Evaluaciones según heurísticas.
@@ -2394,11 +2393,11 @@ Segmento 1: Turistas
 ## 5.4. Video About-the-Product.
 
 ### Turistas
-![Interview-Turist]()
+![Interview-Turist](./assets/img/Turist-Home.png)<br>
 [About the Product of Turist](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311258_upc_edu_pe/ES71WKL8TA5Mkv2jZmHWeF4Bg01RF-Kg-5y0kvBgq2CX9Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=4Ytmb7)
 
 ### Agencias
-![Interview-Agency]()
+![Interview-Agency](./assets/img/Agency-Home.png)<br>
 [About the Product of Agency](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311258_upc_edu_pe/EbikAWyD39JGlNLimXO1YjEB36EnEO2akYm0CMjhQyJLeA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7ue5sO)
 
 # Conclusiones y recomendaciones.
