@@ -1881,11 +1881,11 @@ Durante el Sprint 2 se completaron:
 
 **Capturas de pantalla**
 
-- ![Login](./assets/img/login.png)
-- ![Home Turista](./assets/img/home-turist.png)
-- ![Reservas Agencia](./assets/img/reservation.png)
-- ![Perfil Agencia](./assets/img/agency-profile.png)
-- ![Gestor de Experiencias](./assets/img/experience-manager.png)
+![Login](./assets/img/login.png)
+![Home Turista](./assets/img/home-turist.png)
+![Reservas Agencia](./assets/img/reservation.png)
+![Perfil Agencia](./assets/img/agency-profile.png)
+![Gestor de Experiencias](./assets/img/experience-manager.png)
 
 #### 5.2.2.6 Services Documentation Evidence for Sprint Review
 
