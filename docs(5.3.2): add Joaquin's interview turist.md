@@ -2274,15 +2274,8 @@ Los servicios documentados incluyen funcionalidades centrales como la gestión d
 | Destinos            | Obtener todos los destinos | GET    | `/api/destinations` | -                                                                                | `[{"id": 1, "name": "Cusco"}, {"id": 2, "name": "Arequipa"}]`       |
 | Itinerarios         | Registrar itinerario       | POST   | `/api/itineraries`  | `{"packageId": 1, "day": 1, "description": "Tour por el Valle Sagrado"}`         | `{"id": 1, "day": 1, "description": "Tour por el Valle Sagrado"}`   |
 
-#### Capturas de la documentación OpenAPI/Swagger
-#### Evidencia 1: 
-![Evidencia 1:]()
-
-#### Evidencia 2: 
-![Evidencia 2:]()
-
-#### Evidencia 3: 
-![Evidencia 3:]()
+#### Captura de la documentación OpenAPI/Swagger
+![Swagger](./assets/img/Swagger.png)
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 Durante este Sprint, se avanzó en el proceso de Deployment del backend de la aplicación TripMatch, logrando poner en funcionamiento todos los servicios desarrollados en un entorno de desarrollo accesible. Esto permitió al equipo validar funcionalmente los endpoints REST y realizar pruebas de integración iniciales con el frontend.
