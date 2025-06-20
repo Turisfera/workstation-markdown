@@ -2074,8 +2074,9 @@ https://trip-match-2025.web.app/manageExperience
 
 #### 5.2.3.3. Sprint Backlog 3.
 <p>El objetivo de este tercer sprint es desarrollar las APIs fundamentales del backend para la plataforma TripMatch. Estas APIs abarcan la gestión de usuarios (registro, inicio de sesión), agencias de turismo, paquetes turísticos, reservas, destinos e itinerarios. Este desarrollo sentará las bases funcionales y técnicas para la integración futura con el frontend y permitirá a los usuarios interactuar con el sistema de manera segura y eficiente.</p> 
-<img src="img/sprint3/Trello-TripMatch-Sprint3.png">
-<p>link: https://trello.com/b/TripMatchBoard/sprint3</p>
+<img src="assets/img/Trello-TripMatch-Sprint3.png">
+
+link: [trello-TripMatchBoard](https://trello.com/invite/b/6855b2983efd7b37b21cca51/ATTI7766151678b80362c4f03602943840382405CD2F/tripmatch)
 
 <table>
   <tr>
@@ -2508,7 +2509,7 @@ TravelPerk. (2022, 29 de diciembre). *Más de 60 estadísticas y tendencias de r
 # Anexos
 Link del Repositorio del Proyecto: https://github.com/Turisfera
 
-Link del Proyecto Desplegado: 
+Link del Proyecto Desplegado: https://trip-match-2025.web.app/
 
 Link de la Landing Page Desplegado: https://turisfera.github.io/workstation-landing-page/
 
@@ -2524,6 +2525,6 @@ Turistas: [About the Product of Turist](https://upcedupe-my.sharepoint.com/:v:/g
 
 Agencias: [About the Product of Agency](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311258_upc_edu_pe/EbikAWyD39JGlNLimXO1YjEB36EnEO2akYm0CMjhQyJLeA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7ue5sO)
 
-Video de Exposición TB2: 
+Video de Exposición TB2: https://www.canva.com/design/DAGq67rjSbI/7zOhzIX4qRQaAqJV-BFygA/edit?utm_content=DAGq67rjSbI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 
