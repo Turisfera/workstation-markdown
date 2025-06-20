@@ -2250,13 +2250,13 @@ Durante el Sprint 3 del proyecto TripMatch, se implementaron con éxito las prin
 A continuación, se presentan capturas de pantalla de las vistas y endpoints probados como evidencia de la correcta ejecución de estas funcionalidades:
 
 #### Evidencia 1: 
-![Evidencia 1:]()
+![Evidencia 1:](./assets/img/Turist-Itineraries.png)
 
 #### Evidencia 2: 
-![Evidencia 2:]()
+![Evidencia 2:](assets/img/Turist-Map.png)
 
 #### Evidencia 3: 
-![Evidencia 3:]()
+![Evidencia 3:](assets/img/Turist-Reservation.png)
 
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
