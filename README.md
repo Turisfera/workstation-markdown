@@ -30,7 +30,7 @@
 | U202316057  | Jorge Enrique Guevara Tejada     |
 | U202210938  | Raúl Adrian Medina Cruzado       |
 
-**Abril - 2025**
+**Junio - 2025**
 
 </div>
 
@@ -72,6 +72,71 @@
         </ul>
       </td>
   </tr>
+  <tr>
+      <td><strong>TP1</strong></td>
+      <td>14/05/25</td>
+      <td>
+        <ul>
+          <li>Marcia Melgarejo</li>
+          <li>María Hernández</li>
+          <li>Britney Qqueso</li>
+          <li>Rodrigo Alaya</li>
+          <li>Ariadna Poma</li>
+          <li>Jorge Guevara</li>
+          <li>Raúl Medina</li>
+        </ul>
+      </td>
+      <td>
+        Se realizó el avance de los siguientes puntos:
+        <ul>
+          <li>5.2.2. Sprint 2</li>
+          <li>5.2.2.1. Sprint Planning 2.</li>
+          <li>5.2.2.2. Aspect Leaders and Collaborators.</li>
+          <li>5.2.2.3. Sprint Backlog 2.</li>
+          <li>5.2.2.4. Development Evidence for Sprint Review.</li>
+          <li>5.2.2.5. Execution Evidence for Sprint Review.</li>
+          <li>5.2.2.6. Services Documentation Evidence for Sprint Review.</li>
+          <li>5.2.2.7. Software Deployment Evidence for Sprint Review.</li>
+          <li>5.2.2.8. Team Collaboration Insights during Sprint.</li>
+          <li>Avance de Conclusiones, Bibliografía y Anexos.</li>
+        </ul>
+      </td>
+  </tr>
+  <tr>
+      <td><strong>TB2</strong></td>
+      <td>19/06/25</td>
+      <td>
+        <ul>
+          <li>Marcia Melgarejo</li>
+          <li>María Hernández</li>
+          <li>Britney Qqueso</li>
+          <li>Rodrigo Alaya</li>
+          <li>Ariadna Poma</li>
+          <li>Jorge Guevara</li>
+          <li>Raúl Medina</li>
+        </ul>
+      </td>
+      <td>
+        Se realizó el avance de los siguientes puntos:
+        <ul>
+          <li>5.2.3. Sprint 3</li>
+          <li>5.2.3.1. Sprint Planning 3.</li>
+          <li>5.2.3.2. Aspect Leaders and Collaborators.</li>
+          <li>5.2.3.3. Sprint Backlog 3.</li>
+          <li>5.2.3.4. Development Evidence for Sprint Review.</li>
+          <li>5.2.3.5. Execution Evidence for Sprint Review.</li>
+          <li>5.2.3.6. Services Documentation Evidence for Sprint Review.</li>
+          <li>5.2.3.7. Software Deployment Evidence for Sprint Review.</li>
+          <li>5.2.3.8. Team Collaboration Insights during Sprint.</li>
+          <li>5.3.	Validation Interviews.</li>
+          <li>5.3.1.	Diseño de Entrevistas.</li>
+          <li>5.3.2.	Registro de Entrevistas.</li>
+          <li>5.3.3.	Evaluaciones según heurísticas.</li>
+          <li>5.4.	Video About-the-Product.</li>
+          <li>Avance de Conclusiones, Bibliografía y Anexos.</li>
+        </ul>
+      </td>
+  </tr>
   </tbody>
 </table>
 
@@ -92,6 +157,8 @@
 
 **URL FRONTEND DESPLEGADO:**: https://trip-match-2025.web.app/
 
+**URL BACKEND DESPLEGADO:**:
+
 Commits del Report:
 
 ![Report Commits](./assets/img/report-commits.png) 
@@ -101,8 +168,8 @@ Commits del Report:
 
 | <div style="width:100px">Criterio específico</div> | <div align="center" style="width:250px">Acciones Realizadas</div> | <div align="center" style="width:250px">Conclusiones</div> |
 |:-------------------:|-------------------|------------|
-|Comunica oralmente con efectividad a diferentes rangos de audiencia| **- Marcia Melgarejo** <br> **TB1:** Expliqué los hallazgos del needfinding y el recorrido del usuario de manera clara, apoyándome en wireframes y prototipos interactivos para comunicar las propuestas de diseño de TripMatch ante diferentes audiencias.<br> **TP:** Desarrollé la sección de Experience Manager y la página de layout por defecto (Default Layout Page) de la aplicación web, asegurando una estructura coherente, reutilizable y alineada con el diseño general del sistema. La sección de Experience Manager se implementó de forma modular para facilitar su integración con otras vistas, mientras que el layout por defecto establece la base visual y estructural sobre la cual se construyen las distintas páginas, garantizando consistencia en la experiencia del usuario.  <br> **TB2:** <br> **TF:** <br> <br> **- María Hernández** <br> **TB1:** En esta entrega me encargué de realizar una entrevista, además de colaborar con la elaboración de los wireframe y mockups de la landing page. Así mismo, realicé una de las sección del langing (About Us) y el Login. <br> **TP:** Desarrollé la vista de Reservas para la sección de Agencias dentro de la aplicación web, asegurando una estructura clara, coherente y alineada con el diseño general del sistema. El trabajo incluyó la implementación de la interfaz de usuario, el estilo visual y la integración con los datos necesarios para su correcto funcionamiento. Se mantuvo un enfoque modular y organizado para facilitar futuras mejoras y asegurar la mantenibilidad del código. <br> **TB2:** <br> **TF:** <br> <br> **- Britney Qqueso** <br> **TB1:** En esta entrega colaboré en la definición de las Style Guidelines generales y para web, así como en el desarrollo de la arquitectura de la información, incluyendo sistemas de organización, etiquetado, búsqueda y navegación. También participé en la elaboración de SEO y meta tags, así como en el registro de entrevistas y la creación de la landing page. <br> **TP:** Realicé el desarrollo de la sección de Consultas para la vista de Agencias dentro de la aplicación web, enfocándome en mantener una estructura clara y coherente con el resto del sistema. Además, corregí el diagrama C4 para reflejar con mayor precisión la arquitectura actual del proyecto, mejorando su claridad y consistencia. Finalmente, llevé a cabo correcciones en el archivo README, ajustando la documentación para que sea más precisa, comprensible y útil para futuros desarrolladores o colaboradores del proyecto. <br> **TB2:** <br> **TF:** <br> <br> **- Jorge Guevara** <br> **TB1:** En esta entrega me encargué de comunicarle a mi equipo cuál sería la metodología de trabajo. Además, realicé una entrevista enfocadas en el segmento de agencias, con el propósito de entender mejor sus necesidades y expectativas. Asimismo, colaboré con la revisión retroactiva de los avances de mis compañeros, brindándoles observaciones sobre los puntos de la documentación que podrían ser mejorados. <br> **TP:** Desarrollé la vista principal (Home View) dirigida a turistas dentro de la aplicación web, asegurando una presentación clara, atractiva y alineada con la experiencia de usuario esperada. Además, se implementó un diseño responsive para la landing page, optimizando su visualización y funcionalidad en dispositivos móviles, con el objetivo de garantizar una navegación fluida y accesible desde cualquier pantalla. <br> **TB2:** <br> **TF:** <br> <br> **- Rodrigo Alaya** <br> **TB1:** Durante esta entrega, me encargué de presentar de manera clara el proceso de configuración del entorno de desarrollo y despliegue de TripMatch, explicando las herramientas utilizadas en cada etapa: desde la gestión de requisitos con Trello y Discord, hasta el despliegue automático con GitHub Pages. También expuse la estructura del repositorio y el uso del modelo GitFlow, logrando que el equipo y docente comprendan el flujo de trabajo técnico y colaborativo del proyecto. <br> **TP:** Desarrollé la sección de perfil de agencia dentro de la aplicación web, asegurando una estructura clara y organizada que permita visualizar y gestionar la información relevante de manera eficiente. Se mantuvo la coherencia visual y funcional con el resto del sistema, siguiendo buenas prácticas de diseño e implementación para facilitar su integración y futura escalabilidad. <br> **TB2:** <br> **TF:** <br><br> **- Ariadna Poma** <br> **TB1:** Durante esta entrega, me encargué de presentar de manera clara el apartado de Assumptions del Lean UX Canvas, identificando las creencias clave del equipo sobre nuestros usuarios, sus problemas, y cómo nuestra solución podría abordarlos. Expliqué cómo estas suposiciones guían las decisiones iniciales del diseño y desarrollo, y detallé el proceso seguido para priorizarlas en función de su impacto y riesgo. Además, facilité la discusión en equipo para validar o refutar estas ideas mediante experimentación, asegurando una base sólida para avanzar en el diseño centrado en el usuario. <br> **TP:** Desarrollé la sección de itinerarios para la vista de turistas dentro de la aplicación web, asegurando una presentación clara y estructurada de los planes de viaje. La implementación se centró en facilitar la navegación y visualización de los itinerarios, permitiendo a los turistas acceder fácilmente a la información relevante y disfrutar de una experiencia de usuario intuitiva y fluida. <br> **TB2:** <br> **TF:** <br> <br> **- Raúl Medina** <br> **TB1:** Durante la entrega, expuse los avances relacionados con la implementación inicial del backend, explicando la lógica de los endpoints desarrollados y su integración con la base de datos. Utilicé diagramas y ejemplos funcionales para facilitar la comprensión técnica al resto del equipo y docente. <br> **TP:** Desarrollé la sección de reservas para la vista de turistas dentro de la aplicación web, permitiendo a los usuarios gestionar y visualizar sus reservas de manera eficiente. La implementación se centró en ofrecer una experiencia fluida y accesible, asegurando que los turistas puedan realizar, consultar y modificar sus reservas de forma sencilla y clara. <br> **TB2:** <br> **TF:** <br><br>| **TB1:** Cada integrante cumplió con las tareas que se le encomendaron, manteniendo una comunicación constante y efectiva que reforzó la confianza entre todos. Esto contribuyó al fortalecimiento del trabajo en equipo, un valor esencial en proyectos colaborativos. <br> **TP:** Cada miembro del equipo cumplió con las tareas asignadas, demostrando compromiso y responsabilidad. Se mantuvo una comunicación constante y efectiva, lo que favoreció la colaboración y fortaleció la confianza mutua. Este enfoque contribuyó al éxito del proyecto, resaltando la importancia del trabajo en equipo en entornos colaborativos <br> |
-|Comunica por escrito con efectividad a diferentes rangos de audiencia| **- Marcia Melgarejo** <br> **TB1:** Documenté el proceso completo del diseño de TripMatch, incluyendo el needfinding, los perfiles y tareas del usuario, los mapas de empatía, los escenarios As-Is y To-Be, el wireframe, el prototipo y el diagrama de clases, en un formato claro y organizado.<br> **TP:** Documenté el proceso completo del Sprint 2, incluyendo la planificación detallada del Sprint (Sprint Planning 2), en un formato claro y organizado. Durante esta fase, se definieron los objetivos clave, las tareas prioritarias y los entregables, asegurando que todos los miembros del equipo tuvieran una comprensión clara de los requisitos y plazos. Además, se establecieron los criterios de éxito y se asignaron responsabilidades para garantizar una ejecución eficiente del Sprint. <br> **TB2:** <br> **TF:** <br> <br> **- María Hernández** <br> **TB1:** Me encargué de hacer el diagrama de la base de datos, junto con los antecedentes y problemática, segmentos objetivos y refinar algunas cosas en el documento. <br> **TP:** Documenté el proceso de identificación y asignación de los líderes de cada aspecto (Aspect Leaders) y colaboradores dentro del Sprint 2, en un formato claro y organizado. Durante esta fase, se definieron las áreas clave del proyecto y se asignaron los roles correspondientes a los miembros del equipo, asegurando que cada uno tuviera una responsabilidad clara y alineada con sus habilidades y experiencia. Esto facilitó la colaboración efectiva y garantizó que los aspectos del proyecto fueran gestionados de manera eficiente. <br> **TB2:** <br> **TF:** <br> <br> **- Britney Qqueso** <br> **TB1:** Aporté en la planificación de tareas relacionadas con la arquitectura de información y lineamientos de estilo, buscando siempre que todos los aportes fueran considerados. Coordiné junto al equipo la organización de contenidos y el diseño de la landing page. <br> **TP:** Documenté el proceso de recopilación de la evidencia de desarrollo (Development Evidence) y ejecución (Execution Evidence) para la revisión del Sprint 2, en un formato claro y organizado. En la fase de evidencia de desarrollo, se recopilaron los resultados de las tareas completadas durante el Sprint, demostrando los avances y logros alcanzados. Por otro lado, en la fase de evidencia de ejecución, se presentaron los resultados obtenidos en términos de implementación y pruebas, asegurando que los entregables cumplían con los criterios de aceptación establecidos. Ambas evidencias fueron fundamentales para la revisión del Sprint y para garantizar la alineación con los objetivos del proyecto. <br> **TB2:** <br> **TF:** <br> <br> **- Jorge Guevara** <br> **TB1:** Colabore con la elaboración de los alineamientos que el equipo seguiría durante el proceso de desarrollo. También, me encargue de hacer gran parte del capítulo 3.<br> **TP:** Documenté el proceso de creación y organización del Sprint Backlog 2, en un formato claro y estructurado. Durante esta fase, se identificaron y priorizaron las tareas y objetivos clave del Sprint, asegurando que todos los elementos necesarios para alcanzar los entregables fueran claramente definidos y asignados. Además, se establecieron plazos y dependencias, garantizando una ejecución eficiente y enfocada en los objetivos del Sprint.  <br> **TB2:** <br> **TF:** <br> <br> **- Rodrigo Alaya** <br> **TB1:** Documenté detalladamente la configuración del entorno de desarrollo, estilo de codificación, convenciones de versionado y despliegue del proyecto en el Capítulo 5 del informe. Redacté la sección de herramientas utilizadas en cada fase del desarrollo, incluyendo UX/UI, documentación, y control de versiones, aplicando un lenguaje técnico claro, ordenado y alineado a las buenas prácticas de documentación de software. <br> **TP:** Documenté la evidencia de la documentación de servicios (Services Documentation Evidence) para la revisión del Sprint 2, en un formato claro y organizado. Durante esta fase, se recopiló y presentó la documentación técnica relacionada con los servicios implementados durante el Sprint, asegurando que toda la información necesaria para comprender y utilizar los servicios estuviera completa y accesible. Esta evidencia fue crucial para la revisión del Sprint, permitiendo a los miembros del equipo y las partes interesadas verificar que los servicios documentados cumplían con los estándares y requisitos establecidos.  <br> **TB2:** <br> **TF:** <br> <br> **- Ariadna Poma** <br> **TB1:** Realicé una entrevista en el marco del proyecto, con el objetivo de obtener información clave sobre los requisitos, expectativas o experiencias relacionadas con el desarrollo. Durante la entrevista, se plantearon preguntas estructuradas que permitieron recopilar datos relevantes, los cuales fueron documentados de manera clara y organizada para facilitar su análisis posterior. Esta entrevista contribuyó significativamente a la comprensión de las necesidades del proyecto y a la toma de decisiones informadas. <br> **TP:** Documenté la evidencia de despliegue de software (Software Deployment Evidence) para la revisión del Sprint 2, en un formato claro y organizado. Durante esta fase, se recopilaron y presentaron los detalles relacionados con el proceso de despliegue del software, incluyendo los pasos seguidos, las configuraciones realizadas y los resultados obtenidos. Esta evidencia fue esencial para la revisión del Sprint, ya que permitió verificar que el software desplegado cumplía con los requisitos técnicos y funcionales definidos, y estaba listo para su uso o prueba en el entorno correspondiente.  <br> **TB2:** <br> **TF:** <br><br> **- Raúl Medina** <br> **TB1:** Participé en la redacción del registro de una de las entrevistas realizadas a usuarios potenciales, destacando sus necesidades y puntos de dolor. Además, me encargué de redactar la sección de beneficios de la landing page, enfocándome en resaltar el valor agregado de TripMatch. Finalmente, colaboré con la documentación del Capítulo V relacionada con la evidencia de desarrollo e implementación correspondiente al Sprint 1.<br> **TP:** Documenté los insights de colaboración del equipo durante el Sprint 2, en un formato claro y organizado. A lo largo del Sprint, se identificaron y analizaron los aspectos clave de la interacción y colaboración entre los miembros del equipo, destacando las mejores prácticas, los desafíos enfrentados y las soluciones implementadas. Estos insights proporcionaron valiosa información sobre cómo mejorar la eficiencia, la comunicación y la cohesión del equipo en futuros Sprints, fortaleciendo así el enfoque colaborativo del proyecto.  <br> **TB2:** <br> **TF:** <br><br> | **TB1:** Todos los miembros se involucraron en las tareas que les correspondían, manteniendo una comunicación fluida y eficiente que favoreció la construcción de confianza entre ellos. Como resultado, se potenció el trabajo en equipo, un elemento fundamental en proyectos conjuntos. <br> **TP:** Cada integrante participó activamente en las tareas asignadas, manteniendo una comunicación constante y efectiva que contribuyó a fortalecer la confianza mutua. Esto resultó en un mayor impulso al trabajo en equipo, un aspecto clave para el éxito de proyectos colaborativos. <br> |
+|Comunica oralmente con efectividad a diferentes rangos de audiencia| **- Marcia Melgarejo** <br> **TB1:** Expliqué los hallazgos del needfinding y el recorrido del usuario de manera clara, apoyándome en wireframes y prototipos interactivos para comunicar las propuestas de diseño de TripMatch ante diferentes audiencias.<br> **TP:** Desarrollé la sección de Experience Manager y la página de layout por defecto (Default Layout Page) de la aplicación web, asegurando una estructura coherente, reutilizable y alineada con el diseño general del sistema. La sección de Experience Manager se implementó de forma modular para facilitar su integración con otras vistas, mientras que el layout por defecto establece la base visual y estructural sobre la cual se construyen las distintas páginas, garantizando consistencia en la experiencia del usuario.  <br> **TB2:** <br> **TF:** <br> <br> **- María Hernández** <br> **TB1:** En esta entrega me encargué de realizar una entrevista, además de colaborar con la elaboración de los wireframe y mockups de la landing page. Así mismo, realicé una de las sección del langing (About Us) y el Login. <br> **TP:** Desarrollé la vista de Reservas para la sección de Agencias dentro de la aplicación web, asegurando una estructura clara, coherente y alineada con el diseño general del sistema. El trabajo incluyó la implementación de la interfaz de usuario, el estilo visual y la integración con los datos necesarios para su correcto funcionamiento. Se mantuvo un enfoque modular y organizado para facilitar futuras mejoras y asegurar la mantenibilidad del código. <br> **TB2:** <br> **TF:** <br> <br> **- Britney Qqueso** <br> **TB1:** En esta entrega colaboré en la definición de las Style Guidelines generales y para web, así como en el desarrollo de la arquitectura de la información, incluyendo sistemas de organización, etiquetado, búsqueda y navegación. También participé en la elaboración de SEO y meta tags, así como en el registro de entrevistas y la creación de la landing page. <br> **TP:** Realicé el desarrollo de la sección de Consultas para la vista de Agencias dentro de la aplicación web, enfocándome en mantener una estructura clara y coherente con el resto del sistema. Además, corregí el diagrama C4 para reflejar con mayor precisión la arquitectura actual del proyecto, mejorando su claridad y consistencia. Finalmente, llevé a cabo correcciones en el archivo README, ajustando la documentación para que sea más precisa, comprensible y útil para futuros desarrolladores o colaboradores del proyecto. <br> **TB2:** Durante TB2, conduje entrevistas de validación y presenté los hallazgos obtenidos de manera clara y estructurada. Además, me encargué de documentar el Sprint 3, dejando registro del avance del equipo y comunicando oralmente los puntos clave del progreso y próximos pasos en las reuniones grupales.<br> **TF:** <br> <br> **- Jorge Guevara** <br> **TB1:** En esta entrega me encargué de comunicarle a mi equipo cuál sería la metodología de trabajo. Además, realicé una entrevista enfocadas en el segmento de agencias, con el propósito de entender mejor sus necesidades y expectativas. Asimismo, colaboré con la revisión retroactiva de los avances de mis compañeros, brindándoles observaciones sobre los puntos de la documentación que podrían ser mejorados. <br> **TP:** Desarrollé la vista principal (Home View) dirigida a turistas dentro de la aplicación web, asegurando una presentación clara, atractiva y alineada con la experiencia de usuario esperada. Además, se implementó un diseño responsive para la landing page, optimizando su visualización y funcionalidad en dispositivos móviles, con el objetivo de garantizar una navegación fluida y accesible desde cualquier pantalla. <br> **TB2:** <br> **TF:** <br> <br> **- Rodrigo Alaya** <br> **TB1:** Durante esta entrega, me encargué de presentar de manera clara el proceso de configuración del entorno de desarrollo y despliegue de TripMatch, explicando las herramientas utilizadas en cada etapa: desde la gestión de requisitos con Trello y Discord, hasta el despliegue automático con GitHub Pages. También expuse la estructura del repositorio y el uso del modelo GitFlow, logrando que el equipo y docente comprendan el flujo de trabajo técnico y colaborativo del proyecto. <br> **TP:** Desarrollé la sección de perfil de agencia dentro de la aplicación web, asegurando una estructura clara y organizada que permita visualizar y gestionar la información relevante de manera eficiente. Se mantuvo la coherencia visual y funcional con el resto del sistema, siguiendo buenas prácticas de diseño e implementación para facilitar su integración y futura escalabilidad. <br> **TB2:** <br> **TF:** <br><br> **- Ariadna Poma** <br> **TB1:** Durante esta entrega, me encargué de presentar de manera clara el apartado de Assumptions del Lean UX Canvas, identificando las creencias clave del equipo sobre nuestros usuarios, sus problemas, y cómo nuestra solución podría abordarlos. Expliqué cómo estas suposiciones guían las decisiones iniciales del diseño y desarrollo, y detallé el proceso seguido para priorizarlas en función de su impacto y riesgo. Además, facilité la discusión en equipo para validar o refutar estas ideas mediante experimentación, asegurando una base sólida para avanzar en el diseño centrado en el usuario. <br> **TP:** Desarrollé la sección de itinerarios para la vista de turistas dentro de la aplicación web, asegurando una presentación clara y estructurada de los planes de viaje. La implementación se centró en facilitar la navegación y visualización de los itinerarios, permitiendo a los turistas acceder fácilmente a la información relevante y disfrutar de una experiencia de usuario intuitiva y fluida. <br> **TB2:** <br> **TF:** <br> <br> **- Raúl Medina** <br> **TB1:** Durante la entrega, expuse los avances relacionados con la implementación inicial del backend, explicando la lógica de los endpoints desarrollados y su integración con la base de datos. Utilicé diagramas y ejemplos funcionales para facilitar la comprensión técnica al resto del equipo y docente. <br> **TP:** Desarrollé la sección de reservas para la vista de turistas dentro de la aplicación web, permitiendo a los usuarios gestionar y visualizar sus reservas de manera eficiente. La implementación se centró en ofrecer una experiencia fluida y accesible, asegurando que los turistas puedan realizar, consultar y modificar sus reservas de forma sencilla y clara. <br> **TB2:** <br> **TF:** <br><br>| **TB1:** Cada integrante cumplió con las tareas que se le encomendaron, manteniendo una comunicación constante y efectiva que reforzó la confianza entre todos. Esto contribuyó al fortalecimiento del trabajo en equipo, un valor esencial en proyectos colaborativos. <br> **TP:** Cada miembro del equipo cumplió con las tareas asignadas, demostrando compromiso y responsabilidad. Se mantuvo una comunicación constante y efectiva, lo que favoreció la colaboración y fortaleció la confianza mutua. Este enfoque contribuyó al éxito del proyecto, resaltando la importancia del trabajo en equipo en entornos colaborativos <br> |
+|Comunica por escrito con efectividad a diferentes rangos de audiencia| **- Marcia Melgarejo** <br> **TB1:** Documenté el proceso completo del diseño de TripMatch, incluyendo el needfinding, los perfiles y tareas del usuario, los mapas de empatía, los escenarios As-Is y To-Be, el wireframe, el prototipo y el diagrama de clases, en un formato claro y organizado.<br> **TP:** Documenté el proceso completo del Sprint 2, incluyendo la planificación detallada del Sprint (Sprint Planning 2), en un formato claro y organizado. Durante esta fase, se definieron los objetivos clave, las tareas prioritarias y los entregables, asegurando que todos los miembros del equipo tuvieran una comprensión clara de los requisitos y plazos. Además, se establecieron los criterios de éxito y se asignaron responsabilidades para garantizar una ejecución eficiente del Sprint. <br> **TB2:** <br> **TF:** <br> <br> **- María Hernández** <br> **TB1:** Me encargué de hacer el diagrama de la base de datos, junto con los antecedentes y problemática, segmentos objetivos y refinar algunas cosas en el documento. <br> **TP:** Documenté el proceso de identificación y asignación de los líderes de cada aspecto (Aspect Leaders) y colaboradores dentro del Sprint 2, en un formato claro y organizado. Durante esta fase, se definieron las áreas clave del proyecto y se asignaron los roles correspondientes a los miembros del equipo, asegurando que cada uno tuviera una responsabilidad clara y alineada con sus habilidades y experiencia. Esto facilitó la colaboración efectiva y garantizó que los aspectos del proyecto fueran gestionados de manera eficiente. <br> **TB2:** <br> **TF:** <br> <br> **- Britney Qqueso** <br> **TB1:** Aporté en la planificación de tareas relacionadas con la arquitectura de información y lineamientos de estilo, buscando siempre que todos los aportes fueran considerados. Coordiné junto al equipo la organización de contenidos y el diseño de la landing page. <br> **TP:** Documenté el proceso de recopilación de la evidencia de desarrollo (Development Evidence) y ejecución (Execution Evidence) para la revisión del Sprint 2, en un formato claro y organizado. En la fase de evidencia de desarrollo, se recopilaron los resultados de las tareas completadas durante el Sprint, demostrando los avances y logros alcanzados. Por otro lado, en la fase de evidencia de ejecución, se presentaron los resultados obtenidos en términos de implementación y pruebas, asegurando que los entregables cumplían con los criterios de aceptación establecidos. Ambas evidencias fueron fundamentales para la revisión del Sprint y para garantizar la alineación con los objetivos del proyecto. <br> **TB2:** En TB2, redacté las observaciones obtenidas en entrevistas de validación, resumiendo los hallazgos y plasmándolos en un lenguaje claro y directo para orientar mejoras. También me encargué de la documentación del Sprint 3, registrando por escrito los avances del equipo y facilitando una visión compartida del progreso logrado.<br> **TF:** <br> <br> **- Jorge Guevara** <br> **TB1:** Colabore con la elaboración de los alineamientos que el equipo seguiría durante el proceso de desarrollo. También, me encargue de hacer gran parte del capítulo 3.<br> **TP:** Documenté el proceso de creación y organización del Sprint Backlog 2, en un formato claro y estructurado. Durante esta fase, se identificaron y priorizaron las tareas y objetivos clave del Sprint, asegurando que todos los elementos necesarios para alcanzar los entregables fueran claramente definidos y asignados. Además, se establecieron plazos y dependencias, garantizando una ejecución eficiente y enfocada en los objetivos del Sprint.  <br> **TB2:** <br> **TF:** <br> <br> **- Rodrigo Alaya** <br> **TB1:** Documenté detalladamente la configuración del entorno de desarrollo, estilo de codificación, convenciones de versionado y despliegue del proyecto en el Capítulo 5 del informe. Redacté la sección de herramientas utilizadas en cada fase del desarrollo, incluyendo UX/UI, documentación, y control de versiones, aplicando un lenguaje técnico claro, ordenado y alineado a las buenas prácticas de documentación de software. <br> **TP:** Documenté la evidencia de la documentación de servicios (Services Documentation Evidence) para la revisión del Sprint 2, en un formato claro y organizado. Durante esta fase, se recopiló y presentó la documentación técnica relacionada con los servicios implementados durante el Sprint, asegurando que toda la información necesaria para comprender y utilizar los servicios estuviera completa y accesible. Esta evidencia fue crucial para la revisión del Sprint, permitiendo a los miembros del equipo y las partes interesadas verificar que los servicios documentados cumplían con los estándares y requisitos establecidos.  <br> **TB2:** <br> **TF:** <br> <br> **- Ariadna Poma** <br> **TB1:** Realicé una entrevista en el marco del proyecto, con el objetivo de obtener información clave sobre los requisitos, expectativas o experiencias relacionadas con el desarrollo. Durante la entrevista, se plantearon preguntas estructuradas que permitieron recopilar datos relevantes, los cuales fueron documentados de manera clara y organizada para facilitar su análisis posterior. Esta entrevista contribuyó significativamente a la comprensión de las necesidades del proyecto y a la toma de decisiones informadas. <br> **TP:** Documenté la evidencia de despliegue de software (Software Deployment Evidence) para la revisión del Sprint 2, en un formato claro y organizado. Durante esta fase, se recopilaron y presentaron los detalles relacionados con el proceso de despliegue del software, incluyendo los pasos seguidos, las configuraciones realizadas y los resultados obtenidos. Esta evidencia fue esencial para la revisión del Sprint, ya que permitió verificar que el software desplegado cumplía con los requisitos técnicos y funcionales definidos, y estaba listo para su uso o prueba en el entorno correspondiente.  <br> **TB2:** <br> **TF:** <br><br> **- Raúl Medina** <br> **TB1:** Participé en la redacción del registro de una de las entrevistas realizadas a usuarios potenciales, destacando sus necesidades y puntos de dolor. Además, me encargué de redactar la sección de beneficios de la landing page, enfocándome en resaltar el valor agregado de TripMatch. Finalmente, colaboré con la documentación del Capítulo V relacionada con la evidencia de desarrollo e implementación correspondiente al Sprint 1.<br> **TP:** Documenté los insights de colaboración del equipo durante el Sprint 2, en un formato claro y organizado. A lo largo del Sprint, se identificaron y analizaron los aspectos clave de la interacción y colaboración entre los miembros del equipo, destacando las mejores prácticas, los desafíos enfrentados y las soluciones implementadas. Estos insights proporcionaron valiosa información sobre cómo mejorar la eficiencia, la comunicación y la cohesión del equipo en futuros Sprints, fortaleciendo así el enfoque colaborativo del proyecto.  <br> **TB2:** <br> **TF:** <br><br> | **TB1:** Todos los miembros se involucraron en las tareas que les correspondían, manteniendo una comunicación fluida y eficiente que favoreció la construcción de confianza entre ellos. Como resultado, se potenció el trabajo en equipo, un elemento fundamental en proyectos conjuntos. <br> **TP:** Cada integrante participó activamente en las tareas asignadas, manteniendo una comunicación constante y efectiva que contribuyó a fortalecer la confianza mutua. Esto resultó en un mayor impulso al trabajo en equipo, un aspecto clave para el éxito de proyectos colaborativos. <br> |
 
 
 
@@ -110,86 +177,116 @@ Commits del Report:
 
 URL Project Report (Github): 
 
-### [Capítulo I: Introducción]()
-- [1.1. Startup Profile]()
-    - [1.1.1 Descripción de la Startup]()
-    - [1.1.2 Perfiles de integrantes del equipo]()
-- [1.2 Solution Profile]()
-    - [1.2.1 Antecedentes y problemática]()
-    - [1.2.2 Lean UX Process]()
-        - [1.2.2.1. Lean UX Problem Statements]()
-        - [1.2.2.2. Lean UX Assumptions]()
-        - [1.2.2.3. Lean UX Hypothesis Statements]()
-        - [1.2.2.4. Lean UX Canvas]()
-- [1.3. Segmentos objetivo]()
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2 Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
-### [Capítulo II: Requirements Elicitation & Analysis]()
-- [2.1. Competidores]()
-    - [2.1.1. Análisis competitivo]()
-    - [2.1.2. Estrategias y tácticas frente a competidores]()
-- [2.2. Entrevistas]()
-    - [2.2.1. Diseño de entrevistas]()
-    - [2.2.2. Registro de entrevistas]()
-    - [2.2.3. Análisis de entrevistas]()
-- [2.3. Needfinding]()
-    - [2.3.1. User Personas]()
-    - [2.3.2. User Task Matrix]()
-    - [2.3.3. User Journey Mapping]()
-    - [2.3.4. Empathy Mapping]()
-    - [2.3.5. As-is Scenario Mapping]()
-- [2.4. Ubiquitous Language]()
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
 
-### [Capítulo III: Requirements Specification]()
-- [3.1. To-Be Scenario Mapping]()
-- [3.2. User Stories]()
-- [3.3. Impact Mapping]()
-- [3.4. Product Backlog]()
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+  - [3.2. User Stories](#32-user-stories)
+  - [3.3. Impact Mapping](#33-impact-mapping)
+  - [3.4. Product Backlog](#34-product-backlog)
 
-### [Capítulo IV: Product Design]()
-- [4.1. Style Guidelines]()
-    - [4.1.1. General Style Guidelines]()
-    - [4.1.2. Web Style Guidelines]()
-- [4.2. Information Architecture]()
-    - [4.2.1. Organization Systems]()
-    - [4.2.2. Labeling Systems]()
-    - [4.2.3. SEO Tags and Meta Tags]()
-    - [4.2.4. Searching Systems]()
-    - [4.2.5. Navigation Systems]()
-- [4.3. Landing Page UI Design]()
-    - [4.3.1. Landing Page Wireframe]()
-    - [4.3.2. Landing Page Mock-up]()
-- [4.4. Web Applications UX/UI Design]()
-    - [4.4.1. Web Applications Wireframes]()
-    - [4.4.2. Web Applications Wireflow Diagrams]()
-    - [4.4.3. Web Applications Mock-ups]()
-    - [4.4.4. Web Applications User Flow Diagrams]()
-- [4.5. Web Applications Prototyping]()
-- [4.6. Domain-Driven Software Architecture]()
-    - [4.6.1. Software Architecture Context Diagram]()
-    - [4.6.2. Software Architecture Container Diagrams]()
-    - [4.6.3. Software Architecture Components Diagrams]()
-- [4.7. Software Object-Oriented Design]()
-    - [4.7.1. Class Diagrams]()
-    - [4.7.2. Class Dictionary]()
-- [4.8. Database Design]()
-    - [4.8.1. Database Diagram]()
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [4.1. Style Guidelines](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+  - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems.](#421-organization-systems)
+    - [4.2.2. Labeling Systems.](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems.](#424-searching-systems)
+    - [4.2.5. Navigation Systems.](#425-navigation-systems)
+  - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design.](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes.](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
+    - [4.4.2. Web Applications Mock-ups.](#442-web-applications-mock-ups)
+    - [4.4.3. Web Applications User Flow Diagrams.](#443-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
+    - [4.6.1. Software Architecture Context Diagram.](#461-software-architecture-context-diagram)
+    - [4.6.2. Software Architecture Container Diagrams.](#462-software-architecture-container-diagrams)
+    - [4.6.3. Software Architecture Components Diagrams.](#463-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design.](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams.](#471-class-diagrams)
+    - [4.7.2. Class Dictionary.](#472-class-dictionary)
+  - [4.8. Database Design.](#48-database-design)
+    - [4.8.1. Database Diagram.](#481-database-diagram)
 
-### [Capítulo V: Product Implementation, Validation & Deployment]()
-- [5.1. Software Configuration Management]()
-    - [5.1.1. Software Development Environment Configuration]()
-    - [5.1.2. Source Code Management]()
-    - [5.1.3. Source Code Style Guide & Conventions]()
-    - [5.1.4. Software Deployment Configuration]()
-- [5.2. Landing Page, Services & Applications Implementation]()
-    - [5.2.1. Sprint 1]()
-        - [5.2.1.1. Sprint Planning 1]()
-        - [5.2.1.2. Sprint Backlog 1]()
-        - [5.2.1.3. Development Evidence for Sprint Review]()
-        - [5.2.1.4. Testing Suite Evidence for Sprint Review]()
-        - [5.2.1.5. Execution Evidence for Sprint Review]()
-        - [5.2.1.6. Services Documentation Evidence for Sprint Review]()
-        - [5.2.1.7. Software Deployment Evidence for Sprint Review]()
-        - [5.2.1.8. Team Collaboration Insights during Sprint]()
+- [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management.](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management.](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint 1](#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1.](#5213-sprint-backlog-n)
+      - [5.2.1.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2.](#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review.](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review.](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
+
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators.](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3.](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review.](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review.](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint.](#5238-team-collaboration-insights-during-sprint)
+
+  - [5.3. Validation Interviews.](#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
+  - [5.4. Video About-the-Product.](#54-video-about-the-product)
+- [Conclusiones](#conclusiones)
+  - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
+- [Video About-the-Team.](#video-about-the-team)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
 
 # Capítulo 1: Introducción
 ## 1.1. Startup Profile
@@ -651,6 +748,42 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 | US36 | Acceder a secciones informativas | **Como** visitante del segmento de agencias de turismo, **quiero** acceder desde el menú a secciones como FAQs y About us **para** informarme. | <p>**Escenario:** Navegación por menú</p><p>**Dado que** el menú incluye accesos</p><p>**Cuando** hace clic en “FAQs” o “About us”</p><p>**Entonces** es dirigido a esas secciones</p> | EP09 |
 | US37 | Registro para agencias | **Como** visitante del segmento de agencias de turismo, **quiero** registrarme desde la landing **para** empezar a formar parte de la plataforma. | <p>**Escenario:** Registro desde botón</p><p>**Dado que** el botón “Sign Up” está visible</p><p>**Cuando** el visitante hace clic en él</p><p>**Entonces** es redirigido a la interfaz de registro correspondiente</p> | EP09 |
 
+### Epics:
+| Epic ID | Título                                      | Descripción                                                                                                     | HUs asociadas                      |
+| ---- | ------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| EP01 | Registro y validación de usuario            | Funcionalidades relacionadas al proceso de registro, validación y bienvenida de nuevos usuarios.                | US01, US02, US03, US04, US05, US06 |
+| EP02 | Búsqueda y exploración de destinos          | Permite a los usuarios buscar, filtrar y previsualizar destinos turísticos.                                     | US07, US08, US09, US10, US11, US12 |
+| EP03 | Gestión de itinerarios                      | Funcionalidades para visualizar y eliminar itinerarios planificados por el usuario.                             | US13, US14                         |
+| EP04 | Experiencia personalizada y recomendaciones | Proporciona a los usuarios funciones para ver detalles, guardar favoritos y recibir sugerencias personalizadas. | US15, US16, US17, US18, US19       |
+| EP05 | Publicación de experiencias por agencias    | Permite a las agencias registrar y editar los paquetes turísticos que ofrecen.                                  | US20, US21                         |
+| EP06 | Gestión de perfil y reservas para agencias  | Permite a las agencias gestionar su perfil, reservas y comunicación con clientes.                               | US22, US23, US24, US25, US27       |
+| EP07 | Creación y edición de paquetes turísticos   | Unifica la creación y mantenimiento de experiencias por parte de las agencias.                                  | US26                               |
+| EP08 | Experiencia de visitante (turistas)         | Información orientada a visitantes turistas no registrados: beneficios, navegación y contacto.                  | US28, US29, US30, US31, US32       |
+| EP09 | Experiencia de visitante (agencias)         | Información orientada a visitantes del segmento de agencias: funcionamiento, beneficios y registro.             | US33, US34, US35, US36, US37       |
+
+
+### Technical Stories:
+| Story ID | Título                             | Descripción                                                                                                                                                           |
+| -------- | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| TS01     | Post Usuario                       | Como desarrollador de TripMatch, quiero registrar un nuevo usuario mediante una API REST para que pueda autenticarse y utilizar las funcionalidades de la plataforma. |
+| TS02     | Get Usuario                        | Como desarrollador de TripMatch, quiero obtener los datos del perfil de un usuario para mostrarlos en la interfaz y permitir su edición.                              |
+| TS03     | Post Autenticación                 | Como desarrollador de TripMatch, quiero permitir que un usuario inicie sesión a través de la API para gestionar su sesión de forma segura.                            |
+| TS04     | Post Agencia                       | Como desarrollador de TripMatch, quiero registrar una nueva agencia de turismo mediante la API REST para que pueda publicar paquetes turísticos.                      |
+| TS05     | Get Agencia                        | Como desarrollador de TripMatch, quiero obtener la información del perfil de una agencia para mostrar sus datos y sus paquetes en la plataforma.                      |
+| TS06     | Put Agencia                        | Como desarrollador de TripMatch, quiero permitir que una agencia actualice su perfil mediante la API REST para mantener la información vigente.                       |
+| TS07     | Post Paquete Turístico             | Como desarrollador de TripMatch, quiero registrar un nuevo paquete turístico desde la API para que las agencias puedan publicarlos en la plataforma.                  |
+| TS08     | Get Paquetes por Agencia           | Como desarrollador de TripMatch, quiero listar todos los paquetes turísticos registrados por una agencia específica para mostrarlos en su perfil.                     |
+| TS09     | Put Paquete Turístico              | Como desarrollador de TripMatch, quiero permitir la actualización de paquetes turísticos mediante la API para mantenerlos actualizados.                               |
+| TS10     | Post Reserva                       | Como desarrollador de TripMatch, quiero permitir que los usuarios reserven paquetes turísticos mediante la API para confirmar su participación en una experiencia.    |
+| TS11     | Get Reservas por Agencia           | Como desarrollador de TripMatch, quiero obtener la lista de reservas asociadas a una agencia para facilitar su gestión en el panel de administración.                 |
+| TS12     | Get Destinos                       | Como desarrollador de TripMatch, quiero listar los destinos turísticos disponibles mediante la API para alimentar la búsqueda de los usuarios.                        |
+| TS13     | Get Detalle de Destino             | Como desarrollador de TripMatch, quiero obtener la información completa de un destino para mostrarla cuando el usuario lo seleccione.                                 |
+| TS14     | Post Favorito                      | Como desarrollador de TripMatch, quiero permitir que un usuario agregue un destino a su lista de favoritos a través de la API.                                        |
+| TS15     | Get Favoritos del Usuario          | Como desarrollador de TripMatch, quiero obtener la lista de destinos favoritos de un usuario para mostrarlos en su perfil.                                            |
+| TS16     | Get Recomendaciones Personalizadas | Como desarrollador de TripMatch, quiero obtener recomendaciones de destinos en base al comportamiento del usuario para ofrecerle experiencias personalizadas.         |
+| TS17     | Post Itinerario                    | Como desarrollador de TripMatch, quiero permitir que un usuario registre un nuevo itinerario con destinos seleccionados mediante la API REST.                         |
+| TS18     | Get Itinerario del Usuario         | Como desarrollador de TripMatch, quiero obtener todos los itinerarios de un usuario para que pueda gestionarlos desde su cuenta.                                      |
+| TS19     | Delete Itinerario                  | Como desarrollador de TripMatch, quiero permitir que un usuario elimine un itinerario que ya no necesita desde la API.                                                |
 
 
 ## 3.3. Impact Mapping
@@ -698,6 +831,25 @@ El Impact Mapping es una metodología visual y ágil que permite a las organizac
 |35| US35  | **Como** visitante del segmento de agencias de turismo, **quiero** usar el formulario de contacto **para** hacer consultas o proponer colaboración. | 8 |
 |36| US36  | **Como** visitante del segmento de agencias de turismo, **quiero** acceder desde el menú a secciones como FAQs y About us **para** informarme. | 5 |
 |37| US37  | **Como** visitante del segmento de agencias de turismo, **quiero** registrarme desde la landing **para** empezar a formar parte de la plataforma.  | 5 |
+|38|TS01|**Como** desarrollador de TripMatch, **quiero** registrar un nuevo usuario mediante una API REST **para** que pueda autenticarse y utilizar las funcionalidades de la plataforma.|8|
+|39|TS02|**Como** desarrollador de TripMatch, **quiero** obtener los datos del perfil de un usuario **para** mostrarlos en la interfaz y permitir su edición.|5|
+|40|TS03|**Como** desarrollador de TripMatch, **quiero** permitir que un usuario inicie sesión mediante la API **para** gestionar su sesión de forma segura.|5|
+|41|TS04|**Como** desarrollador de TripMatch, **quiero** registrar una nueva agencia de turismo mediante la API REST **para** que pueda publicar paquetes turísticos.|5|
+|42|TS05|**Como** desarrollador de TripMatch, **quiero** obtener la información del perfil de una agencia **para** mostrar sus datos y sus paquetes en la plataforma.|3|
+|43|TS06|**Como** desarrollador de TripMatch, **quiero** permitir que una agencia actualice su perfil mediante la API REST **para** mantener la información vigente.|3|
+|44|TS07|**Como** desarrollador de TripMatch, **quiero** registrar un nuevo paquete turístico desde la API **para** que las agencias puedan publicarlos en la plataforma.|8|
+|45|TS08|**Como** desarrollador de TripMatch, **quiero** listar todos los paquetes turísticos de una agencia específica **para** mostrarlos en su perfil.|3|
+|46|TS09|**Como** desarrollador de TripMatch, **quiero** permitir la actualización de paquetes turísticos mediante la API **para** mantenerlos actualizados.|5|
+|47|TS10|**Como** desarrollador de TripMatch, **quiero** permitir que los usuarios reserven paquetes turísticos mediante la API **para** confirmar su participación en una experiencia.|8|
+|48|TS11|**Como** desarrollador de TripMatch, **quiero** obtener la lista de reservas asociadas a una agencia **para** facilitar su gestión en el panel de administración.|3|
+|49|TS12|**Como** desarrollador de TripMatch, **quiero** listar los destinos turísticos disponibles mediante la API **para** alimentar la búsqueda de los usuarios.|5|
+|50|TS13|**Como** desarrollador de TripMatch, **quiero** obtener la información completa de un destino **para** mostrarla cuando el usuario lo seleccione.|3|
+|51|TS14|**Como** desarrollador de TripMatch, **quiero** permitir que un usuario agregue un destino a su lista de favoritos a través de la API **para** poder guardarlo.|3|
+|52|TS15|**Como** desarrollador de TripMatch, **quiero** obtener la lista de destinos favoritos de un usuario **para** mostrarlos en su perfil.|3|
+|53|TS16|**Como** desarrollador de TripMatch, **quiero** obtener recomendaciones de destinos en base al comportamiento del usuario **para** ofrecer experiencias personalizadas.|8|
+|54|TS17|**Como** desarrollador de TripMatch, **quiero** permitir que un usuario registre un nuevo itinerario con destinos seleccionados mediante la API REST **para** planificar su viaje.|5|
+|55|TS18|**Como** desarrollador de TripMatch, **quiero** obtener todos los itinerarios de un usuario **para** que pueda gestionarlos desde su cuenta.|3|
+|56|TS19|**Como** desarrollador de TripMatch, **quiero** permitir que un usuario elimine un itinerario que ya no necesita desde la API **para** mantener su planificación actualizada.|3|
 
 
 # Capítulo 4: Product Design
@@ -1729,11 +1881,11 @@ Durante el Sprint 2 se completaron:
 
 **Capturas de pantalla**
 
-- ![Login](./assets/img/login.png)
-- ![Home Turista](./assets/img/home-turist.png)
-- ![Reservas Agencia](./assets/img/reservation.png)
-- ![Perfil Agencia](./assets/img/agency-profile.png)
-- ![Gestor de Experiencias](./assets/img/experience-manager.png)
+![Login](./assets/img/login.png)
+![Home Turista](./assets/img/home-turist.png)
+![Reservas Agencia](./assets/img/reservation.png)
+![Perfil Agencia](./assets/img/agency-profile.png)
+![Gestor de Experiencias](./assets/img/experience-manager.png)
 
 #### 5.2.2.6 Services Documentation Evidence for Sprint Review
 
@@ -1766,3 +1918,620 @@ https://trip-match-2025.web.app/manageExperience
 - Uso de GitHub Projects para distribución de tareas y visualización Kanban
 - La participación fue más equitativa y se mejoró el control de merges
 - Las correcciones en documentación (README, C4) facilitaron la comprensión del repositorio para nuevos miembros
+
+### 5.2.3. Sprint 3
+#### 5.2.3.1. Sprint Planning 3.
+<table>
+    <tr>
+        <td>Sprint #</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <th colspan="2"><strong>Sprint Planning Background</strong></th>
+    </tr>
+    <tr>
+        <td>Date</td>
+        <td>10/06/2025</td>
+    </tr>
+     <tr>
+        <td>Time</td>
+        <td> 11:00 AM</td>
+    </tr>
+     <tr>
+        <td>Location</td>
+        <td>Reunión virtual – Discord</td>
+    </tr>
+    <tr>
+        <td>Prepared By</td>
+        <td>Marcia Victoria Melgarejo Gomez</td>
+    </tr>
+    <tr>
+        <td>Attendees (to planning meeting)</td>
+        <td>
+        - Britney Delhy Qqueso Rodríguez – U20211G671<br>
+        - Rodrigo Alaya Cabrera – U202219481<br>
+        - Ariadna G. Poma Muñoz – U20221D328<br>
+        - Jorge Enrique Guevara Tejada – U202316057<br>
+        - Raúl A. Medina Cruzado – U202210938<br>
+        - María Patricia Hernández Uchuya - U202311258<br>
+        - Marcia Victoria Melgarejo Gomez – U20231C505
+   </td>
+    </tr>
+    <tr>
+        <td>Sprint 3 – 2 Review Summary</td>
+        <td>Durante la revisión del Sprint 2 se logró implementar el flujo de login funcional, vistas diferenciadas por rol (usuario y agencia), y navegación básica a través del layout principal. También se trabajó la visualización del perfil y la interfaz de reservas. Se identificaron oportunidades de mejora para optimizar la carga de datos y modularizar mejor la lógica en el frontend.</td>
+    </tr>
+    <tr>
+        <td>Sprint 3 – 2 Retrospective Summary</td>
+        <td>En la retrospectiva del Sprint 2, se destacó como aspectos positivos la buena comunicación y coordinación durante el sprint, así como una mayor claridad en la definición de tareas desde la planificación. Sin embargo, se identificaron oportunidades de mejora, como refinar la estimación de tiempos para evitar retrasos en tareas complejas y distribuir mejor la carga de trabajo.</td>
+    </tr>
+    <tr>
+        <th colspan="2"><strong>Sprint Goal & User Stories</strong></th>
+    </tr>
+    <tr>
+        <td>Sprint 3 Goal</td>
+        <td>
+<strong>Nuestra meta para este sprint es</strong> desarrollar e implementar las funcionalidades esenciales del backend para la aplicación TripMatch, enfocándonos en la creación de APIs RESTful para la gestión de usuarios, agencias, paquetes turísticos, destinos, reservas e itinerarios. <br> 
+<br>
+<strong>Creemos que</strong> esto establecerá la base de comunicación entre el frontend y el servidor, permitiendo la persistencia, consulta y manipulación segura de datos.<br>
+<br>
+<strong>Esto se confirmará</strong> cuando las APIs de usuarios permitan registrar y autenticar usuarios; las de agencias gestionen sus perfiles y paquetes turísticos; las de reservas permitan registrar y consultar reservas correctamente; y las de destinos e itinerarios soporten el flujo de planificación de viajes y recomendaciones personalizadas.
+    </td>
+    </tr>
+     <tr>
+        <td>Sprint 3 Velocity  </td>
+        <td>42 Story Points.</td>
+    </tr>
+     <tr>
+        <td>Sum of Story Points  </td>
+        <td>42 Story Points.</td>
+    </tr>
+</table>
+
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+<table> 
+  <tr> 
+    <th>Team Member (Last Name, First Name)</th> 
+    <th>GitHub Username</th> 
+    <th>API Gestión de Usuarios<br/>Leader (L) / Collaborator (C)</th> 
+    <th>API Gestión de Agencias<br/>Leader (L) / Collaborator (C)</th> 
+    <th>API Paquetes Turísticos<br/>Leader (L) / Collaborator (C)</th> 
+    <th>API Reservas<br/>Leader (L) / Collaborator (C)</th> 
+    <th>API Destinos<br/>Leader (L) / Collaborator (C)</th> 
+    <th>API Itinerarios<br/>Leader (L) / Collaborator (C)</th> 
+  </tr> 
+  <tr> 
+    <td>Hernández Uchuya, María Patricia </td> 
+    <td>Bal2220 </td> 
+    <td>L</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>L</td> 
+    <td>C</td> 
+  </tr> 
+  <tr> 
+    <td>Qqueso Rodríguez, Britney Delhy</td> 
+    <td>Brit2801</td> 
+    <td>C</td> 
+    <td>L</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>C</td> 
+  </tr> 
+  <tr> 
+    <td>Alaya Cabrera, Rodrigo</td> 
+    <td>ALAYA1803</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>L</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>C</td> 
+  </tr> 
+  <tr> 
+    <td>Poma Muñoz, Ariadna Geraldine</td> 
+    <td>InAsui</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>L</td> 
+    <td>C</td> 
+    <td>C</td> 
+  </tr> 
+  <tr> 
+    <td>Guevara Tejada, Jorge Enrique</td> 
+    <td>Jorgito170 </td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>L</td> 
+  </tr> 
+  <tr> 
+    <td>Medina Cruzado, Raúl Adrián</td> 
+    <td>Necxuz18</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>L</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>C</td> 
+  </tr> 
+  <tr> 
+    <td>Melgarejo Gomez, Marcia Victoria</td> 
+    <td>Mevi1217</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>C</td> 
+    <td>L</td> 
+    <td>C</td> 
+    <td>C</td> 
+  </tr> 
+</table>
+
+#### 5.2.3.3. Sprint Backlog 3.
+<p>El objetivo de este tercer sprint es desarrollar las APIs fundamentales del backend para la plataforma TripMatch. Estas APIs abarcan la gestión de usuarios (registro, inicio de sesión), agencias de turismo, paquetes turísticos, reservas, destinos e itinerarios. Este desarrollo sentará las bases funcionales y técnicas para la integración futura con el frontend y permitirá a los usuarios interactuar con el sistema de manera segura y eficiente.</p> 
+<img src="assets/img/Trello-TripMatch-Sprint3.png">
+
+link: [trello-TripMatchBoard](https://trello.com/invite/b/6855b2983efd7b37b21cca51/ATTI7766151678b80362c4f03602943840382405CD2F/tripmatch)
+
+<table>
+  <tr>
+    <th colspan="2">Sprint #</th>
+    <th colspan="6">Sprint 3</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="6">Work-Item / Task</th>
+  </tr>
+  <tr>
+    <th>TS#</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Task</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status</th>
+  </tr>
+
+  <tr>
+    <th rowspan="1">TS01</th>
+    <th rowspan="1">Registro de Usuario</th>
+    <td>1</td>
+    <td>Crear endpoint POST /users</td>
+    <td>Implementar la API para registrar un nuevo usuario con validaciones básicas.</td>
+    <td>4 hr</td>
+    <td>Rodrigo Alaya</td>
+    <td>In Progress</td>
+  </tr>
+
+  <tr>
+    <th rowspan="2">TS02</th>
+    <th rowspan="2">Gestión de Agencia</th>
+    <td>3</td>
+    <td>Crear endpoint POST /agencies</td>
+    <td>Registrar agencias con nombre comercial, RUC y datos de contacto.</td>
+    <td>3 hr</td>
+    <td>Marcia Melgarejo</td>
+    <td>In Progress</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Crear endpoint PUT /agencies/{id}</td>
+    <td>Actualizar información del perfil de una agencia autenticada.</td>
+    <td>3 hr</td>
+    <td>Ariadna Poma</td>
+    <td>To Do</td>
+  </tr>
+
+  <tr>
+    <th rowspan="2">TS03</th>
+    <th rowspan="2">Gestión de Paquetes Turísticos</th>
+    <td>5</td>
+    <td>Crear endpoint POST /packages</td>
+    <td>Registrar paquetes turísticos con título, descripción, destino y precio.</td>
+    <td>4 hr</td>
+    <td>Jorge Guevara</td>
+    <td>In Progress</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Crear endpoint GET /packages/by-agency</td>
+    <td>Listar paquetes turísticos registrados por una agencia autenticada.</td>
+    <td>3 hr</td>
+    <td>Rodrigo Alaya</td>
+    <td>To Do</td>
+  </tr>
+
+ 
+  <tr>
+    <th>TS04</th>
+    <th>Listado de Destinos</th>
+    <td>7</td>
+    <td>Crear endpoint GET /destinations</td>
+    <td>Obtener lista de destinos turísticos disponibles.</td>
+    <td>2 hr</td>
+    <td>Raúl Medina</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <th rowspan="2">TS05</th>
+    <th rowspan="2">Gestión de Itinerarios</th>
+    <td>8</td>
+    <td>Diseñar modelo Itinerary</td>
+    <td>Definir estructura de datos para los itinerarios: destinos, fechas, actividades.</td>
+    <td>3 hr</td>
+    <td>María Hernández</td>
+    <td>In Progress</td>
+  </tr>
+
+  <tr>
+    <td>9</td>
+    <td>Crear endpoint POST /itineraries</td>
+    <td>Registrar itinerarios relacionados a paquetes turísticos o reservas.</td>
+    <td>3 hr</td>
+    <td>Britney Qqueso</td>
+    <td>To Do</td>
+  </tr>
+
+  <tr>
+    <th rowspan="2">TS06</th>
+    <th rowspan="2">Gestión de Reservas</th>
+    <td>10</td>
+    <td>Crear endpoint POST /bookings</td>
+    <td>Permitir a los usuarios crear reservas de paquetes turísticos.</td>
+    <td>3 hr</td>
+    <td>Jorge Guevara</td>
+    <td>In Progress</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Crear endpoint GET /bookings/by-user</td>
+    <td>Listar reservas realizadas por un usuario autenticado.</td>
+    <td>2 hr</td>
+    <td>María Hernández</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <th rowspan="1">TS07</th>
+    <th rowspan="1">Listado de Agencias</th>
+    <td>12</td>
+    <td>Crear endpoint GET /agencies</td>
+    <td>Permitir listar todas las agencias registradas, con filtros por ubicación o tipo de servicio.</td>
+    <td>2 hr</td>
+    <td>Rodrigo Alaya</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <th rowspan="2">TS08</th>
+    <th rowspan="2">Consulta de Paquetes Turísticos</th>
+    <td>13</td>
+    <td>Crear endpoint GET /packages</td>
+    <td>Listar todos los paquetes disponibles para usuarios, con filtros por destino, precio y duración.</td>
+    <td>3 hr</td>
+    <td>Ariadna Poma</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Crear endpoint GET /packages/{id}</td>
+    <td>Obtener los detalles de un paquete turístico específico (incluye agencia, destinos e itinerario).</td>
+    <td>2 hr</td>
+    <td>Marcia Melgarejo</td>
+    <td>To Do</td>
+  </tr>
+</table>
+
+#### 5.2.3.4. Development Evidence for Sprint Review.
+Durante el Sprint 3 del proyecto TripMatch, se avanzó de forma significativa en el desarrollo del backend, enfocándose en la creación de APIs RESTful fundamentales para la gestión de usuarios, agencias, paquetes turísticos, destinos, itinerarios y reservas. Estas funcionalidades sientan la base para la comunicación fluida con el frontend y habilitan la persistencia de datos críticos en la plataforma.
+
+Se priorizó una arquitectura escalable y mantenible, alineada con buenas prácticas de diseño (DDD, separación por capas y validaciones). Esto permitió asegurar tanto la integridad de los datos como la futura extensibilidad del sistema.
+
+A continuación, se presenta una tabla con los commits más relevantes relacionados con la implementación de estas funcionalidades:
+
+| Repository                                                                                                     | Branch          | Commit Id | Commit Message                                    | Commit Message Body                                                                   | Committed on (Date) |
+| -------------------------------------------------------------------------------------------------------------- | --------------- | --------- | ------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------- |
+| [https://github.com/Turisfera/workstation-back-end.git](https://github.com/Turisfera/workstation-back-end.git) | feature/tb2 | 6a2f3bc   | feat(user): implement POST user registration      | Added endpoint for user registration with request validation and DTO assembler        | 11/06/2025          |
+| [https://github.com/Turisfera/workstation-back-end.git](https://github.com/Turisfera/workstation-back-end.git) | feature/tb2 | 7c5a98d   | feat(auth): implement JWT authentication          | Implemented login endpoint with token generation and secured route access control     | 12/06/2025          |
+| [https://github.com/Turisfera/workstation-back-end.git](https://github.com/Turisfera/workstation-back-end.git) | feature/tb2 | b83d6e1   | feat(agency): create POST /agencies endpoint      | Created endpoint for registering agencies with company info and validation layers     | 13/06/2025          |
+| [https://github.com/Turisfera/workstation-back-end.git](https://github.com/Turisfera/workstation-back-end.git) | feature/tb2 | c19fd82   | feat(package): implement POST /packages           | Added ability to register packages including title, description, price and agencyId   | 14/06/2025          |
+| [https://github.com/Turisfera/workstation-back-end.git](https://github.com/Turisfera/workstation-back-end.git) | feature/tb2 | d70a8fc   | feat(destination): create GET /destinations       | Endpoint for retrieving all available destinations for filtering packages             | 15/06/2025          |
+| [https://github.com/Turisfera/workstation-back-end.git](https://github.com/Turisfera/workstation-back-end.git) | feature/tb2 | e124f1a   | feat(itinerary): create POST /itineraries         | Added itinerary model and API to attach plans to packages or bookings                 | 16/06/2025          |
+| [https://github.com/Turisfera/workstation-back-end.git](https://github.com/Turisfera/workstation-back-end.git) | feature/tb2 | f3870a2   | feat(booking): implement POST /bookings           | Developed booking endpoint to reserve packages for registered users                   | 17/06/2025          |
+| [https://github.com/Turisfera/workstation-back-end.git](https://github.com/Turisfera/workstation-back-end.git) | main         | 9031bed   | chore(release): merge Sprint 3 backend to develop | Merged all Sprint 3 backend features including users, agencies, packages and bookings | 18/06/2025          |
+
+
+#### 5.2.3.5. Execution Evidence for Sprint Review.
+Durante el Sprint 3 del proyecto TripMatch, se implementaron con éxito las principales funcionalidades del sistema, enfocadas en la gestión de usuarios, agencias, paquetes turísticos, destinos, itinerarios y reservas. Estas funciones permiten cubrir el flujo operativo inicial de la plataforma, desde el registro de los actores principales hasta la configuración y reserva de experiencias turísticas personalizadas.
+
+A continuación, se presentan capturas de pantalla de las vistas y endpoints probados como evidencia de la correcta ejecución de estas funcionalidades:
+
+#### Evidencia 1: 
+![Evidencia 1:](./assets/img/Turist-Itineraries.png)
+
+#### Evidencia 2: 
+![Evidencia 2:](assets/img/Turist-Map.png)
+
+#### Evidencia 3: 
+![Evidencia 3:](assets/img/Turist-Reservation.png)
+
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+Durante este Sprint, se avanzó considerablemente en la documentación de los servicios REST desarrollados para el backend de TripMatch, utilizando la especificación OpenAPI (Swagger). Esta documentación es clave para facilitar la integración entre el backend y el frontend, así como para permitir pruebas rápidas y comprensión clara de la estructura de los endpoints implementados.
+
+Los servicios documentados incluyen funcionalidades centrales como la gestión de usuarios, autenticación, creación de agencias, paquetes turísticos, reservas, itinerarios y destinos. A través de Swagger UI, se puede explorar cada uno de estos endpoints, visualizar parámetros esperados, realizar peticiones simuladas y verificar las respuestas del sistema.
+
+| Módulo              | Acción                     | Método | Endpoint            | Parámetros (ejemplo)                                                             | Respuesta (ejemplo)                                                 |
+| ------------------- | -------------------------- | ------ | ------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| Usuarios            | Registrar usuario          | POST   | `/api/users`        | `{"username": "britney", "email": "britney@test.com", "password": "12345678"}`   | `{"id": 1, "username": "britney", "email": "britney@test.com"}`     |
+| Autenticación       | Iniciar sesión             | POST   | `/api/auth/sign-in` | `{"username": "britney", "password": "12345678"}`                                | `{"token": "eyJhbGciOi..."}`                                        |
+| Agencias            | Registrar agencia          | POST   | `/api/agencies`     | `{"name": "Agencia Andes", "email": "contacto@andes.com", "ruc": "12345678901"}` | `{"id": 1, "name": "Agencia Andes", "email": "contacto@andes.com"}` |
+| Paquetes turísticos | Crear paquete turístico    | POST   | `/api/packages`     | `{"name": "Cusco Explorer", "price": 550.00, "agencyId": 1}`                     | `{"id": 1, "name": "Cusco Explorer", "price": 550.00}`              |
+| Reservas            | Reservar paquete turístico | POST   | `/api/bookings`     | `{"packageId": 1, "userId": 1, "travelDate": "2025-07-10"}`                      | `{"id": 1, "status": "CONFIRMED"}`                                  |
+| Destinos            | Obtener todos los destinos | GET    | `/api/destinations` | -                                                                                | `[{"id": 1, "name": "Cusco"}, {"id": 2, "name": "Arequipa"}]`       |
+| Itinerarios         | Registrar itinerario       | POST   | `/api/itineraries`  | `{"packageId": 1, "day": 1, "description": "Tour por el Valle Sagrado"}`         | `{"id": 1, "day": 1, "description": "Tour por el Valle Sagrado"}`   |
+
+#### Captura de la documentación OpenAPI/Swagger
+![Swagger](./assets/img/Swagger.png)
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+Durante este Sprint, se avanzó en el proceso de Deployment del backend de la aplicación TripMatch, logrando poner en funcionamiento todos los servicios desarrollados en un entorno de desarrollo accesible. Esto permitió al equipo validar funcionalmente los endpoints REST y realizar pruebas de integración iniciales con el frontend.
+
+#### Actividades realizadas en el Sprint 3:
+1. Configuración de repositorio remoto:
+
+    * Se utilizó GitHub como repositorio de control de versiones.
+
+    * Repositorio oficial del backend: https://github.com/Turisfera/workstation-back-end
+
+2. Creación de entorno de despliegue local:
+
+    * Para este Sprint se optó por un despliegue local en entorno de desarrollo utilizando:
+
+      * Spring Boot como framework base.
+
+      * Swagger UI para la documentación de servicios.
+
+      * MySQL como base de datos relacional.
+
+      * Docker para levantar contenedores del backend y base de datos en conjunto.
+
+   * Se configuraron los siguientes archivos para automatizar el entorno:
+
+      * Dockerfile para la imagen de backend.
+
+      * docker-compose.yml para levantar el backend y la base de datos.
+
+3. Ejecución local exitosa:
+
+    * La aplicación fue levantada en el entorno local accediendo desde http://localhost:8080/swagger-ui.html.
+
+    * Esto permitió validar el comportamiento de todos los endpoints REST desarrollados y su interacción con la base de datos.
+
+#### Capturas del Proceso de Deployment
+1. Evidencia 1:
+![Evidencia 1:]()
+
+1. Evidencia 2:
+![Evidencia 2:]()
+
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
+Durante el desarrollo del Sprint 3, el equipo colaboró de forma activa, coordinada y orientada a objetivos comunes para implementar los componentes esenciales del backend de la aplicación TripMatch. El trabajo se centró en el modelado del dominio, la creación de controladores REST, el desarrollo de servicios para usuarios, agencias, paquetes turísticos, destinos y reservas, así como la configuración del entorno de despliegue local y la documentación de servicios mediante Swagger UI.
+
+A continuación, se detalla la participación específica de cada integrante del equipo en las principales áreas funcionales del backend:
+
+| **Nombre**                       | **Actividad**                                                                                                                                                                 |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Melgarejo Gomez, Marcia Victoria  | Encargada del modelado de entidades y configuración de la base de datos MySQL. Implementó entidades como Usuario, Agencia, Paquete, Reserva e Itinerario.                     |
+| Alaya Cabrera, Rodrigo           | Responsable de la documentación con Swagger (OpenAPI) y despliegue local con Docker. Participó en la estructuración del entorno de ejecución con `docker-compose`.            |
+| Poma Muñoz, Ariadna G.           | Participó en la implementación de servicios y controladores REST, especialmente en los módulos de autenticación, reservas y usuarios. Realizó pruebas funcionales en Swagger. |
+| Guevara Tejada, Jorge Enrique    | Colaboró en la construcción de endpoints para gestión de paquetes turísticos y destinos. Implementó validaciones y estructuras DTO para transporte de datos.                  |
+| Medina Cruzado, Raúl A.          | Apoyó en el desarrollo de casos de uso de inscripción y lógica de negocio en el dominio de itinerarios.            |
+| Hernández Uchuya, María Patricia | Participó activamente en los casos de uso relacionados a usuarios y autenticación. Validó flujos de creación de cuenta y login.                                               |
+| Qqueso Rodríguez, Britney Delhy | Responsable de la implementación de controladores REST para destinos y paquetes. Documentó flujos en Swagger y validó el correcto funcionamiento de los endpoints.            |
+
+Evidencia de colaboración en GitHub
+A continuación, se presentan capturas del historial de commits y analítica de colaboración del repositorio oficial del backend, donde se evidencia la participación activa y sostenida de todos los integrantes del equipo durante el Sprint 3:
+
+1. Evidencia 1:
+![Evidencia 1:]()
+
+1. Evidencia 2:
+![Evidencia 2:]()
+
+#### Repositorio de trabajo:
+* Repositorio del Backend en GitHub: https://github.com/Turisfera/workstation-back-end
+
+El equipo mantuvo una comunicación constante durante todo el Sprint, utilizando herramientas colaborativas como GitHub y reuniones breves, permitiendo una integración progresiva de los módulos desarrollados y asegurando que cada funcionalidad contara con aportes técnicos y revisiones cruzadas por parte de todos los miembros.
+
+## 5.3. Validation Interviews.
+
+### 5.3.1. Diseño de Entrevistas.
+#### Introducción
+Saludo: Buenas noches, soy —--, parte del equipo de Turisfera. Estamos trabajando en una solución innovadora para facilitar el acceso a experiencias turísticas auténticas y personalizadas que conecte a viajeros con agencias de turismo de manera directa, eficiente y transparente.
+Propósito de la entrevista: El objetivo de esta entrevista es recopilar tus opiniones y validar algunos aspectos clave de nuestra aplicación y landing page para asegurar que se ajuste a las necesidades de usuarios como tú.
+Proceso de la sesión: Vamos a mostrarte algunas funciones de la aplicación y el diseño de la página de aterrizaje. Al final, haremos algunas preguntas para conocer tu experiencia y obtener sugerencias.
+#### Preguntas Principales
+Sobre el diseño y la usabilidad:
+* ¿Qué opinas del diseño del prototipo de nuestra aplicación?
+* ¿Consideras que el diseño es intuitivo y fácil de navegar?
+Validación de funciones:
+* ¿Te parecen útiles las funciones?
+* ¿Crees que esta aplicación facilita el acceso a experiencias turisticas?
+#### Opiniones sobre la Landing Page:
+* ¿La información en el Landing Page es clara y atractiva?
+* ¿Qué mejorarías en la presentación de la aplicación en la página?
+#### Publicidad:
+* ¿Crees que la inclusión de anuncios afectaría negativamente tu experiencia en la app?
+Feedback final:
+* ¿Qué otras funciones consideras que deberían incluirse o eliminarse en la app?
+#### Cierre
+Agradecimiento: Muchas gracias por tu tiempo y respuestas. Tu feedback es muy valioso para mejorar nuestra propuesta y desarrollar una aplicación que realmente responda a tus necesidades. ¡Hasta luego!
+
+### 5.3.2. Registro de Entrevistas.
+
+Segmento 1: Turistas
+
+| Nº Entrevista | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
+|---------------|------------------------|--------------------------|-------------------------|
+| 1 | - **Nombre:** Karla Rojas <br> - **Edad:** 19 años <br> - **Distrito:** La Molina <br> - **Link:** [Entrevista 1: Karla Rojas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311258_upc_edu_pe/EZkH1XHIPlpMls6gDwaEYdQB9YxdJZ1nfwtxHh9s93kXNg?e=Sd1iUR) | Karla considera que la interfaz de la landing page y la aplicación es intuitiva, dinámica y genera confianza. Además, destaca que las funciones disponibles le resultan muy útiles. En su opinión, no hay aspectos que requieran mejora por el momento. Sin embargo, advierte que la incorporación de anuncios podría afectar negativamente su experiencia de navegación. | ![Entrevista 1](./assets/img/Image-Interview-KarlaRojas.png) |
+| 2 | - **Nombre:** Joaquin Alejandro <br> - **Edad:** 20 años <br> - **Distrito:** Jesus Maria <br> - **Link:** [Entrevista 1: Joaquin Gudiel](https://upcedupe-my.sharepoint.com/personal/u20221d382_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20221d382%5Fupc%5Fedu%5Fpe%2FDocuments%2FVID%5F20250619%5F233803%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ec0a66987%2D8b57%2D438b%2D922f%2D5c0b4db84e83&isDarkMode=false) | Joaquín considera que la landing page es fácil de entender y destaca que sus opciones son muy útiles, ya que le facilitan el trabajo. También valora positivamente que la plataforma establezca conexión con agencias pequeñas, lo cual le parece una ventaja. Sin embargo, menciona que la forma en que se apliquen los anuncios en la landing page puede influir en el tiempo que permanece en ella.| ![Entrevista 1]() |
+
+Segmento 2: Agencia
+
+| Nº Entrevista | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
+|---------------|------------------------|--------------------------|-------------------------|
+| 1 | - **Nombre:** Abraam Acosta <br> - **Edad:** 24 años <br> - **Distrito:** Santiago de Surco <br> - **Link:** [Entrevista 1: Abraam Acosta](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210938_upc_edu_pe/EfaAYpxySNFLraW-iQ5De8cBZzEnIbJyKvLQZWtedHmbgw?e=QCc61E&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |Abraam Acosta consideró que la plataforma TripMatch fue bien recibida por las agencias de turismo, quienes valoraron su facilidad de uso y la posibilidad de llegar a nuevos clientes. Sin embargo, también identificaron mejoras necesarias, como mayor seguridad en los pagos, herramientas de gestión como calendarios y métricas, y soporte técnico. En general, reconocieron el potencial de la plataforma siempre que se fortalezcan estos aspectos clave.| ![Entrevista 1](./assets/img/Image-Interview-AbraamAcosta.png) |
+| 2 | - **Nombre:** Mario Lopez <br> - **Edad:** 20 años <br> - **Distrito:** La Molina <br> - **Link:** [Entrevista 2: Mario Lopez](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210938_upc_edu_pe/EVVR3ZT4tMpLg6WdDGek-VoBwyZSi3Hiky5uKjQm1PN1Ug?e=GD1SMV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | Mario Lopez consideró que el diseño de la aplicación TripMatch es moderno, visualmente atractivo e intuitivo, con una navegación fluida y bien organizada. Destacó que las funciones actuales como la búsqueda por intereses y categorización de destinos son útiles y responden a las necesidades del usuario viajero. Señaló que la información en el landing page es clara, pero sugirió incluir testimonios, un video demostrativo y llamados a la acción más visibles. Advirtió que la publicidad podría afectar negativamente la experiencia si no es contextual y no invasiva. Finalmente, recomendó agregar funciones como wishlist, calificaciones de usuarios, modo offline y un calendario de actividades, y eliminar pasos innecesarios o elementos decorativos sin funcionalidad.| ![Entrevista 2](./assets/img/Image-Interview-MarioLopez.png) |
+
+### 5.3.3. Evaluaciones según heurísticas.
+**Site o App a Evaluar:** TripMatch
+
+**Tareas a evaluar:**
+
+El alcance de esta evaluación incluye la revisión de usabilidad de las siguientes tareas:
+
+* Acceder a la aplicación desde la landing page
+
+* Crear cuenta como turista
+
+* Crear cuenta como agencia de turismo
+
+* Inicio de sesión
+
+* Visualización de la página de inicio del turista
+
+* Visualización de la página de inicio de la agencia
+
+* Visualización de itinerarios y favoritos (usuario turista)
+
+* Visualización de reservas y consultas (agencia)
+
+* Gestión de experiencias por parte de agencias
+
+* Visualización y edición del perfil de usuario o agencia
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+* Recuperación de cuenta
+
+* Edición de experiencias reservadas por los usuarios
+
+* Visualización de historial de navegación o búsquedas
+
+**ESCALA DE SEVERIDAD:**
+*Los errores serán puntuados tomando en cuenta la siguiente escala de severidad*
+|***Nivel***|***Descripción***|
+| :-: | :-: |
+|*1*|*Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.*|
+|*2*|*Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase*|
+|*3*|*Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.*|
+|*4*|*Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.*|
+
+**TABLA DE RESUMEN:**
+
+| # | Problema                                                                        | Escala de severidad | Heurística/principio violado                 |
+| - | ------------------------------------------------------------------------------- | ------------------- | -------------------------------------------- |
+| 1 | No hay formulario de contacto en la landing page                                | 3                   | Usability: Help and documentation            |
+| 2 | Un solo formulario de registro para dos segmentos distintos (turista y agencia) | 4                   | Usability: Flexibility and efficiency of use |
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1:** No hay formulario de contacto en la landing page
+
+**Severidad:** 3
+
+**Heurística violada:** Usability: Help and documentation
+
+**Problema**: La landing page de TripMatch incluye una sección de preguntas frecuentes (FAQs), pero no cuenta con un formulario de contacto directo para que los usuarios puedan hacer consultas adicionales. Esta omisión puede dificultar que los usuarios resuelvan dudas específicas, especialmente si no encuentran su problema entre las FAQs.
+
+**Imagen:**
+![heuristics1](assets/img/heuristics1.png)
+
+**Recomendación:** Incluir un formulario de contacto accesible desde el menú o pie de página, con campos básicos (nombre, correo, mensaje) y confirmación visual de envío. Esto facilitará el soporte a los usuarios y mejorará la percepción de accesibilidad y acompañamiento.
+
+-----
+
+**PROBLEMA #2:** Un solo formulario de registro para dos segmentos distintos (turista y agencia)
+
+**Severidad:** 4
+
+**Heurística violada:** Usability: Flexibility and efficiency of use
+
+**Problema**: Actualmente, TripMatch utiliza un único formulario de creación de cuenta tanto para turistas como para agencias de turismo. Esto genera confusión, ya que ambos perfiles requieren campos de registro distintos (por ejemplo, nombre personal vs. nombre de empresa, intereses turísticos vs. tipos de servicios ofrecidos). Además, los flujos de navegación y uso de la aplicación también difieren entre ambos perfiles.
+
+**Imagen:**
+
+![heuristics2](assets/img/heuristics2.png)
+
+**Recomendación:** Dividir el registro en dos formularios diferenciados: uno para turistas y otro para agencias. Esto permitirá solicitar información específica relevante para cada segmento y dirigirlos al flujo adecuado después del registro, mejorando la experiencia de usuario y reduciendo fricción en el proceso de incorporación.
+
+
+
+## 5.4. Video About-the-Product.
+
+### Turistas
+![Interview-Turist](./assets/img/Turist-Home.png)<br>
+Link del vídeo: [About the Product of Turist](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311258_upc_edu_pe/ES71WKL8TA5Mkv2jZmHWeF4Bg01RF-Kg-5y0kvBgq2CX9Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=4Ytmb7)
+
+### Agencias
+![Interview-Agency](./assets/img/Agency-Home.png)<br>
+Link del vídeo: [About the Product of Agency](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311258_upc_edu_pe/EbikAWyD39JGlNLimXO1YjEB36EnEO2akYm0CMjhQyJLeA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7ue5sO)
+
+# Conclusiones y recomendaciones.
+## Conclusiones: 
+Durante el desarrollo de TripMatch, se validaron los principales Problem Statements, confirmando que los turistas necesitan apoyo para planificar itinerarios personalizados y que los anfitriones requieren una forma sencilla de gestionar y promocionar experiencias.
+
+Los assumptions iniciales sobre la utilidad de funciones como la generación automática de itinerarios, el uso de filtros dinámicos y la facilidad de publicación para agencias fueron confirmados a través de pruebas y entrevistas. Las hipótesis planteadas se validaron, destacando el interés de los usuarios en itinerarios personalizados, funciones de guardado y herramientas para mejorar la visibilidad de los anfitriones.
+
+## Recomendaciones 
+
+**Fomentar la Colaboración Constante**: Es importante mantener una comunicación fluida entre todos los miembros del equipo durante todo el proceso de desarrollo. Utilizar herramientas de gestión de proyectos y reuniones regulares para asegurar que todos estén alineados con los objetivos y plazos.
+
+**Priorizar la Simplicidad en el Diseño**: Aunque la plataforma tiene múltiples funcionalidades, debemos asegurar que cada función esté diseñada de manera intuitiva y accesible para los usuarios, especialmente aquellos con poca experiencia tecnológica. El diseño debe ser limpio y fácil de navegar. <br/>
+
+Optimizar la gestión del tiempo y recursos en tareas críticas, especialmente aquellas relacionadas con la integración y pruebas de funcionalidades entre los distintos componentes. <br/>
+
+Continuar promoviendo las retrospectivas internas de equipo al final de cada Sprint, lo que ha demostrado ser útil para identificar obstáculos y mejorar la dinámica de trabajo. <br/>
+
+Fomentar aún más la documentación técnica paso a paso, especialmente en las tareas relacionadas con infraestructura y despliegue, para facilitar el onboarding de nuevos miembros o el traspaso de responsabilidades. <br/>
+
+# Video About-the-Team.
+
+# Bibliografía
+
+KPMG Tendencias. (2024, 8 de julio). *El futuro del sector turístico: hacia la máxima digitalización y personalización de los servicios al cliente*. KPMG Tendencias. Recuperado el día 10 de abril de 2025, de <https://www.tendencias.kpmg.es/2024/07/futuro-sector-turistico-digitalizacion-personalizacion/>
+
+Ministerio de Comercio Exterior y Turismo. (2024). *Turismo Interno*. Mincetur. Recuperado el 10 de abril de 2025, de <https://www.mincetur.gob.pe/centro_de_Informacion/mapa_interactivo/turismoInterno.html>
+
+Nissa, M. (2021, 07 de abril). *7 Estadísticas Esenciales de Reservas de Viajes Online*. Mize. Recuperado el 10 de abril de 2025, de <https://mize.tech/es/blog/reservas-de-viajes-online-las-7-estadisticas-mas-importantes/>
+
+TravelPerk. (2022, 29 de diciembre). *Más de 60 estadísticas y tendencias de reservas de viajes en línea*. TravelPerk. Recuperado el día 10 de abril de 2025, de <https://www.travelperk.com/es/blog/estadisticas-reservas-de-viajes-en-linea/>
+
+# Anexos
+Link del Repositorio del Proyecto: https://github.com/Turisfera
+
+Link del Proyecto Desplegado: https://trip-match-2025.web.app/
+
+Link de la Landing Page Desplegado: https://turisfera.github.io/workstation-landing-page/
+
+Link del Figma: https://www.figma.com/design/lflyFttFYoeptYGiVfbafR/Turisfera?node-id=0-1&t=iY0zqFc1QdBBj7eg-1
+
+Link del Repositorio del informe: https://github.com/Turisfera/workstation-markdown
+
+Link del Respositorio de la Landing Page: https://github.com/Turisfera/workstation-landing-page
+
+Link del Video About-the-Product: 
+
+Turistas: [About the Product of Turist](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311258_upc_edu_pe/ES71WKL8TA5Mkv2jZmHWeF4Bg01RF-Kg-5y0kvBgq2CX9Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=4Ytmb7)
+
+Agencias: [About the Product of Agency](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311258_upc_edu_pe/EbikAWyD39JGlNLimXO1YjEB36EnEO2akYm0CMjhQyJLeA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7ue5sO)
+
+Video de Exposición TB2: https://www.canva.com/design/DAGq67rjSbI/7zOhzIX4qRQaAqJV-BFygA/edit?utm_content=DAGq67rjSbI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+
