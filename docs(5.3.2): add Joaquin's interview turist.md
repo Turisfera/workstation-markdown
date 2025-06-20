@@ -2390,6 +2390,15 @@ Segmento 1: Turistas
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
+| Heurística | Descripción |
+|------------|-------------|
+| Visibilidad del estado del sistema | La aplicación muestra constantemente el progreso de búsqueda, confirmaciones de acciones y estados actuales, manteniendo informado al usuario sobre lo que está ocurriendo en todo momento. |
+| Relación entre el sistema y el mundo real | Usa lenguaje cotidiano y elementos visuales relacionados con viajes, como maletas y fotos turísticas, facilitando la comprensión e interacción de los usuarios con la interfaz. |
+| Prevención de errores | Se utilizan validaciones en formularios y mensajes claros para evitar equivocaciones comunes durante la planificación de viajes. |
+| Reconocer antes que recordar | Los usuarios pueden ver opciones recientes, su itenerario de viajes, destinos guardados, recomendaciones personalizadas sin necesidad de recordar datos, facilitando la navegación y toma de decisiones rápidas. |
+| Diseño estético y minimalista | La interfaz mantiene solo la información esencial por pantalla, con una estética limpia y moderna que mejora la experiencia visual sin sobrecargar al usuario. |
+| Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores | Los mensajes de error son claros, específicos y ofrecen soluciones, permitiendo que los usuarios entiendan el problema y cómo corregirlo fácilmente. |
+
 ## 5.4. Video About-the-Product.
 
 ### Turistas
