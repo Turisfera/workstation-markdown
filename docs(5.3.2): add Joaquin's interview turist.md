@@ -2393,6 +2393,14 @@ Segmento 1: Turistas
 
 ## 5.4. Video About-the-Product.
 
+### Turistas
+![Interview-Turist]()
+[About the Product of Turist](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311258_upc_edu_pe/ES71WKL8TA5Mkv2jZmHWeF4Bg01RF-Kg-5y0kvBgq2CX9Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=4Ytmb7)
+
+### Agencias
+![Interview-Agency]()
+[About the Product of Agency](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311258_upc_edu_pe/EbikAWyD39JGlNLimXO1YjEB36EnEO2akYm0CMjhQyJLeA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7ue5sO)
+
 # Conclusiones y recomendaciones.
 ## Conclusiones: 
 Durante el desarrollo de TripMatch, se validaron los principales Problem Statements, confirmando que los turistas necesitan apoyo para planificar itinerarios personalizados y que los anfitriones requieren una forma sencilla de gestionar y promocionar experiencias.
