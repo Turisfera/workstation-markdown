@@ -2314,10 +2314,9 @@ Durante este Sprint, se avanzó en el proceso de Deployment del backend de la ap
 
 #### Capturas del Proceso de Deployment
 1. Evidencia 1:
-![Evidencia 1:]()
+![Evidencia 1:](assets/img/contributions-sprint3)
 
-1. Evidencia 2:
-![Evidencia 2:]()
+
 
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
