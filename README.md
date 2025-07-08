@@ -359,7 +359,7 @@ A través de nuestra plataforma TripMatch, brindamos un espacio donde los usuari
 
 **How Much** <br>
 Aproximadamente el 82% de las reservas de viajes en 2018 se realizaron a través de Internet, según un análisis de Mize (2021). Este cambio refleja cómo la tecnología ha transformado la industria turística, eliminando intermediarios y facilitando la personalización de experiencias para los viajeros. Además, más del 50% de viajeros suelen dedicar su tiempo en investigar sitios locales de reseñas de viajes con el objetivo de tomar una decisión informada sobre su próximo viaje, considerando aspectos como videos y fotos de destinos, la capacidad de los hoteles para destacar sus servicios y la experiencia previa de otros viajeros, entre otros factores (Travelperk, 2022). Asimismo, según el Ministerio de Comercio Exterior y Turismo (MINCETUR, 2024) solo en el Perú, aproximadamente 48 millones de viajes se realizan anualmente por motivos de turismo interno, incluyendo tanto turistas extranjeros que visitan el país como locales que viajan a otras ciudades dentro del territorio nacional.
-![Flujo de Viajes por Turismo Interno](./assets/Flujo-de-Viajes-por-Turismo-Interno.png)
+![Flujo de Viajes por Turismo Interno](./assets/img/Flujo-de-Viajes-por-Turismo-Interno.png)
 
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
@@ -788,7 +788,7 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 
 ## 3.3. Impact Mapping
 
-El Impact Mapping es una metodología visual y ágil que permite a las organizaciones enfocar el desarrollo de productos y servicios en función de sus metas estratégicas. Esta técnica facilita la identificación de una relación directa entre los objetivos del negocio, las acciones esperadas de los usuarios clave y las soluciones o funcionalidades que deben implementarse para lograr dichos objetivos.![Impact Mapping](./assets/Impact-map-Turisfera.png)
+El Impact Mapping es una metodología visual y ágil que permite a las organizaciones enfocar el desarrollo de productos y servicios en función de sus metas estratégicas. Esta técnica facilita la identificación de una relación directa entre los objetivos del negocio, las acciones esperadas de los usuarios clave y las soluciones o funcionalidades que deben implementarse para lograr dichos objetivos.![Impact Mapping](./assets/img/Impact-map-Turisfera.png)
 
 ## 3.4. Product Backlog
 
