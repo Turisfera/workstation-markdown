@@ -2643,6 +2643,16 @@ Evidencia 5:
 Dashboard de usuario con redirección según rol y datos reales
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
+Durante el Sprint 4 se actualizó y completó la documentación de los servicios RESTful desarrollados en el backend de TripMatch, utilizando la especificación OpenAPI visualizada a través de Swagger UI. Esta documentación fue clave para facilitar la integración entre frontend y backend, permitiendo a los desarrolladores consultar rápidamente los detalles de cada endpoint, realizar pruebas directas con datos reales y validar la coherencia entre la lógica implementada y el comportamiento esperado.
+
+Los endpoints documentados cubren funcionalidades críticas como autenticación, reservas, gestión de favoritos, perfiles de usuarios y agencias, y visualización de paquetes turísticos. Asimismo, se registraron correctamente las rutas protegidas mediante tokens, los parámetros esperados en cada solicitud y las posibles respuestas del servidor.
+
+| Módulo | Acción | Método | Endpoint | Parámetros (ejemplo) | Request de ejemplo (Ejemplo) |
+| ------ | ------ | ------ | -------- | -------------------- | ---------------------------- |
+|        |        |        |          |                      |                              |
+|        |        |        |          |                      |                              |
+|        |        |        |          |                      |                              |
+
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 Durante el Sprint 4 del proyecto TripMatch, se continuó consolidando el proceso de despliegue del sistema en un entorno de desarrollo controlado, asegurando la integración entre el backend y el frontend, así como la correcta interacción con los servicios de base de datos. El objetivo fue validar la conexión completa entre los componentes del sistema, incorporar mejoras técnicas y garantizar una experiencia de usuario más estable.
