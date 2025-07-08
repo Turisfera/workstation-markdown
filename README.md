@@ -2516,6 +2516,22 @@ Evidencias
 ![Evidencia 3]()
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
+Durante el Sprint 4, el equipo de desarrollo mantuvo una colaboración activa, enfocada en lograr la integración del backend con las vistas del frontend y mejorar la estructura del sistema en aspectos de lógica, rendimiento y organización del código. Se utilizaron canales de comunicación continua a través de Discord, junto con reuniones técnicas y revisiones cruzadas en GitHub para asegurar la coherencia del código y el cumplimiento de los objetivos del sprint.
+
+Las tareas se distribuyeron de manera equitativa, respetando las fortalezas individuales de cada miembro. Se promovió el trabajo autónomo con reportes periódicos, lo que permitió mantener un flujo de trabajo constante y alineado con las metas del proyecto.
+
+A continuación, se detalla la participación específica de cada integrante:
+
+| **Nombre** | **Actividad principal durante el Sprint 4** |
+| ---------- | ------------------------------------------- |
+| Marcia Victoria Melgarejo Gómez |  |
+| Rodrigo Alaya Cabrera           |  |
+| Jorge Enrique Guevara Tejada    |  |
+| Raúl Adrián Medina Cruzado      |  |
+| María Patricia Hernández Uchuya |  |
+| Britney Delhy Qqueso Rodríguez  |  |
+
+En resumen, el equipo mantuvo una comunicación fluida, combinando independencia técnica con coordinación efectiva, lo que permitió alcanzar los objetivos clave del sprint a pesar de la reducción del equipo activo.
 
 ## 5.3. Validation Interviews.
 
