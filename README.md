@@ -2419,7 +2419,8 @@ El equipo mantuvo una comunicación constante durante todo el Sprint, utilizando
 #### 5.2.4.4. Development Evidence for Sprint Review
 Durante el Sprint 4 del proyecto TripMatch, el equipo se centró en integrar el backend previamente desarrollado con las interfaces del frontend, permitiendo una interacción fluida y funcional con los datos reales a través de los servicios REST implementados. Además, se corrigieron errores en la lógica del backend, se optimizó la conexión con la base de datos y se fortaleció el control de acceso mediante roles y configuraciones CORS.<br>
 En el frontend, se eliminaron valores codificados directamente en el código, se conectaron módulos clave como reservas y favoritos, y se integró la vista de perfil de agencias con sus respectivas funcionalidades.<br>
-A continuación, se presentan los commits más relevantes que evidencian el avance técnico realizado durante este Sprint:<br>
+A continuación, se presentan los commits más relevantes que evidencian el avance técnico realizado durante este Sprint:
+
 <strong>Backend – Repositorio: </strong><https://github.com/Turisfera/workstation-back-end>
 | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 |------- | --------- | -------------- | ------------------- | ------------------- |
@@ -2445,6 +2446,44 @@ A continuación, se presentan los commits más relevantes que evidencian el avan
 #### 5.2.4.5. Execution Evidence for Sprint Review
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
+Durante el Sprint 4 del proyecto TripMatch, se continuó consolidando el proceso de despliegue del sistema en un entorno de desarrollo controlado, asegurando la integración entre el backend y el frontend, así como la correcta interacción con los servicios de base de datos. El objetivo fue validar la conexión completa entre los componentes del sistema, incorporar mejoras técnicas y garantizar una experiencia de usuario más estable.
+
+<strong>Actividades realizadas en el Sprint 4:</strong>
+
+1. Configuración de repositorio remoto:
+
+  * Se utilizó GitHub como repositorio de control de versiones.
+  * Repositorio:
+    * Backend: <https://github.com/Turisfera/workstation-back-end>
+    * Frontend: <https://github.com/Turisfera/workstation-front-end>
+
+2. Configuración del entorno de desarrollo local:
+
+  * Spring Boot como framework principal del backend.
+  * MySQL como sistema de gestión de base de datos relacional.
+  * Swagger UI para la documentación interactiva de las APIs REST.
+  * Se habilitó correctamente CORS para permitir el consumo de servicios desde el frontend.
+  * Se utilizó SonarQube Cloud para análisis de calidad de código y detección de vulnerabilidades.
+
+3. Contenedores y orquestación:
+
+  * Se empleó Docker para contenerizar tanto el backend como la base de datos.
+  * Se implementaron y actualizaron los siguientes archivos:
+    * Dockerfile para empaquetar el backend como imagen.
+    * docker-compose.yml para orquestar el despliegue conjunto de servicios.
+  * El entorno fue levantado exitosamente en local, accediendo a la documentación en: <http://localhost:8080/swagger-ui.html>
+
+4. Pruebas de integración:
+
+  * Se realizaron pruebas funcionales integradas desde el frontend, validando endpoints como reservas, favoritos, autenticación y perfil de agencia.
+  * Se comprobó la persistencia y recuperación de datos entre la base de datos y el cliente.
+
+Evidencias
+
+![Evidencia 1]()
+![Evidencia 2]()
+![Evidencia 3]()
+
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
 ## 5.3. Validation Interviews.
