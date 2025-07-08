@@ -26,7 +26,6 @@
 | U202311258  | María Patricia Hernández Uchuya  |
 | U20211G671  | Britney Delhy Qqueso Rodriguez   |
 | U202219481  | Rodrigo Alaya Cabrera            |
-| U20221D382  | Ariadna Geraldine Poma Muñoz     |
 | U202316057  | Jorge Enrique Guevara Tejada     |
 | U202210938  | Raúl Adrian Medina Cruzado       |
 
@@ -133,6 +132,36 @@
           <li>5.3.2.	Registro de Entrevistas.</li>
           <li>5.3.3.	Evaluaciones según heurísticas.</li>
           <li>5.4.	Video About-the-Product.</li>
+          <li>Avance de Conclusiones, Bibliografía y Anexos.</li>
+        </ul>
+      </td>
+  </tr>
+  <tr>
+      <td><strong>TF</strong></td>
+      <td>09/07/25</td>
+      <td>
+        <ul>
+          <li>Marcia Melgarejo</li>
+          <li>María Hernández</li>
+          <li>Britney Qqueso</li>
+          <li>Rodrigo Alaya</li>
+          <li>Jorge Guevara</li>
+          <li>Raúl Medina</li>
+        </ul>
+      </td>
+      <td>
+        Se realizó el avance de los siguientes puntos:
+        <ul>
+          <li>5.2.4. Sprint 4</li>
+          <li>5.2.4.1. Sprint Planning 4.</li>
+          <li>5.2.4.2. Aspect Leaders and Collaborators.</li>
+          <li>5.2.4.3. Sprint Backlog 4.</li>
+          <li>5.2.4.4. Development Evidence for Sprint Review.</li>
+          <li>5.2.4.5. Execution Evidence for Sprint Review.</li>
+          <li>5.2.4.6. Services Documentation Evidence for Sprint Review.</li>
+          <li>5.2.4.7. Software Deployment Evidence for Sprint Review.</li>
+          <li>5.2.4.8. Team Collaboration Insights during Sprint.</li>
+          <li>Video About-The-Team</li>
           <li>Avance de Conclusiones, Bibliografía y Anexos.</li>
         </ul>
       </td>
