@@ -2452,36 +2452,38 @@ Durante el Sprint 4 del proyecto TripMatch, se continuó consolidando el proceso
 
 1. Configuración de repositorio remoto:
 
-  * Se utilizó GitHub como repositorio de control de versiones.
-  * Repositorio:
-    * Backend: <https://github.com/Turisfera/workstation-back-end>
-    * Frontend: <https://github.com/Turisfera/workstation-front-end>
+    * Se utilizó GitHub como repositorio de control de versiones.
+    * Repositorio:
+      * Backend: <https://github.com/Turisfera/workstation-back-end>
+      * Frontend: <https://github.com/Turisfera/workstation-front-end>
 
 2. Configuración del entorno de desarrollo local:
 
-  * Spring Boot como framework principal del backend.
-  * MySQL como sistema de gestión de base de datos relacional.
-  * Swagger UI para la documentación interactiva de las APIs REST.
-  * Se habilitó correctamente CORS para permitir el consumo de servicios desde el frontend.
-  * Se utilizó SonarQube Cloud para análisis de calidad de código y detección de vulnerabilidades.
+    * Spring Boot como framework principal del backend.
+    * MySQL como sistema de gestión de base de datos relacional.
+    * Swagger UI para la documentación interactiva de las APIs REST.
+    * Se habilitó correctamente CORS para permitir el consumo de servicios desde el frontend.
+    * Se utilizó SonarQube Cloud para análisis de calidad de código y detección de vulnerabilidades.
 
 3. Contenedores y orquestación:
 
-  * Se empleó Docker para contenerizar tanto el backend como la base de datos.
-  * Se implementaron y actualizaron los siguientes archivos:
-    * Dockerfile para empaquetar el backend como imagen.
-    * docker-compose.yml para orquestar el despliegue conjunto de servicios.
-  * El entorno fue levantado exitosamente en local, accediendo a la documentación en: <http://localhost:8080/swagger-ui.html>
+    * Se empleó Docker para contenerizar tanto el backend como la base de datos.
+    * Se implementaron y actualizaron los siguientes archivos:
+      * Dockerfile para empaquetar el backend como imagen.
+      * docker-compose.yml para orquestar el despliegue conjunto de servicios.
+    * El entorno fue levantado exitosamente en local, accediendo a la documentación en: <http://localhost:8080/swagger-ui.html>
 
 4. Pruebas de integración:
 
-  * Se realizaron pruebas funcionales integradas desde el frontend, validando endpoints como reservas, favoritos, autenticación y perfil de agencia.
-  * Se comprobó la persistencia y recuperación de datos entre la base de datos y el cliente.
+    * Se realizaron pruebas funcionales integradas desde el frontend, validando endpoints como reservas, favoritos, autenticación y perfil de agencia.
+    * Se comprobó la persistencia y recuperación de datos entre la base de datos y el cliente.
 
 Evidencias
 
 ![Evidencia 1]()
+
 ![Evidencia 2]()
+
 ![Evidencia 3]()
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
