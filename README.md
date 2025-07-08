@@ -2444,7 +2444,157 @@ El equipo mantuvo una comunicación constante durante todo el Sprint, utilizando
 </table>
 
 #### 5.2.4.2. Aspect Leaders and Collaborators
+Durante el Sprint 4, el equipo se enfocó en la integración del frontend con el backend previamente desarrollado, consolidando las vistas principales de la aplicación y reforzando la interacción directa con datos reales. A continuación se detallan los aspectos clave abordados y la matriz de liderazgo y colaboración para cada uno de ellos.
+
+| Team Member (Last Name, First Name) | GitHub Username | API Integration | Gestión de Reservas y Favoritos | Perfil de Usuario y Agencia | Correcciones Backend & CORS | Validaciones & Controladores | Documentación Swagger | Despliegue & CI |
+| ----------------------------------- | --------------- | --------------- | ------------------------------- | --------------------------- | --------------------------- | ---------------------------- | --------------------- | --------------- |
+| Melgarejo Gomez, Marcia Victoria    | Mevi1217        | C               | C                               | C                           | L                           | C                            | C                     | C               |
+| Qqueso Rodríguez, Britney Delhy     | Brit2801        | L               | C                               | C                           | C                           | L                            | C                     | C               |
+| Alaya Cabrera, Rodrigo              | ALAYA1803       | C               | L                               | C                           | C                           | C                            | C                     | L               |
+| Guevara Tejada, Jorge Enrique       | Jorgito170      | C               | C                               | C                           | C                           | C                            | C                     | C               |
+| Medina Cruzado, Raúl Adrián         | Necxuz18        | C               | C                               | C                           | C                           | C                            | L                     | C               |
+| Hernández Uchuya, María Patricia    | Bal2220         | C               | C                               | L                           | C                           | C                            | C                     | C               |
+
+
 #### 5.2.4.3. Sprint Backlog 4
+El objetivo de este cuarto sprint fue lograr la integración completa entre el frontend y el backend, permitiendo a los usuarios de TripMatch iniciar sesión, explorar paquetes turísticos, gestionar sus reservas y favoritos, así como visualizar y editar su perfil desde la interfaz web. También se realizaron ajustes en controladores, conexión a base de datos y documentación de servicios mediante Swagger.
+
+<img src="assets/img/Trello-TripMatch-Sprint3.png">
+
+link: [trello-TripMatchBoard](https://trello.com/invite/b/6855b2983efd7b37b21cca51/ATTI7766151678b80362c4f03602943840382405CD2F/tripmatch)
+
+<table> 
+  <tr> 
+    <th colspan="2">Sprint #</th> 
+    <th colspan="6">Sprint 4</th> 
+  </tr> 
+  <tr> 
+    <th colspan="2">User Story</th> 
+    <th colspan="6">Work-Item / Task</th> 
+  </tr> 
+  <tr> 
+    <th>TS#</th> 
+    <th>Title</th> 
+    <th>Id</th> 
+    <th>Task</th> 
+    <th>Description</th> 
+    <th>Estimation (Hours)</th> 
+    <th>Assigned To</th> 
+    <th>Status</th> 
+  </tr> 
+  <tr> 
+    <th rowspan="1">TS06</th> 
+    <th rowspan="1">Gestión de Reservas</th> 
+    <td>15</td> <td>Conectar frontend con endpoint de reservas</td> 
+    <td>Permitir que los usuarios reserven paquetes desde la interfaz de TripMatch.</td> 
+    <td>3 hr</td> 
+    <td>Britney Qqueso</td> 
+    <td>Done</td> 
+  </tr> 
+  <tr> 
+    <th rowspan="2">TS05</th> 
+    <th rowspan="2">Gestión de Itinerarios</th> 
+    <td>16</td> 
+    <td>Visualización de itinerarios con datos reales</td> 
+    <td>Conectar el frontend con el backend para mostrar itinerarios guardados.</td> 
+    <td>2 hr</td> 
+    <td>María Hernández</td> 
+    <td>Done</td> 
+  </tr> 
+  <tr> 
+    <td>17</td> 
+    <td>Integrar funcionalidad de eliminación de itinerarios</td> 
+    <td>Permitir eliminar itinerarios desde el perfil del usuario.</td> 
+    <td>2 hr</td> 
+    <td>Rodrigo Alaya</td> 
+    <td>Done</td> 
+  </tr> 
+  <tr> 
+    <th rowspan="2">TS14</th> 
+    <th rowspan="2">Gestión de Favoritos</th> 
+    <td>18</td> 
+    <td>Integrar favoritos en frontend</td> 
+    <td>Permitir guardar y consultar experiencias como favoritas desde la vista del usuario.</td> 
+    <td>2 hr</td> 
+    <td>Britney Qqueso</td> 
+    <td>Done</td> 
+  </tr> 
+  <tr> 
+    <td>19</td> 
+    <td>Conectar endpoint POST /favorites</td> 
+    <td>Permitir a los usuarios marcar una experiencia como favorita mediante la API REST.</td> 
+    <td>2 hr</td> 
+    <td>Rodrigo Alaya</td> 
+    <td>Done</td> 
+  </tr> 
+  <tr> 
+    <th rowspan="2">TS02</th> 
+    <th rowspan="2">Gestión de Agencia</th> 
+    <td>20</td> 
+    <td>Visualización del perfil de agencia</td> 
+    <td>Mostrar información básica de la agencia y sus estadísticas.</td> 
+    <td>2 hr</td> 
+    <td>Rodrigo Alaya</td> 
+    <td>Done</td> 
+  </tr> 
+  <tr> 
+    <td>21</td> 
+    <td>Editar perfil de agencia desde frontend</td> 
+    <td>Permitir a las agencias actualizar su información desde la plataforma.</td> 
+    <td>2 hr</td> 
+    <td>Rodrigo Alaya</td> 
+    <td>Done</td> 
+  </tr> 
+  <tr> 
+    <th rowspan="2">TS01</th> 
+    <th rowspan="2">Autenticación y Roles</th> 
+    <td>22</td> <td>Validar inicio de sesión con control de rol</td> 
+    <td>Verificar que usuarios y agencias sean dirigidos a su dashboard correspondiente.</td> 
+    <td>2 hr</td> 
+    <td>María Hernández</td> 
+    <td>Done</td> 
+  </tr> 
+  <tr> 
+    <td>23</td> 
+    <td>Implementar redirección segura y asignación de permisos</td> 
+    <td>Evitar accesos no autorizados a vistas del sistema.</td> 
+    <td>2 hr</td> 
+    <td>Marcia Melgarejo</td> 
+    <td>Done</td> 
+  </tr> 
+  <tr> 
+    <th>TS10</th> 
+    <th>Gestión de Paquetes</th> 
+    <td>24</td> 
+    <td>Visualización de paquetes turísticos</td> 
+    <td>Mostrar los paquetes disponibles en función de los datos del backend.</td> 
+    <td>3 hr</td> 
+    <td>Jorge Guevara</td> 
+    <td>Done</td> 
+  </tr> 
+  <tr> 
+    <th>TS16</th> 
+    <th>Configuración del entorno y CORS</th> 
+    <td>25</td> 
+    <td>Permitir solicitudes frontend-backend</td> 
+    <td>Configurar CORS en Spring Boot para permitir integración cruzada desde el frontend.</td> 
+    <td>2 hr</td> 
+    <td>Raúl Medina</td> 
+    <td>Done</td> 
+  </tr> 
+  <tr> 
+    <th>TS17</th> 
+    <th>Documentación Swagger</th> 
+    <td>26</td> 
+    <td>Documentar endpoints conectados al frontend</td> 
+    <td>Actualizar Swagger para reflejar la integración de los endpoints principales.</td> 
+    <td>2 hr</td> 
+    <td>Raúl Medina</td> 
+    <td>Done</td> 
+  </tr> 
+</table>
+
+
 #### 5.2.4.4. Development Evidence for Sprint Review
 Durante el Sprint 4 del proyecto TripMatch, el equipo se centró en integrar el backend previamente desarrollado con las interfaces del frontend, permitiendo una interacción fluida y funcional con los datos reales a través de los servicios REST implementados. Además, se corrigieron errores en la lógica del backend, se optimizó la conexión con la base de datos y se fortaleció el control de acceso mediante roles y configuraciones CORS.<br>
 En el frontend, se eliminaron valores codificados directamente en el código, se conectaron módulos clave como reservas y favoritos, y se integró la vista de perfil de agencias con sus respectivas funcionalidades.<br>
@@ -2473,7 +2623,27 @@ A continuación, se presentan los commits más relevantes que evidencian el avan
 | main | 69fc027 | feat: include a backend of reservations | Se integró la sección de reservas con los endpoints correspondientes. | 07/07/2025 |
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
+Durante el Sprint 4 del proyecto TripMatch, se logró la integración efectiva entre el frontend y el backend, permitiendo a los usuarios interactuar directamente con datos reales a través de la interfaz web. Las funcionalidades conectadas abarcan reservas, favoritos, visualización y edición de perfil, así como la navegación segura según el tipo de usuario. Asimismo, se mejoró la experiencia de uso mediante validaciones, control de roles y conexión estable con la base de datos.
+
+A continuación, se presentan capturas de pantalla que evidencian la ejecución de estas funcionalidades durante las pruebas del Sprint 4:
+
+Evidencia 1:
+Visualización del itinerario turístico cargado desde la base de datos
+
+Evidencia 2:
+Gestión de favoritos desde el frontend conectado a la API
+
+Evidencia 3:
+Reservas creadas por el usuario y consultadas mediante la API
+
+Evidencia 4:
+Edición del perfil de agencia desde el frontend
+
+Evidencia 5:
+Dashboard de usuario con redirección según rol y datos reales
+
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 Durante el Sprint 4 del proyecto TripMatch, se continuó consolidando el proceso de despliegue del sistema en un entorno de desarrollo controlado, asegurando la integración entre el backend y el frontend, así como la correcta interacción con los servicios de base de datos. El objetivo fue validar la conexión completa entre los componentes del sistema, incorporar mejoras técnicas y garantizar una experiencia de usuario más estable.
 
