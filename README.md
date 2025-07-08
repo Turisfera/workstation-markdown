@@ -2350,6 +2350,70 @@ El equipo mantuvo una comunicación constante durante todo el Sprint, utilizando
 ### 5.2.4. Sprint 4
 
 #### 5.2.4.1. Sprint Planning 4
+<table>
+    <tr>
+        <td>Sprint #</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <th colspan="2"><strong>Sprint Planning Background</strong></th>
+    </tr>
+    <tr>
+        <td>Date</td>
+        <td>08/07/2025</td>
+    </tr>
+     <tr>
+        <td>Time</td>
+        <td>07:00 PM</td>
+    </tr>
+     <tr>
+        <td>Location</td>
+        <td>Reunión virtual – Discord</td>
+    </tr>
+    <tr>
+        <td>Prepared By</td>
+        <td>Marcia Melgarejo, Jorge Guevara</td>
+    </tr>
+    <tr>
+        <td>Attendees (to planning meeting)</td>
+        <td>
+        - Britney Delhy Qqueso Rodríguez – U20211G671<br>
+        - Rodrigo Alaya Cabrera – U202219481<br>
+        - Jorge Enrique Guevara Tejada – U202316057<br>
+        - Raúl A. Medina Cruzado – U202210938<br>
+        - María Patricia Hernández Uchuya - U202311258<br>
+        - Marcia Victoria Melgarejo Gomez – U20231C505
+   </td>
+    </tr>
+    <tr>
+        <td>Sprint 4 – 3 Review Summary</td>
+        <td>Durante la revisión del Sprint 3 se consolidaron las principales APIs del backend, incluyendo módulos de usuarios, agencias, reservas e itinerarios. Se logró una integración funcional con Swagger y pruebas locales exitosas. Se reconoció la necesidad de avanzar en la conexión frontend-backend, así como refinar validaciones y feedback en la interfaz.</td>
+    </tr>
+    <tr>
+        <td>Sprint 4 – 3 Retrospective Summary</td>
+        <td>En la retrospectiva del Sprint 3, se destacó el alto nivel de colaboración y la organización eficiente del equipo. Se identificó como aspecto a mejorar el tiempo de respuesta ante bugs emergentes y la necesidad de establecer pruebas automatizadas que reduzcan los tiempos de validación manual.</td>
+    </tr>
+    <tr>
+        <th colspan="2"><strong>Sprint Goal & User Stories</strong></th>
+    </tr>
+    <tr>
+      <td>Sprint 4 Goal</td>
+        <td>
+          <strong>Nuestra meta para este sprint es</strong> conectar las vistas principales del frontend con los servicios REST implementados en el backend, enfocándonos en el flujo de reserva, autenticación, perfil de usuario y visualización de paquetes turísticos.<br> 
+          <strong>Creemos que</strong> esto permitirá a los usuarios interactuar directamente con datos reales, validar flujos completos y fortalecer la experiencia de navegación.<br>
+          <strong>Esto se confirmará</strong> cuando el usuario pueda iniciar sesión, visualizar y editar su perfil, explorar paquetes disponibles, realizar una reserva y ver el historial de sus reservas desde la interfaz web.
+        </td>
+      </tr>
+      <tr>
+        <td>Sprint 4 Velocity  </td>
+        <td>48 Story Points.</td>
+      </tr>
+      <tr>
+        <td>Sum of Story Points  </td>
+        <td>48 Story Points.</td>
+      </tr>
+</table>
+
 #### 5.2.4.2. Aspect Leaders and Collaborators
 #### 5.2.4.3. Sprint Backlog 4
 #### 5.2.4.4. Development Evidence for Sprint Review
