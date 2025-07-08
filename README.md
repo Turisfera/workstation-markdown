@@ -2417,6 +2417,31 @@ El equipo mantuvo una comunicación constante durante todo el Sprint, utilizando
 #### 5.2.4.2. Aspect Leaders and Collaborators
 #### 5.2.4.3. Sprint Backlog 4
 #### 5.2.4.4. Development Evidence for Sprint Review
+Durante el Sprint 4 del proyecto TripMatch, el equipo se centró en integrar el backend previamente desarrollado con las interfaces del frontend, permitiendo una interacción fluida y funcional con los datos reales a través de los servicios REST implementados. Además, se corrigieron errores en la lógica del backend, se optimizó la conexión con la base de datos y se fortaleció el control de acceso mediante roles y configuraciones CORS.<br>
+En el frontend, se eliminaron valores codificados directamente en el código, se conectaron módulos clave como reservas y favoritos, y se integró la vista de perfil de agencias con sus respectivas funcionalidades.<br>
+A continuación, se presentan los commits más relevantes que evidencian el avance técnico realizado durante este Sprint:<br>
+<strong>Backend – Repositorio: </strong><https://github.com/Turisfera/workstation-back-end>
+| Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|------- | --------- | -------------- | ------------------- | ------------------- |
+| main | ba47a1e | Fix: fix sql connection | Se solucionaron errores en la conexión con la base de datos MySQL. | 02/07/2025 |
+| main | 3949490 | Feat: add endpoints, validations<br>fix tables connection and logic | Se añadieron nuevos endpoints, validaciones adicionales y correcciones en la lógica de relación entre tablas. | 04/07/2025 |
+| main | d48be6c | Feat: add CORS | Se implementó configuración de CORS para permitir solicitudes del frontend. | 04/07/2025 |
+| main | 7cf840f | Fix: fix user rol | Se corrigió la asignación y control de roles de usuario. | 04/07/2025 |
+| main | 47fac00 | Fix: fix connections | Se solucionaron errores adicionales en conexiones de entidades. | 05/07/2025 |
+| main | ef5a619 | feat: implementación de endpoint favorites | Se añadió el endpoint para gestionar productos favoritos de los usuarios. | 05/07/2025 |
+| main | 46e4cd1 | fix: Change code of Booking controller | Se refactorizó el controlador de reservas para mejorar su lógica y eficiencia. | 07/07/2025 |
+
+<strong>Frontend – Repositorio: </strong><https://github.com/Turisfera/workstation-front-end>
+| Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|------- | --------- | -------------- | ------------------- | ------------------- |
+| main | a40c3c7 | feat: Remove hard code and add traductions | Se eliminaron textos codificados directamente y se añadieron archivos de traducción. | 04/07/2025 |
+| main | 28746e1 | feat: Remove rating display from experience cards | Se ajustó el diseño de tarjetas de experiencia, eliminando visualización de ratings. | 04/07/2025 |
+| main | 0c3b8ad | Feat: add connections with database: booking, user and experience | Se establecieron las conexiones entre la interfaz y las APIs de reservas, usuarios y experiencias. | 05/07/2025 |
+| main | 287af7e | feat: se implementó la conexión con el backend en la sección de favorites | Se conectó la funcionalidad de productos favoritos al backend. | 05/07/2025 |
+| main | d941a0b | Fix: fix problems experiences | Corrección de errores en la lógica de experiencias. | 06/07/2025 |
+| main | 096fab7 | feature: Conect the agency profile backend | Se conectó el perfil de agencia con los datos reales del backend. | 07/07/2025 |
+| main | 69fc027 | feat: include a backend of reservations | Se integró la sección de reservas con los endpoints correspondientes. | 07/07/2025 |
+
 #### 5.2.4.5. Execution Evidence for Sprint Review
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
