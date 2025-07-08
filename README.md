@@ -2694,12 +2694,12 @@ A continuación, se detalla la participación específica de cada integrante:
 
 | **Nombre** | **Actividad principal durante el Sprint 4** |
 | ---------- | ------------------------------------------- |
-| Marcia Victoria Melgarejo Gómez |  |
-| Rodrigo Alaya Cabrera           |  |
-| Jorge Enrique Guevara Tejada    |  |
-| Raúl Adrián Medina Cruzado      |  |
-| María Patricia Hernández Uchuya |  |
-| Britney Delhy Qqueso Rodríguez  |  |
+| Marcia Victoria Melgarejo Gómez | Responsable de ajustes en controladores, validaciones y protección de rutas, así como pruebas y redirección segura en frontend. |
+| Rodrigo Alaya Cabrera           | Lideró la integración de favoritos y perfil de agencia, así como tareas de documentación y configuración de CORS en backend. |
+| Jorge Enrique Guevara Tejada    | Conectó el listado de paquetes turísticos con datos reales del backend y participó en validaciones de experiencia. |
+| Raúl Adrián Medina Cruzado      | Responsable de la documentación Swagger actualizada y la configuración de entorno local y pruebas cruzadas. |
+| María Patricia Hernández Uchuya | Encargada de la validación de autenticación y perfil de usuario, así como la visualización de itinerarios desde frontend. |
+| Britney Delhy Qqueso Rodríguez  | Implementó la conexión de reservas y favoritos en frontend, y realizó mejoras visuales como traducciones y ajustes de diseño. |
 
 En resumen, el equipo mantuvo una comunicación fluida, combinando independencia técnica con coordinación efectiva, lo que permitió alcanzar los objetivos clave del sprint a pesar de la reducción del equipo activo.
 
