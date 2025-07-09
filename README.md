@@ -2647,11 +2647,36 @@ Durante el Sprint 4 se actualizó y completó la documentación de los servicios
 
 Los endpoints documentados cubren funcionalidades críticas como autenticación, reservas, gestión de favoritos, perfiles de usuarios y agencias, y visualización de paquetes turísticos. Asimismo, se registraron correctamente las rutas protegidas mediante tokens, los parámetros esperados en cada solicitud y las posibles respuestas del servidor.
 
-| Módulo | Acción | Método | Endpoint | Parámetros (ejemplo) | Request de ejemplo (Ejemplo) |
-| ------ | ------ | ------ | -------- | -------------------- | ---------------------------- |
-|        |        |        |          |                      |                              |
-|        |        |        |          |                      |                              |
-|        |        |        |          |                      |                              |
+<table>
+  <thead>
+    <tr>
+      <th>Método</th>
+      <th>Ruta (Endpoint)</th>
+      <th>Descripción</th>
+      <th>Estado/Notas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>POST</td>
+      <td><code>/api/auth/login</code></td>
+      <td>Ruta simulada utilizada en el flujo de autenticación.</td>
+      <td>Documentado en Postman, se conectará con el backend en el Sprint 3.</td>
+    </tr>
+    <tr>
+      <td>GET</td>
+      <td><code>/api/agency/reservations</code></td>
+      <td>Rutas simuladas utilizadas en el flujo de consultas para reservas de agencia.</td>
+      <td>Documentado en Postman, se conectará con el backend en el Sprint 3.</td>
+    </tr>
+    <tr>
+      <td>GET</td>
+      <td><code>/api/user/itineraries</code></td>
+      <td>Rutas simuladas utilizadas en el flujo de consultas para itinerarios de usuario.</td>
+      <td>Documentado en Postman, se conectará con el backend en el Sprint 3.</td>
+    </tr>
+  </tbody>
+</table>
 
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
