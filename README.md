@@ -2748,11 +2748,12 @@ Durante el Sprint 4 del proyecto TripMatch, se continuó consolidando el proceso
 
 Evidencias
 
-![Evidencia 1]()
-
-![Evidencia 2]()
-
-![Evidencia 3]()
+![Evidencia 1](./assets/img/Swagger-Evidence-1.png)
+![Evidencia 2](./assets/img/Swagger-Evidence-2.png)
+![Evidencia 3](./assets/img/Swagger-Evidence-3.png)
+![Evidencia 4](./assets/img/Swagger-Evidence-4.png)
+![Evidencia 5](./assets/img/Swagger-Evidence-5.png)
+![Evidencia 6](./assets/img/Swagger-Evidence-6.png)
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 Durante el Sprint 4, el equipo de desarrollo mantuvo una colaboración activa, enfocada en lograr la integración del backend con las vistas del frontend y mejorar la estructura del sistema en aspectos de lógica, rendimiento y organización del código. Se utilizaron canales de comunicación continua a través de Discord, junto con reuniones técnicas y revisiones cruzadas en GitHub para asegurar la coherencia del código y el cumplimiento de los objetivos del sprint.
