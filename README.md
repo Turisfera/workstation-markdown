@@ -186,7 +186,8 @@
 
 **URL FRONTEND DESPLEGADO:**: https://trip-match-2025.web.app/
 
-**URL BACKEND DESPLEGADO:**:
+**URL BACKEND DESPLEGADO:**: https://trip-match-2025.web.app/
+
 
 Commits del Report TF:
 
