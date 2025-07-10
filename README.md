@@ -2721,19 +2721,19 @@ Durante el Sprint 4 del proyecto TripMatch, se logró la integración efectiva e
 A continuación, se presentan capturas de pantalla que evidencian la ejecución de estas funcionalidades durante las pruebas del Sprint 4:
 
 Evidencia 1:
-Visualización del itinerario turístico cargado desde la base de datos
+Gestión de favoritos desde el frontend conectado a la API
+![Evidencia 1.1](./assets/img/Favorite-API.png)
+![Evidencia 1.2](./assets/img/Favorite-Frontend.png)
 
 Evidencia 2:
-Gestión de favoritos desde el frontend conectado a la API
+Reservas creadas por el usuario y consultadas mediante la API
+![Evidencia 2.1](./assets/img/Booking-API-1.png)
+![Evidencia 2.2](./assets/img/Booking-API-2.png)
+![Evidencia 2.3](./assets/img/Booking-Frontend.png)
 
 Evidencia 3:
-Reservas creadas por el usuario y consultadas mediante la API
-
-Evidencia 4:
 Edición del perfil de agencia desde el frontend
-
-Evidencia 5:
-Dashboard de usuario con redirección según rol y datos reales
+![Evidencia 3](./assets/img/Profile-Agency-Frontend.png)
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 Durante el Sprint 4 se actualizó y completó la documentación de los servicios RESTful desarrollados en el backend de TripMatch, utilizando la especificación OpenAPI visualizada a través de Swagger UI. Esta documentación fue clave para facilitar la integración entre frontend y backend, permitiendo a los desarrolladores consultar rápidamente los detalles de cada endpoint, realizar pruebas directas con datos reales y validar la coherencia entre la lógica implementada y el comportamiento esperado.
