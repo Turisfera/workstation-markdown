@@ -29,7 +29,7 @@
 | U202316057  | Jorge Enrique Guevara Tejada     |
 | U202210938  | Raúl Adrian Medina Cruzado       |
 
-**Junio - 2025**
+**Julio - 2025**
 
 </div>
 
@@ -186,7 +186,7 @@
 
 **URL FRONTEND DESPLEGADO:**: https://trip-match-2025.web.app/
 
-**URL BACKEND DESPLEGADO:**: https://trip-match-2025.web.app/
+**URL BACKEND DESPLEGADO:**: 
 
 
 Commits del Report TF:
